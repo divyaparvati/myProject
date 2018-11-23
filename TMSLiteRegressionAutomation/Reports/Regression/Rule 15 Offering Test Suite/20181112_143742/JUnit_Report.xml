@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rule 15 Offering Test Suite" time="251" tests="9" failures="0" errors="0">
+   <testsuite name="Rule 15 Offering Test Suite" tests="9" failures="0" errors="0" time="251" timestamp="2018-11-12 14:54:35" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/Rule 15 Offering Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_143742"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_143742/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="b371e1f29d71832910bfbc61f5b52f96"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:55:04 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering
+
+2018-11-12 14:55:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:05 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:55:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:55:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:55:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:55:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:55:28 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:55:28 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:55:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:55:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:55:33 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:55:33 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:33 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:35 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:35 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:55:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:55:36 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:55:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:55:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:55:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:55:37 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Text 'VOJJUAMAR' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:55:39 - [MESSAGE][PASSED] - Text 'WcqiFp' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:55:40 - [MESSAGE][PASSED] - Text 'FQvK' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:55:40 - [MESSAGE][PASSED] - Text '945109156' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:55:40 - [MESSAGE][PASSED] - Text 'UetMp' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:55:40 - [MESSAGE][PASSED] - Text 'BRtK' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:55:40 - [MESSAGE][PASSED] - Text '195909182' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:55:43 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage: com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage is PASSED
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/rule15ConfirmationMessage' is: 'You are about to send a rule 15 offering for Train VOJJUAMAR to Railroad AKMD. Do you want to continue ?'
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage is PASSED
+
+2018-11-12 14:55:43 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:55:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:45 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:55:46 - [MESSAGE][PASSED] - Text 'VOJJUAMAR' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:55:49 - [TEST_STEP][PASSED] - Statement - responseObject = actions.getOfferingDetails(rule15TrainId): Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'VOJJUAMAR'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'VOJJUAMAR' and expected object 'VOJJUAMAR' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '11/12/2018'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object '11/12/2018' and expected object '11/12/2018' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '14:55'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object '14:55' and expected object '14:55' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'WcqiFp FQvK'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'WcqiFp FQvK' and expected object 'WcqiFp FQvK' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: 'VXOYLK0'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'VXOYLK0' and expected object 'VXOYLK0' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'VOJJUAMAR'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'VOJJUAMAR' and expected object 'VOJJUAMAR' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/11/12'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object '18/11/12' and expected object '18/11/12' are equal
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '14:55'
+
+2018-11-12 14:55:49 - [MESSAGE][PASSED] - Actual object '14:55' and expected object '14:55' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4066'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '0'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '1'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '1'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'WcqiFp FQvK'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'WcqiFp FQvK' and expected object 'WcqiFp FQvK' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '945109156'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object '945109156' and expected object '945109156' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'AKMD'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'AKMD' and expected object 'AKMD' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'GRN 4066' and expected object 'GRN 4066' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - Actual object 'E' and expected object 'E' are equal
+
+2018-11-12 14:55:50 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:55:50 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:50 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:55:50 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:55:50 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:51 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:55:51 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings" classname="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:55:51 - [TEST_CASE][PASSED] - Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings: Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings
+
+2018-11-12 14:55:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:51 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:52 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:52 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - Statement - actualHeaderText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader)): Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader' is: 'Rule 15 Offerings'
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader' is: 'Rule 15 Offerings'
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Rule 15 Offerings' and expected object 'Rule 15 Offerings' are equal
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Actual object 'Rule 15 Offerings' and expected object 'Rule 15 Offerings' are equal
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/actionDropdown' is clickable
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/actionDropdown' is clickable
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - Statement - trainID = CustomKeywords.com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane(): com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane is PASSED
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'VOJJUAMAR'
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane is PASSED
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - Statement - responseObject = rule15Action.getOfferingDetails(trainID): Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'VOJJUAMAR'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'VOJJUAMAR' and expected object 'VOJJUAMAR' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '11/12/2018'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '11/12/2018' and expected object '11/12/2018' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '14:55'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '14:55' and expected object '14:55' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'WcqiFp FQvK'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'WcqiFp FQvK' and expected object 'WcqiFp FQvK' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: 'VXOYLK0'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'VXOYLK0' and expected object 'VXOYLK0' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'VOJJUAMAR'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'VOJJUAMAR' and expected object 'VOJJUAMAR' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/11/12'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '18/11/12' and expected object '18/11/12' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '14:55'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '14:55' and expected object '14:55' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4066'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '0'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '1'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '1'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'WcqiFp FQvK'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'WcqiFp FQvK' and expected object 'WcqiFp FQvK' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '945109156'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '945109156' and expected object '945109156' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'AKMD'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'AKMD' and expected object 'AKMD' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'GRN 4066' and expected object 'GRN 4066' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - Actual object 'E' and expected object 'E' are equal
+
+2018-11-12 14:55:55 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:55:55 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:55 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:55:55 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:55:55 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:56 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:55:56 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search" classname="Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:55:56 - [TEST_CASE][PASSED] - Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search: Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search
+
+2018-11-12 14:55:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:56 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:55:57 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:55:59 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(EQUIPMENT_ID): Text 'EquipmentID' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Text 'EquipmentID' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:55:59 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound: com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound is PASSED
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/div_No Rule15 Offerings found' is: 'No Rule15 Offerings found'
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Actual object 'No Rule15 Offerings found' and expected object 'No Rule15 Offerings found' are equal
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound is PASSED
+
+2018-11-12 14:56:04 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(TRAIN_ID): Text 'TDKZNNCFY' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Text 'TDKZNNCFY' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:04 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyTrainID: com.ge.tms.rule15.Rule15Verification.verifyTrainID is PASSED
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/TrainID_rightPane' is: 'TDKZNNCFY'
+
+2018-11-12 14:56:05 - [MESSAGE][PASSED] - Actual object 'TDKZNNCFY' and expected object 'TDKZNNCFY' are equal
+
+2018-11-12 14:56:05 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyTrainID is PASSED
+
+2018-11-12 14:56:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:56:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:07 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(STATION_ID): Text 'UVMOGUV' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:07 - [MESSAGE][PASSED] - Text 'UVMOGUV' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:09 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyStationID: com.ge.tms.rule15.Rule15Verification.verifyStationID is PASSED
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/sattion_ID' is: 'UVMOGUV'
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - Actual object 'UVMOGUV' and expected object 'UVMOGUV' are equal
+
+2018-11-12 14:56:09 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyStationID is PASSED
+
+2018-11-12 14:56:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:56:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:11 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:11 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:56:11 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:56:11 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:12 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:56:12 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:56:12 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button
+
+2018-11-12 14:56:12 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:12 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:13 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:56:13 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:56:15 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:15 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:56:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:56:16 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:56:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:56:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:56:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:16 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:56:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:18 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:56:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:56:18 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:19 - [MESSAGE][PASSED] - Text 'HW03A0TXQ' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:56:19 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:19 - [MESSAGE][PASSED] - Text 'kmXGWQ' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:56:19 - [MESSAGE][PASSED] - Text 'emVC' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:56:19 - [MESSAGE][PASSED] - Text '226739244' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:56:20 - [MESSAGE][PASSED] - Text 'MajDA' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:56:20 - [MESSAGE][PASSED] - Text 'SkUF' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:56:20 - [MESSAGE][PASSED] - Text '859460127' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:56:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:56:22 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:56:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:25 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:56:25 - [MESSAGE][PASSED] - Text 'HW03A0TXQ' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:56:28 - [TEST_STEP][PASSED] - Statement - actions.clickOnActions(): Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:56:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:56:28 - [TEST_STEP][PASSED] - Statement - actions.selectResendOfferInActionsDropdown(): Delayed 1 second(s)
+
+2018-11-12 14:56:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:56:30 - [TEST_STEP][PASSED] - Statement - actions.resendRule15Offer(): Text '3' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/trainNumberInputField' is clicked on
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/trainNumberInputField' is cleared
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Text 'ZTUGYHU4Z' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/authorizationInputField' is clicked on
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/authorizationInputField' is cleared
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:30 - [TEST_STEP][PASSED] - Statement - actions.clickOnCancelButtonInRule15(): Delayed 1 second(s)
+
+2018-11-12 14:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/cancelButtonInRule15Offer' is clicked on
+
+2018-11-12 14:56:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:56:31 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:56:31 - [MESSAGE][PASSED] - Text 'HW03A0TXQ' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:56:34 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15: com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'HW03A0TXQ'
+
+2018-11-12 14:56:34 - [MESSAGE][PASSED] - Actual object 'HW03A0TXQ' and expected object 'HW03A0TXQ' are equal
+
+2018-11-12 14:56:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '4'
+
+2018-11-12 14:56:35 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2018-11-12 14:56:35 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:56:35 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:35 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:56:35 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:56:35 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:56:36 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:56:36 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:56:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:56:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:38 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:56:38 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:56:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:56:39 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:56:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:56:40 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:56:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:56:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:56:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Text 'RZRO9TU8L' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:56:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:43 - [MESSAGE][PASSED] - Text 'YyuhAr' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:56:43 - [MESSAGE][PASSED] - Text 'AdwM' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:56:43 - [MESSAGE][PASSED] - Text '981931695' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:56:43 - [MESSAGE][PASSED] - Text 'NtMHw' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:56:43 - [MESSAGE][PASSED] - Text 'Rwza' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:56:44 - [MESSAGE][PASSED] - Text '488536168' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:56:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:56:46 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:56:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:48 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:56:49 - [MESSAGE][PASSED] - Text 'RZRO9TU8L' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:56:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:56:52 - [TEST_STEP][PASSED] - Statement - actions.clickOnActions(): Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:56:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:56:52 - [TEST_STEP][PASSED] - Statement - actions.selectResendOfferInActionsDropdown(): Delayed 1 second(s)
+
+2018-11-12 14:56:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:56:53 - [TEST_STEP][PASSED] - Statement - actions.resendRule15Offer(): Text '6' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/trainNumberInputField' is clicked on
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/trainNumberInputField' is cleared
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Text 'GZTNAFDX8' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/authorizationInputField' is clicked on
+
+2018-11-12 14:56:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/authorizationInputField' is cleared
+
+2018-11-12 14:56:54 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:56:54 - [TEST_STEP][PASSED] - Statement - actions.clickOnNextButton(): Delayed 2 second(s)
+
+2018-11-12 14:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:56:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:56 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:56:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:56:58 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15EditedTrainId): Delayed 3 second(s)
+
+2018-11-12 14:56:58 - [MESSAGE][PASSED] - Text 'GZTNAFDX8' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15: com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'GZTNAFDX8'
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Actual object 'GZTNAFDX8' and expected object 'GZTNAFDX8' are equal
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '6'
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+2018-11-12 14:57:02 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings" classname="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:57:03 - [TEST_CASE][PASSED] - Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings: Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:03 - [TEST_STEP][PASSED] - Statement - action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:04 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:57:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:57:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:06 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:57:06 - [TEST_STEP][PASSED] - Statement - action.addCarsAndResend(): Delayed 2 second(s)
+
+2018-11-12 14:57:06 - [MESSAGE][PASSED] - Text 'BIDGMW4Y1' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:57:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:57:09 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:57:09 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:57:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/selectAllEquipment' is clicked on
+
+2018-11-12 14:57:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/selectAllEquipment' is clicked on
+
+2018-11-12 14:57:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/addCarsContinueBtn' is clicked on
+
+2018-11-12 14:57:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/confirmationSendButton' is clicked on
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:19 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs: com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs is PASSED
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:19 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs is PASSED
+
+2018-11-12 14:57:19 - [TEST_STEP][PASSED] - Statement - action.searchByTrainId(randomConsistTrainId): Delayed 3 second(s)
+
+2018-11-12 14:57:20 - [MESSAGE][PASSED] - Text 'BIDGMW4Y1' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:57:23 - [TEST_STEP][PASSED] - Statement - responseObject = action.getOfferingDetails(randomConsistTrainId): Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'BIDGMW4Y1'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'BIDGMW4Y1' and expected object 'BIDGMW4Y1' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '09/28/2018'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object '09/28/2018' and expected object '09/28/2018' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '14:21'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object '14:21' and expected object '14:21' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'TytARM PQvV'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'TytARM PQvV' and expected object 'TytARM PQvV' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: '3MRKJAL'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object '3MRKJAL' and expected object '3MRKJAL' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'BIDGMW4Y1'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'BIDGMW4Y1' and expected object 'BIDGMW4Y1' are equal
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:57:23 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/09/28'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object '18/09/28' and expected object '18/09/28' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '14:21'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object '14:21' and expected object '14:21' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4062'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '1'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '0'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '2'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'TytARM PQvV'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'TytARM PQvV' and expected object 'TytARM PQvV' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '593316851'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object '593316851' and expected object '593316851' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'CRVC'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'CRVC' and expected object 'CRVC' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'GRN 4062' and expected object 'GRN 4062' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - Actual object 'L' and expected object 'L' are equal
+
+2018-11-12 14:57:24 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:57:24 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:24 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:57:24 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:57:24 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:25 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:57:25 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:57:25 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter
+
+2018-11-12 14:57:25 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:25 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:26 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:26 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:57:26 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:57:28 - [TEST_STEP][PASSED] - Statement - rule15Action.selectFilterOptions(): Delayed 2 second(s)
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:57:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:57:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_apply_button' is clicked on
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:57:32 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilteredResults: com.ge.tms.rule15.Rule15Verification.verifyFilteredResults is PASSED
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' is: 'Outbound'
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:32 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:57:33 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilteredResults is PASSED
+
+2018-11-12 14:57:33 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:33 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:57:33 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:57:33 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:34 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:57:34 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:57:34 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter
+
+2018-11-12 14:57:34 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:34 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:57:35 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:57:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:57:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:57:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:57:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:57:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:57:59 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:57:59 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:58:05 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:05 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:58:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:58:07 - [TEST_STEP][PASSED] - Statement - rule15Action.selectFilterOptionsAndCancel(): Object: 'Object Repository/Rule15 Offerings/filter_cancel_button' is clicked on
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:58:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_cancel_button' is clicked on
+
+2018-11-12 14:58:09 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence: com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Rule15 Offerings/filter_chip' located by 'By.xpath: .//px-chip' is not present after '5' second(s)
+
+2018-11-12 14:58:10 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:58:10 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:10 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:58:10 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:58:10 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:58:11 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:11 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:58:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:58:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:58:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:58:33 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:58:33 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:58:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:58:39 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:39 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:58:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:58:41 - [TEST_STEP][PASSED] - Statement - rule15Action.clearTheAppliedFilter(): Object: 'Object Repository/Rule15 Offerings/filter_clear_button' is clicked on
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:58:41 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:58:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:58:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_apply_button' is clicked on
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_clear_button' is clicked on
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence: com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Rule15 Offerings/filter_chip' located by 'By.xpath: .//px-chip' is not present after '5' second(s)
+
+2018-11-12 14:58:45 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:58:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:58:46 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:54:35 - [TEST_SUITE][PASSED] - Rule 15 Offering Test Suite: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

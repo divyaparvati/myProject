@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RailRoad Setup Test Suite,Chrome 70.0.3538.77,,2018-11-12 14:53:48,2018-11-12 14:54:32,44.116s,PASSED
+,,,,,,
+Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station,Chrome 70.0.3538.77,,2018-11-12 14:54:20,2018-11-12 14:54:31,11.879s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:54:20,2018-11-12 14:54:20,0.745s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup,Chrome 70.0.3538.77,,2018-11-12 14:54:20,2018-11-12 14:54:23,2.068s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown,Chrome 70.0.3538.77,,2018-11-12 14:54:23,2018-11-12 14:54:26,3.067s,PASSED
+com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad,Chrome 70.0.3538.77,,2018-11-12 14:54:26,2018-11-12 14:54:26,0.077s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:54:26,2018-11-12 14:54:28,2.006s,PASSED
+Statement - station = CustomKeywords.com.ge.tms.commonactions.RailroadActions.selectRandomStationByName(),Chrome 70.0.3538.77,,2018-11-12 14:54:28,2018-11-12 14:54:28,0.049s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifySelectedStationWithHeaderDetails,Chrome 70.0.3538.77,,2018-11-12 14:54:28,2018-11-12 14:54:28,0.227s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifySelectedStationDetailsInRightPane,Chrome 70.0.3538.77,,2018-11-12 14:54:28,2018-11-12 14:54:29,0.750s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:54:29,2018-11-12 14:54:31,2.005s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:54:31,2018-11-12 14:54:31,0.764s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:54:31,2018-11-12 14:54:31,0.008s,PASSED

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RailRoad Setup Test Suite,Chrome 70.0.3538.102,,2018-11-15 10:18:11,2018-11-15 10:19:24,1m - 12.833s,PASSED
+,,,,,,
+Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save,Chrome 70.0.3538.102,,2018-11-15 10:18:37,2018-11-15 10:19:23,46.169s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 10:18:37,2018-11-15 10:18:38,0.772s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.102,,2018-11-15 10:18:38,2018-11-15 10:18:38,0.036s,PASSED
+Statement - actions = new com.ge.tms.commonactions.RailroadActions(),Chrome 70.0.3538.102,,2018-11-15 10:18:38,2018-11-15 10:18:38,0.032s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup,Chrome 70.0.3538.102,,2018-11-15 10:18:38,2018-11-15 10:18:40,2.059s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown,Chrome 70.0.3538.102,,2018-11-15 10:18:40,2018-11-15 10:18:43,3.058s,PASSED
+com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad,Chrome 70.0.3538.102,,2018-11-15 10:18:43,2018-11-15 10:18:43,0.079s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:18:43,2018-11-15 10:18:45,2.003s,PASSED
+Statement - setStationId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-15 10:18:45,2018-11-15 10:18:45,0.001s,PASSED
+Statement - actions.addStationMandatotyFields(setStationId),Chrome 70.0.3538.102,,2018-11-15 10:18:45,2018-11-15 10:18:50,4.371s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:18:50,2018-11-15 10:18:52,2.011s,PASSED
+Statement - setZoneId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-15 10:18:52,2018-11-15 10:18:52,0.001s,PASSED
+Statement - actions.addZone(setZoneId),Chrome 70.0.3538.102,,2018-11-15 10:18:52,2018-11-15 10:18:55,3.410s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton,Chrome 70.0.3538.102,,2018-11-15 10:18:55,2018-11-15 10:18:58,3.104s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:18:58,2018-11-15 10:19:00,2.010s,PASSED
+Statement - setTrackId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-15 10:19:00,2018-11-15 10:19:00,0.001s,PASSED
+Statement - actions.saveNewTrackRecord(setTrackId),Chrome 70.0.3538.102,,2018-11-15 10:19:00,2018-11-15 10:19:02,1.731s,PASSED
+Statement - actions.saveTrack(),Chrome 70.0.3538.102,,2018-11-15 10:19:02,2018-11-15 10:19:03,1.074s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:03,2018-11-15 10:19:04,1.010s,PASSED
+Statement - actions.editTrackLength(),Chrome 70.0.3538.102,,2018-11-15 10:19:04,2018-11-15 10:19:05,1.224s,PASSED
+Statement - actions.saveTrack(),Chrome 70.0.3538.102,,2018-11-15 10:19:05,2018-11-15 10:19:06,1.084s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifyEditedTrackLength,Chrome 70.0.3538.102,,2018-11-15 10:19:06,2018-11-15 10:19:07,0.218s,PASSED
+Statement - actions.editTrackType(),Chrome 70.0.3538.102,,2018-11-15 10:19:07,2018-11-15 10:19:09,2.150s,PASSED
+Statement - actions.saveTrack(),Chrome 70.0.3538.102,,2018-11-15 10:19:09,2018-11-15 10:19:10,1.082s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:10,2018-11-15 10:19:12,2.002s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnDeleteTrack,Chrome 70.0.3538.102,,2018-11-15 10:19:12,2018-11-15 10:19:12,0.108s,PASSED
+Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F5362 - Configure and Manage Track/deleteTrackYesButton),Chrome 70.0.3538.102,,2018-11-15 10:19:12,2018-11-15 10:19:12,0.002s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnTestObject,Chrome 70.0.3538.102,,2018-11-15 10:19:12,2018-11-15 10:19:12,0.096s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifyNoTracksFoundInSearch,Chrome 70.0.3538.102,,2018-11-15 10:19:12,2018-11-15 10:19:12,0.328s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:12,2018-11-15 10:19:14,2.009s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnZoneActionMenu,Chrome 70.0.3538.102,,2018-11-15 10:19:14,2018-11-15 10:19:15,1.040s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnDeleteAction,Chrome 70.0.3538.102,,2018-11-15 10:19:15,2018-11-15 10:19:16,0.051s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:16,2018-11-15 10:19:17,1.011s,PASSED
+Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Delete Zone/deleteYesButton),Chrome 70.0.3538.102,,2018-11-15 10:19:17,2018-11-15 10:19:17,0.002s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnTestObject,Chrome 70.0.3538.102,,2018-11-15 10:19:17,2018-11-15 10:19:17,0.088s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:17,2018-11-15 10:19:18,1.011s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifyViewStationIdAfterZoneDeletion,Chrome 70.0.3538.102,,2018-11-15 10:19:18,2018-11-15 10:19:18,0.179s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnStationActionMenu,Chrome 70.0.3538.102,,2018-11-15 10:19:18,2018-11-15 10:19:19,1.045s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnDeleteStationButton,Chrome 70.0.3538.102,,2018-11-15 10:19:19,2018-11-15 10:19:19,0.044s,PASSED
+Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11822-Configure and Manage Stations/deleteConfirmationYesButton),Chrome 70.0.3538.102,,2018-11-15 10:19:19,2018-11-15 10:19:19,0.002s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnTestObject,Chrome 70.0.3538.102,,2018-11-15 10:19:19,2018-11-15 10:19:19,0.097s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:19:19,2018-11-15 10:19:20,1.008s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifyDeletedItemNotPresentInSearchView,Chrome 70.0.3538.102,,2018-11-15 10:19:20,2018-11-15 10:19:22,2.368s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 10:19:22,2018-11-15 10:19:23,1.000s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 10:19:23,2018-11-15 10:19:23,0.008s,PASSED

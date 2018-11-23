@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Waybill Test Suite" time="135" tests="0" failures="5" errors="1">
+   <testsuite name="Manage Waybill Test Suite" tests="0" failures="5" errors="1" time="135" timestamp="2018-11-12 14:51:28" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/Manage Waybill Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181112_142200"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181112_142200/execution0.log"/>
+         <property name="attachments" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181112_142200/1542014572923.png"/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="d0c20d62d733f247238537d9906c7654"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill" classname="Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill" status="ERROR">
+         <error type="ERROR" message="Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails(WaybillVerification.groovy:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1530114639477.run(Script1530114639477.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:51:59 - [TEST_CASE][ERROR] - Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails(WaybillVerification.groovy:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1530114639477.run(Script1530114639477.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:51:59 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:51:59 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:51:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:51:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:00 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:00 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:52:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:02 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Statement - waybillVerification = new com.ge.tms.waybillVerify.WaybillVerification(): Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Statement - waybillData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/WayBillServices/GETPARTICULARWAYBILL, [waybillnumber:waybillVerification.actualWaybillNumber])): Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize is PASSED
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize is PASSED
+
+2018-11-12 14:52:04 - [TEST_STEP][ERROR] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails: Cannot get property 'referenceInformation' on null object
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:04 - [MESSAGE][ERROR] - Cannot get property 'referenceInformation' on null object
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:52:05 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:51:59 - [TEST_CASE][ERROR] - Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails(WaybillVerification.groovy:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1530114639477.run(Script1530114639477.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions" classname="Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown(WaybillVerification.groovy:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1528437707449.run(Script1528437707449.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:52:05 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions: Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown(WaybillVerification.groovy:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1528437707449.run(Script1528437707449.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:52:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:05 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:06 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:06 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown: com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown is PASSED
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[2].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown is PASSED
+
+2018-11-12 14:52:08 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown: Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:08 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll("#root px-dropdown")[2].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").innerHTML' successfully
+
+2018-11-12 14:52:08 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-12 14:52:08 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:09 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:52:09 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:52:05 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions: Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown(WaybillVerification.groovy:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1528437707449.run(Script1528437707449.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528441269181.run(Script1528441269181.groovy:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528441269181.run(Script1528441269181.groovy:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:52:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:09 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:10 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:10 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:52:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:12 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:52:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:14 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu: com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-12 14:52:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-12 14:52:16 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:16 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:52:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:18 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:52:18 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:52:18 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-12 14:52:18 - [TEST_STEP][PASSED] - Statement - actions.setTextForSearch(CustomKeywords.com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI()): Text 'null' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:19 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI is PASSED
+
+2018-11-12 14:52:19 - [MESSAGE][PASSED] - Text 'null' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-12 14:52:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:21 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord: Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI is PASSED
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:21 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:53 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181112_142200/1542014572923.png]]
+
+2018-11-12 14:52:53 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+
+2018-11-12 14:52:53 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:53 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:52:53 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:52:53 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:54 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:52:54 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:52:09 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: d0c20d62d733f247238537d9906c7654
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528441269181.run(Script1528441269181.groovy:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.util.CommonUtilities.sortOrder(CommonUtilities.groovy:349)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:151)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort(WaybillVerification.groovy:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1529403783180.run(Script1529403783180.groovy:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:52:54 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.util.CommonUtilities.sortOrder(CommonUtilities.groovy:349)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:151)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort(WaybillVerification.groovy:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1529403783180.run(Script1529403783180.groovy:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:52:54 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:54 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:52:55 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:52:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:57 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:52:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:52:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:52:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-12 14:52:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-12 14:52:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:52:59 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:52:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-12 14:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-12 14:52:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:01 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:53:02 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(4) > span").click()' successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(4) > span").click()' successfully
+
+2018-11-12 14:53:02 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort: com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-12 14:53:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-12 14:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-12 14:53:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:04 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort: com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-12 14:53:04 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(3) > span").click()' successfully
+
+2018-11-12 14:53:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(3) > span").click()' successfully
+
+2018-11-12 14:53:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:53:05 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort: Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:05 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-12 14:53:05 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-12 14:53:05 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:05 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:53:05 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:53:05 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:06 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:53:06 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:52:54 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.util.CommonUtilities.sortOrder(CommonUtilities.groovy:349)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:151)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort(WaybillVerification.groovy:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1529403783180.run(Script1529403783180.groovy:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1535024777892.run(Script1535024777892.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:53:06 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1535024777892.run(Script1535024777892.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:53:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:06 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:07 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:53:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:53:09 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:11 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:53:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:13 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:13 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchDropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:53:13 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:53:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:15 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchCarID(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-12 14:53:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-12 14:53:16 - [TEST_STEP][PASSED] - Statement - actions.setRandomCarIDForSearch(): Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:53:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:53:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:18 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilter(): null
+
+2018-11-12 14:53:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:20 - [TEST_STEP][PASSED] - Statement - actions.selectEmptyfromwaybillLE(): Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:20 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilterApply(): Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:22 - [TEST_STEP][PASSED] - Statement - If (actions.GetNoresultText() != WAYBILL_MESSAGE_NO_SEARCH_CRITERIA): com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-12 14:53:22 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:24 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '364230'
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-12 14:53:24 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSortdropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:53:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-12 14:53:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:26 - [TEST_STEP][PASSED] - Statement - actions.setWaybillnumbersortdropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-12 14:53:26 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-12 14:53:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:28 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '364230'
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-12 14:53:29 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord: Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '364230'
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' is: '#817108'
+
+2018-11-12 14:53:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carid_rightpane' is: '--'
+
+2018-11-12 14:53:29 - [MESSAGE][FAILED] - Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-12 14:53:29 - [MESSAGE][FAILED] - Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-12 14:53:29 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:29 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:53:29 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:53:29 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:53:30 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:53:06 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord(WaybillVerification.groovy:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1535024777892.run(Script1535024777892.groovy:138)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty(WaybillVerification.groovy:899)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1533665019275.run(Script1533665019275.groovy:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:53:30 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty(WaybillVerification.groovy:899)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1533665019275.run(Script1533665019275.groovy:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:53:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:30 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:31 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:53:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-12 14:53:33 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:33 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-12 14:53:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:37 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/activeDiv' is: 'Active'
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - Actual object 'Active' and expected object 'Active' are equal
+
+2018-11-12 14:53:37 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-12 14:53:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/activeDiv' is: 'Completed'
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Actual object 'Completed' and expected object 'Completed' are equal
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/clearFilterBtn' is clicked on
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/clearFilterBtn' is clicked on
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:40 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Actual object 'LOADED' and expected object 'LOADED' are equal
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-12 14:53:43 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '804564'
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:53:43 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-12 14:53:43 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:53:44 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:53:44 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:53:30 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty(WaybillVerification.groovy:899)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1533665019275.run(Script1533665019275.groovy:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:51:28 - [TEST_SUITE][ERROR] - Manage Waybill Test Suite: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails(WaybillVerification.groovy:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1530114639477.run(Script1530114639477.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-12 14:51:28 - [TEST_SUITE][ERROR] - Manage Waybill Test Suite: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails(WaybillVerification.groovy:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.waybillVerify.WaybillVerification.invokeMethod(WaybillVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1530114639477.run(Script1530114639477.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012721335.run(TempTestSuite1542012721335.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

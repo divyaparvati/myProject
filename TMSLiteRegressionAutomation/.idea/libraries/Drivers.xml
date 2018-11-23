@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Drivers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Drivers/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Drivers/rally-rest-api-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Drivers/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Drivers/httpclient-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Drivers/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Drivers/httpcore-4.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>waybillNumber_leftpane</name>
+   <tag></tag>
+   <elementGuidId>78793d7c-6880-402e-aa42-1bba6455a02a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@data-testid,'waybill-item-')]//following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>#797598</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex--col App-module_appRoot_2W_oY&quot;]/div[@class=&quot;flex flex--col flex__item App-module_routesRoot_W33fJ&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/section[@class=&quot;flex__item flex flex--row PageContent-module_root_24nnp&quot;]/div[@class=&quot;Sidebar-module_root_2pzCE&quot;]/div[@class=&quot;flex flex--col WaybillSummary-module_root_ACarq WaybillSummary-module_active_1vgeS&quot;]/div[@class=&quot;flex flex--row flex--justify&quot;]/div[1]/p[1]</value>
+   </webElementProperties>
+</WebElementEntity>

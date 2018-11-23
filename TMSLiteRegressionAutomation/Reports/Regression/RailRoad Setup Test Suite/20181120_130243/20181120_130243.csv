@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RailRoad Setup Test Suite,Chrome 70.0.3538.110,,2018-11-20 13:02:45,2018-11-20 13:04:21,1m - 36.642s,FAILED
+,,,,,,
+Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search,Chrome 70.0.3538.110,,2018-11-20 13:03:13,2018-11-20 13:04:21,1m - 8.393s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.110,,2018-11-20 13:03:13,2018-11-20 13:03:14,0.799s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.110,,2018-11-20 13:03:14,2018-11-20 13:03:14,0.042s,PASSED
+Statement - actions = new com.ge.tms.commonactions.RailroadActions(),Chrome 70.0.3538.110,,2018-11-20 13:03:14,2018-11-20 13:03:14,0.039s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup,Chrome 70.0.3538.110,,2018-11-20 13:03:14,2018-11-20 13:03:16,2.063s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown,Chrome 70.0.3538.110,,2018-11-20 13:03:16,2018-11-20 13:03:19,3.062s,PASSED
+com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad,Chrome 70.0.3538.110,,2018-11-20 13:03:19,2018-11-20 13:03:19,0.082s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-20 13:03:19,2018-11-20 13:03:21,2.009s,PASSED
+Statement - setStationId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-20 13:03:21,2018-11-20 13:03:21,0.001s,PASSED
+Statement - actions.addStationMandatotyFields(setStationId),Chrome 70.0.3538.110,,2018-11-20 13:03:21,2018-11-20 13:03:26,4.388s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-20 13:03:26,2018-11-20 13:03:28,2.008s,PASSED
+Statement - setZoneId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-20 13:03:28,2018-11-20 13:03:28,0.001s,PASSED
+Statement - actions.addZone(setZoneId),Chrome 70.0.3538.110,,2018-11-20 13:03:28,2018-11-20 13:03:31,3.413s,PASSED
+com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton,Chrome 70.0.3538.110,,2018-11-20 13:03:31,2018-11-20 13:03:34,3.127s,PASSED
+Statement - setTrackId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-20 13:03:34,2018-11-20 13:03:34,0.001s,PASSED
+"Statement - For ([i = 0, i < 3, (i++)])",Chrome 70.0.3538.110,,2018-11-20 13:03:34,2018-11-20 13:03:58,23.378s,PASSED
+Statement - tracksList = CustomKeywords.com.ge.tms.commonactions.RailroadActions.storeTracksDataToSearch(),Chrome 70.0.3538.110,,2018-11-20 13:03:58,2018-11-20 13:03:58,0.651s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifySearchByTrackID,Chrome 70.0.3538.110,,2018-11-20 13:03:58,2018-11-20 13:04:06,7.767s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-20 13:04:06,2018-11-20 13:04:08,2.011s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifySearchByTrackDescription,Chrome 70.0.3538.110,,2018-11-20 13:04:08,2018-11-20 13:04:16,7.929s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-20 13:04:16,2018-11-20 13:04:18,2.003s,PASSED
+com.ge.tms.railroad.RailroadVerification.verifySearchByTrackLength,Chrome 70.0.3538.110,,2018-11-20 13:04:18,2018-11-20 13:04:20,2.397s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.110,,2018-11-20 13:04:20,2018-11-20 13:04:21,1.047s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.110,,2018-11-20 13:04:21,2018-11-20 13:04:21,0.006s,PASSED

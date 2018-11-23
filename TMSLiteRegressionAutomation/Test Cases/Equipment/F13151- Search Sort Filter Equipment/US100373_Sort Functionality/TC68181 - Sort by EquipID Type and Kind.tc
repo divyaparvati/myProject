@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC68181 - Sort by EquipID Type and Kind</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1001a558-b6f4-4b0d-9fd7-2dfe90021efd</testCaseGuid>
+</TestCaseEntity>

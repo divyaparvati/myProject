@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_text-input</name>
+   <tag></tag>
+   <elementGuidId>735ff8aa-be9e-4945-a887-cf23350f6008</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search Customer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex--col App-module_appRoot_2W_oY&quot;]/div[@class=&quot;flex flex--col flex__item App-module_routesRoot_W33fJ&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/section[@class=&quot;flex__item flex flex--row PageContent-module_root_24nnp&quot;]/div[@class=&quot;Sidebar-module_sidebar_3Luuy&quot;]/div[@class=&quot;flex flex--middle Sidebar-module_searchWrapper_1m27T&quot;]/input[@class=&quot;text-input&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

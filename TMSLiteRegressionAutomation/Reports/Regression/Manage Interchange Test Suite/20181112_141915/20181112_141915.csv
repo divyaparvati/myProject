@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Manage Interchange Test Suite,Chrome 70.0.3538.77,,2018-11-12 14:50:24,2018-11-12 14:51:25,1m - 0.845s,ERROR
+,,,,,,
+Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View,Chrome 70.0.3538.77,,2018-11-12 14:50:55,2018-11-12 14:51:04,9.575s,ERROR
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:50:55,2018-11-12 14:50:55,0.779s,PASSED
+Statement - actions = new com.ge.tms.commonactions.InterchangeActions(),Chrome 70.0.3538.77,,2018-11-12 14:50:55,2018-11-12 14:50:56,0.049s,PASSED
+com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab,Chrome 70.0.3538.77,,2018-11-12 14:50:56,2018-11-12 14:50:58,2.157s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText,Chrome 70.0.3538.77,,2018-11-12 14:50:58,2018-11-12 14:51:02,4.127s,PASSED
+Statement - interchangeConsistDetailList = new java.util.ArrayList(),Chrome 70.0.3538.77,,2018-11-12 14:51:02,2018-11-12 14:51:02,0.001s,PASSED
+Statement - interchangeConsistDetailList = actions.getRandomlySelectedConsistDetailsFromLeftPanel(),Chrome 70.0.3538.77,,2018-11-12 14:51:02,2018-11-12 14:51:02,0.384s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:51:02,2018-11-12 14:51:03,1.005s,PASSED
+Statement - interchangeRoadGetAllData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/InterchangeRoadServices/GET_ALL_INTERCHANGEROADS)),Chrome 70.0.3538.77,,2018-11-12 14:51:03,2018-11-12 14:51:03,0.034s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView,Chrome 70.0.3538.77,,2018-11-12 14:51:03,2018-11-12 14:51:03,0.093s,ERROR
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:51:03,2018-11-12 14:51:04,0.794s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:51:04,2018-11-12 14:51:04,0.007s,PASSED
+,,,,,,
+Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View,Chrome 70.0.3538.77,,2018-11-12 14:51:04,2018-11-12 14:51:10,5.492s,ERROR
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:51:04,2018-11-12 14:51:05,0.851s,PASSED
+Statement - actions = new com.ge.tms.commonactions.InterchangeActions(),Chrome 70.0.3538.77,,2018-11-12 14:51:05,2018-11-12 14:51:05,0.038s,PASSED
+com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab,Chrome 70.0.3538.77,,2018-11-12 14:51:05,2018-11-12 14:51:07,2.131s,PASSED
+Statement - interchangeConsistDetailList = new java.util.ArrayList(),Chrome 70.0.3538.77,,2018-11-12 14:51:07,2018-11-12 14:51:07,0.001s,PASSED
+Statement - actions.getRandomlySelectedConsistDetailsFromLeftPanel(),Chrome 70.0.3538.77,,2018-11-12 14:51:07,2018-11-12 14:51:08,0.420s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:51:08,2018-11-12 14:51:09,1.006s,PASSED
+Statement - actions.clickOnRandomCarFromAConsist(),Chrome 70.0.3538.77,,2018-11-12 14:51:09,2018-11-12 14:51:09,0.112s,PASSED
+Statement - interchangeRoadGetAllData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/InterchangeRoadServices/GET_ALL_INTERCHANGEROADS)),Chrome 70.0.3538.77,,2018-11-12 14:51:09,2018-11-12 14:51:09,0.017s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifyDetailsOfSelectedCarQuickView,Chrome 70.0.3538.77,,2018-11-12 14:51:09,2018-11-12 14:51:09,0.064s,ERROR
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:51:09,2018-11-12 14:51:10,0.741s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:51:10,2018-11-12 14:51:10,0.001s,PASSED
+,,,,,,
+Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions,Chrome 70.0.3538.77,,2018-11-12 14:51:10,2018-11-12 14:51:24,14.743s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:51:10,2018-11-12 14:51:10,0.732s,PASSED
+Statement - actions = new com.ge.tms.commonactions.InterchangeActions(),Chrome 70.0.3538.77,,2018-11-12 14:51:10,2018-11-12 14:51:11,0.031s,PASSED
+com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab,Chrome 70.0.3538.77,,2018-11-12 14:51:11,2018-11-12 14:51:13,2.123s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText,Chrome 70.0.3538.77,,2018-11-12 14:51:13,2018-11-12 14:51:17,4.105s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifySelectAndDeSelectAllAction,Chrome 70.0.3538.77,,2018-11-12 14:51:17,2018-11-12 14:51:20,3.289s,PASSED
+com.ge.tms.interchange.InterchangeRoadVerification.verifyInboundCarsAction,Chrome 70.0.3538.77,,2018-11-12 14:51:20,2018-11-12 14:51:24,3.620s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:51:24,2018-11-12 14:51:24,0.735s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:51:24,2018-11-12 14:51:24,0.001s,PASSED

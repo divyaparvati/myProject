@@ -1,0 +1,180 @@
+{
+"Billing":{
+        
+        "customerId": "113331232",
+        "addressTypeKey": "LWF",
+        "customerType": "Billing",
+        "name": "Billing Customer",
+        "abbrevName": null,
+        "address": {
+            "streetAddressLine1": "#101-5-87",
+            "streetAddressLine2": "downtown",
+            "city": "chicago",
+            "state": "AK",
+            "zipCode": "61001",
+            "country": "USA"
+        },
+        "attention": "Attention",
+        "phone": {
+            "areaCode": 11,
+            "number": 4567809765,
+            "extension": 1000
+        },
+        "fax": {
+            "areaCode": 22,
+            "number": 3467809765,
+            "extension": 2100
+        },
+        "cifNumber": 1001,
+        "defaultTrackId": "GTR1",
+        "milepost": "100",
+        "parentCustomerId": "No",
+        "parentCustomerAddressType": null,
+        "lastUsedDate": null,
+        "alternateCode": "alt10",
+        "onlineStationId": "TOLED - TY",
+        "servingStationId": "LITRO",
+        "defaultStationId": "GALLO",
+        "zoneId": " TOLEDO YARD",
+        "deleted": false,
+        "audit": {
+            "createdDate": "2018-07-04T23:37:45.379",
+            "createdBy": "Ramesh",
+            "modifiedDate": "2018-07-04T23:37:45.379",
+            "modifiedBy": "Ramesh"
+        }
+    },
+    "inactive":{
+        
+        "customerId": "213131332",
+        "addressTypeKey": "KJH",
+        "customerType": "Inactive",
+        "name": "Inactive Customer",    
+        "abbrevName": null,
+        "address": {
+            "streetAddressLine1": "#101-5-87",
+            "streetAddressLine2": "downtown",
+            "city": "chicago",
+            "state": "AK",
+            "zipCode": "61001",
+            "country": "USA"
+        },
+        "attention": "Attention",
+        "phone": {
+            "areaCode": 11,
+            "number": 4567809765,
+            "extension": 1000
+        },
+        "fax": {
+            "areaCode": 22,
+            "number": 3467809765,
+            "extension": 2100
+        },
+        "cifNumber": 1001,
+        "defaultTrackId": "GTR1",
+        "milepost": "100",
+        "parentCustomerId": "No",
+        "parentCustomerAddressType": null,
+        "lastUsedDate": null,
+        "alternateCode": "alt10",
+        "onlineStationId": "TOLED - TY",
+        "servingStationId": "LITRO",
+        "defaultStationId": "GALLO",
+        "zoneId": " TOLEDO YARD",
+        "deleted": false,
+        "audit": {
+            "createdDate": "2018-07-04T23:37:45.379",
+            "createdBy": "Ramesh",
+            "modifiedDate": "2018-07-04T23:37:45.379",
+            "modifiedBy": "Ramesh"
+        }
+    },
+    "Transportaion":{ 
+        "customerId": "313333312",
+        "addressTypeKey": "GET",
+        "customerType": "Transportation",
+        "name": "Transportation Customer",
+        "abbrevName": null,
+        "address": {
+            "streetAddressLine1": "#101-5-87",
+            "streetAddressLine2": "downtown",
+            "city": "chicago",
+            "state": "AK",
+            "zipCode": "61001",
+            "country": "USA"
+        },
+        "attention": "Attention",
+        "phone": {
+            "areaCode": 11,
+            "number": 4567809765,
+            "extension": 1000
+        },
+        "fax": {
+            "areaCode": 22,
+            "number": 3467809765,
+            "extension": 2100
+        },
+        "cifNumber": 1001,
+        "defaultTrackId": "GTR1",
+        "milepost": "100",
+        "parentCustomerId": "No",
+        "parentCustomerAddressType": null,
+        "lastUsedDate": null,
+        "alternateCode": "alt10",
+        "onlineStationId": "TOLED - TY",
+        "servingStationId": "LITRO",
+        "defaultStationId": "GALLO",
+        "zoneId": " TOLEDO YARD",
+        "deleted": false,
+        "audit": {
+            "createdDate": "2018-07-04T23:37:45.379",
+            "createdBy": "Ramesh",
+            "modifiedDate": "2018-07-04T23:37:45.379",
+            "modifiedBy": "Ramesh"
+        }
+    },
+    "MandatoryFields":{ 
+        "customerId": "411433422",
+        "addressTypeKey": "BUS",
+        "customerType": "Billing",
+        "name": "Mandatory Fields Customer",
+        "   ": null,
+        "address": {
+            "streetAddressLine1": "#101-5-87",
+            "streetAddressLine2": "downtown",
+            "city": "chicago",
+            "state": "AK",
+            "zipCode": "61001",
+            "country": "USA"
+        },
+        "attention": "Attention",
+        "phone": {
+            "areaCode": 11,
+            "number": 4567809765,
+            "extension": 1000
+        },
+        "fax": {
+            "areaCode": 22,
+            "number": 3467809765,
+            "extension": 2100
+        },
+        "cifNumber": 1001,
+        "defaultTrackId": "GTR1",
+        "milepost": "100",
+        "parentCustomerId": "No",
+        "parentCustomerAddressType": null,
+        "lastUsedDate": null,
+        "alternateCode": "alt10",
+        "onlineStationId": "TOLED - TY",
+        "servingStationId": "LITRO",
+        "defaultStationId": "GALLO",
+        "zoneId": " TOLEDO YARD",
+        "deleted": false,
+        "audit": {
+            "createdDate": "2018-07-04T23:37:45.379",
+            "createdBy": "Ramesh",
+            "modifiedDate": "2018-07-04T23:37:45.379",
+            "modifiedBy": "Ramesh"
+        }
+    }
+}

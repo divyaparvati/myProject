@@ -1,0 +1,9 @@
+version: "2"
+services:
+  katalon:
+    image: katalonstudio/katalon
+    volumes:
+      - ./:/katalon/katalon/source:ro
+      - ./reports/chrome':/katalon/katalon/report
+    environment:
+      KATALON_OPTS: -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test\ Suites/Regression"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>waybill_consignee_name_rightpane</name>
+   <tag></tag>
+   <elementGuidId>db605045-7ca2-427f-a359-376735e4ae38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>//*[contains(@data-testid,'waybill-consignee-details')]//following::span[2]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@data-testid,'waybill-consignee-details')]//following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC65307-Validate cancel field in Edit station</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bff076e-a765-49d6-a919-4b29b0f43ec1</testCaseGuid>
+</TestCaseEntity>

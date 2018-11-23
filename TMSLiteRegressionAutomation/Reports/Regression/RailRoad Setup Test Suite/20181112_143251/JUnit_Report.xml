@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RailRoad Setup Test Suite" time="44" tests="1" failures="0" errors="0">
+   <testsuite name="RailRoad Setup Test Suite" tests="1" failures="0" errors="0" time="44" timestamp="2018-11-12 14:53:48" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/RailRoad Setup Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181112_143251"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181112_143251/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="f8a0aa994085c2a59527c2060cfe1b0c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station" classname="Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:54:20 - [TEST_CASE][PASSED] - Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station: Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station
+
+2018-11-12 14:54:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:20 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:20 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup: com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-12 14:54:21 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-12 14:54:23 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown: com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:23 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-12 14:54:26 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad: com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Execute JavaScript 'let railRoadList=[]; document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#selector > div.dropdown-option').forEach(node => { railRoadList.push(node.getAttribute('title')) }); return railRoadList' successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2) span').innerHTML' successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2) span').click()' successfully
+
+2018-11-12 14:54:26 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-12 14:54:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:54:28 - [TEST_STEP][PASSED] - Statement - station = CustomKeywords.com.ge.tms.commonactions.RailroadActions.selectRandomStationByName(): com.ge.tms.commonactions.RailroadActions.selectRandomStationByName is PASSED
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('px-tree').shadowRoot.querySelectorAll('px-tree-node').length' successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('px-tree').shadowRoot.querySelector('ul > px-tree-node').shadowRoot.querySelector('li.tree__branch.active.selected > span').innerHTML' successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomStationByName is PASSED
+
+2018-11-12 14:54:28 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySelectedStationWithHeaderDetails: com.ge.tms.railroad.RailroadVerification.verifySelectedStationWithHeaderDetails is PASSED
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/div_StationCode' is: 'WHE7OJI'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/p_StationName' is: 'VXOYLK0'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_RailroadCode' is: 'AKMD'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Actual object 'WHE7OJI' and expected object 'WHE7OJI' are equal
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Actual object 'VXOYLK0' and expected object 'VXOYLK0' are equal
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Actual object 'AKMD' and expected object 'AKMD' are equal
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySelectedStationWithHeaderDetails is PASSED
+
+2018-11-12 14:54:28 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySelectedStationDetailsInRightPane: com.ge.tms.railroad.RailroadVerification.verifySelectedStationDetailsInRightPane is PASSED
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_SPLC' is: '612134'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_FSAC' is: '1'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_DefaultTrack' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Junction' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_SwitchingTrack' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Classification' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_OriginalBillFsac' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_USEntryPort' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_CanadaEntry' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_InterchangeRoads' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Milepost' is: '--'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Timezone' is: 'GMT'
+
+2018-11-12 14:54:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Country' is: 'CA'
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_State' is: 'NL'
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_DaylightSavings' is: 'No'
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Lattitude' is: '--'
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/span_Longitude' is: '--'
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '612134' and expected object '612,134' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object 'GMT' and expected object 'GMT' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object 'CA' and expected object 'CA' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object 'NL' and expected object 'NL' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object 'No' and expected object 'No' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:54:29 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySelectedStationDetailsInRightPane is PASSED
+
+2018-11-12 14:54:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:54:31 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:53:48 - [TEST_SUITE][PASSED] - RailRoad Setup Test Suite: Test Cases/Railroad/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/TC63095-View Station]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

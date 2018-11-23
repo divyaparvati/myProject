@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RailRoad Setup Test Suite" time="96" tests="0" failures="1" errors="0">
+   <testsuite name="RailRoad Setup Test Suite" tests="0" failures="1" errors="0" time="96" timestamp="2018-11-20 13:02:45" hostname="ramesh - 10.185.118.20" id="Test Suites/Regression/RailRoad Setup Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181120_130243"/>
+         <property name="logFiles" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181120_130243/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ramesh - 10.185.118.20"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.185.118.20"/>
+         <property name="sessionId" value="d5c525c8bd1cfecab1a2c95739a47582"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search" classname="Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)"/>
+         <system-out><![CDATA[2018-11-20 13:03:13 - [TEST_CASE][FAILED] - Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search: Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search FAILED because (of) Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)
+
+2018-11-20 13:03:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:03:13 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:03:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:03:14 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.RailroadActions(): Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:14 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup: com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-20 13:03:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-20 13:03:16 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown: com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-20 13:03:19 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad: com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Execute JavaScript 'let railRoadList=[]; document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#selector > div.dropdown-option').forEach(node => { railRoadList.push(node.getAttribute('title')) }); return railRoadList' successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1) span').innerHTML' successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1) span').click()' successfully
+
+2018-11-20 13:03:19 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-20 13:03:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-20 13:03:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:03:21 - [TEST_STEP][PASSED] - Statement - setStationId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-20 13:03:21 - [TEST_STEP][PASSED] - Statement - actions.addStationMandatotyFields(setStationId): Delayed 3 second(s)
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/F11822-Configure and Manage Stations/Add_New_Station_Button' is clicked on
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Text 'XOZVGGD' is set on object 'Object Repository/F11822-Configure and Manage Stations/station_id'
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Text 'S781LXF' is set on object 'Object Repository/F11822-Configure and Manage Stations/station_name'
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#splc').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#splc').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#splc').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#fsac').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#fsac').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#station-timezone-qualifier').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#station-timezone-qualifier').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(8)').click()' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#country').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#country').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#state').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#state').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(13)').click()' successfully
+
+2018-11-20 13:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/F11822-Configure and Manage Stations/station_save_button' is clicked on
+
+2018-11-20 13:03:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-20 13:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:03:28 - [TEST_STEP][PASSED] - Statement - setZoneId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-20 13:03:28 - [TEST_STEP][PASSED] - Statement - actions.addZone(setZoneId): Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-20 13:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/addNewZoneButton' is clicked on
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Text 'AKYGR' is set on object 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneID'
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Text 'FMIUPEZ' is set on object 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneName'
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#selector > div').length' successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-20 13:03:31 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton: com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton is PASSED
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneSaveButton' is clicked on
+
+2018-11-20 13:03:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:34 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton is PASSED
+
+2018-11-20 13:03:34 - [TEST_STEP][PASSED] - Statement - setTrackId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-20 13:03:34 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 3, (i++)]): Delayed 3 second(s)
+
+2018-11-20 13:03:34 - [TEST_STEP][PASSED] - Statement - actions.saveNewTrackRecord(setTrackId): Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/AddTrackButton' is clicked on
+
+2018-11-20 13:03:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:03:35 - [MESSAGE][PASSED] - Text 'YXWREY' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_id_input'
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Text 'LF6NGRODCF' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Description_input'
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Length_input'
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F5362 - Configure and Manage Track/Car_Capacity_input'
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:36 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 3 second(s)
+
+2018-11-20 13:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-20 13:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:39 - [TEST_STEP][PASSED] - Statement - setTrackId = null: null
+
+2018-11-20 13:03:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 13:03:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:42 - [TEST_STEP][PASSED] - Statement - actions.saveNewTrackRecord(setTrackId): Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/AddTrackButton' is clicked on
+
+2018-11-20 13:03:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:03:43 - [MESSAGE][PASSED] - Text '6ILCM3' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_id_input'
+
+2018-11-20 13:03:43 - [MESSAGE][PASSED] - Text 'XG2A10GD8N' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Description_input'
+
+2018-11-20 13:03:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:43 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(6)').click()' successfully
+
+2018-11-20 13:03:44 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Length_input'
+
+2018-11-20 13:03:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/F5362 - Configure and Manage Track/Car_Capacity_input'
+
+2018-11-20 13:03:44 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:44 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 3 second(s)
+
+2018-11-20 13:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-20 13:03:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:47 - [TEST_STEP][PASSED] - Statement - setTrackId = null: null
+
+2018-11-20 13:03:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 13:03:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:50 - [TEST_STEP][PASSED] - Statement - actions.saveNewTrackRecord(setTrackId): Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/AddTrackButton' is clicked on
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Text 'SXITEM' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_id_input'
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Text 'H7WYDC1UZV' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Description_input'
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Length_input'
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F5362 - Configure and Manage Track/Car_Capacity_input'
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-20 13:03:51 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 3 second(s)
+
+2018-11-20 13:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-20 13:03:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:55 - [TEST_STEP][PASSED] - Statement - setTrackId = null: null
+
+2018-11-20 13:03:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 13:03:58 - [TEST_STEP][PASSED] - Statement - tracksList = CustomKeywords.com.ge.tms.commonactions.RailroadActions.storeTracksDataToSearch(): com.ge.tms.commonactions.RailroadActions.storeTracksDataToSearch is PASSED
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.storeTracksDataToSearch is PASSED
+
+2018-11-20 13:03:58 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySearchByTrackID: com.ge.tms.railroad.RailroadVerification.verifySearchByTrackID is PASSED
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx' is cleared
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox' is cleared
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackTypeSearchBox' is cleared
+
+2018-11-20 13:03:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox' is cleared
+
+2018-11-20 13:03:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/carCapactitySearchBox' is cleared
+
+2018-11-20 13:03:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/conditionCodeSearchBox' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text 'SXITEM' is set on object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object 'SXITEM' and expected object 'SXITEM' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object 'H7WYDC1UZV' and expected object 'H7WYDC1UZV' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object 'REPAIR' and expected object 'REPAIR' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Actual object 'TC2' and expected object 'TC2' are equal
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackTypeSearchBox' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/carCapactitySearchBox' is cleared
+
+2018-11-20 13:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/conditionCodeSearchBox' is cleared
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Text 'EM' is set on object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object 'SXITEM' and expected object 'SXITEM' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object 'H7WYDC1UZV' and expected object 'H7WYDC1UZV' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object 'REPAIR' and expected object 'REPAIR' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Actual object 'TC2' and expected object 'TC2' are equal
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:04 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx'
+
+2018-11-20 13:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:06 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySearchByTrackID is PASSED
+
+2018-11-20 13:04:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:08 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySearchByTrackDescription: com.ge.tms.railroad.RailroadVerification.verifySearchByTrackDescription is PASSED
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx' is cleared
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox' is cleared
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackTypeSearchBox' is cleared
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox' is cleared
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/carCapactitySearchBox' is cleared
+
+2018-11-20 13:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/conditionCodeSearchBox' is cleared
+
+2018-11-20 13:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:10 - [MESSAGE][PASSED] - Text 'XG2A10GD8N' is set on object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object '6ILCM3' and expected object '6ILCM3' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object 'XG2A10GD8N' and expected object 'XG2A10GD8N' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object 'TRACK_YARD' and expected object 'TRACK_YARD' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Actual object 'TC2' and expected object 'TC2' are equal
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx' is cleared
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox' is cleared
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackTypeSearchBox' is cleared
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox' is cleared
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/carCapactitySearchBox' is cleared
+
+2018-11-20 13:04:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/conditionCodeSearchBox' is cleared
+
+2018-11-20 13:04:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:13 - [MESSAGE][PASSED] - Text '8N' is set on object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object '6ILCM3' and expected object '6ILCM3' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object 'XG2A10GD8N' and expected object 'XG2A10GD8N' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object 'TRACK_YARD' and expected object 'TRACK_YARD' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Actual object 'TC2' and expected object 'TC2' are equal
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:14 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox'
+
+2018-11-20 13:04:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:16 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifySearchByTrackDescription is PASSED
+
+2018-11-20 13:04:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:18 - [TEST_STEP][FAILED] - com.ge.tms.railroad.RailroadVerification.verifySearchByTrackLength: Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackIdSearchBx' is cleared
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackDescriptionSearchBox' is cleared
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackTypeSearchBox' is cleared
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox' is cleared
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/carCapactitySearchBox' is cleared
+
+2018-11-20 13:04:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/conditionCodeSearchBox' is cleared
+
+2018-11-20 13:04:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-20 13:04:20 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F5362 - Configure and Manage Track/trackLengthSearchBox'
+
+2018-11-20 13:04:20 - [MESSAGE][FAILED] - Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)
+
+2018-11-20 13:04:20 - [MESSAGE][FAILED] - Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)
+
+2018-11-20 13:04:20 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:04:20 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-20 13:04:20 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-20 13:04:20 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:04:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:04:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-20 13:04:21 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-20 13:04:21 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-20 13:03:13 - [TEST_CASE][FAILED] - Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search: Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search FAILED because (of) Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 13:02:45 - [TEST_SUITE][FAILED] - RailRoad Setup Test Suite: Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search FAILED because (of) Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-11-20 13:02:45 - [TEST_SUITE][FAILED] - RailRoad Setup Test Suite: Test Cases/Railroad/F5362 - Configure and manage track/QA-US112184/US39513-Search Tracks/TC76860-Tracks Search FAILED because (of) Unable to verify equal between actual object '6ILCM3' and expected object 'SXITEM' (Root cause: Actual object '6ILCM3' and expected object 'SXITEM' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

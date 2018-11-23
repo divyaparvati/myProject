@@ -1,0 +1,134 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Manage Equipment Test Suite,Chrome 70.0.3538.77,,2018-11-12 14:58:49,2018-11-12 15:18:03,19m - 14.124s,FAILED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US87994-Add Equipment/TC68105 - Add Equipment Successfully,Chrome 70.0.3538.77,,2018-11-12 14:59:20,2018-11-12 15:00:32,1m - 11.423s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:59:20,2018-11-12 14:59:21,0.742s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 14:59:21,2018-11-12 14:59:21,0.059s,PASSED
+Statement - actions.clickOnEquipmentManagement(),Chrome 70.0.3538.77,,2018-11-12 14:59:21,2018-11-12 14:59:23,2.101s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-11-12 14:59:23,2018-11-12 14:59:24,0.038s,PASSED
+Statement - actions.addNewEquipment(),Chrome 70.0.3538.77,,2018-11-12 14:59:24,2018-11-12 14:59:40,16.854s,PASSED
+Statement - actions.setEquipmentIdSearchPane(equipmentId),Chrome 70.0.3538.77,,2018-11-12 14:59:40,2018-11-12 15:00:31,50.293s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyNewEquipmentCreatedIsSearchable,Chrome 70.0.3538.77,,2018-11-12 15:00:31,2018-11-12 15:00:31,0.213s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:00:31,2018-11-12 15:00:32,0.981s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:00:32,2018-11-12 15:00:32,0.008s,PASSED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68847-Verify Empty CarKind-AARCar,Chrome 70.0.3538.77,,2018-11-12 15:00:32,2018-11-12 15:01:23,51.142s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:00:32,2018-11-12 15:00:33,0.750s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.77,,2018-11-12 15:00:33,2018-11-12 15:00:33,0.037s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:00:33,2018-11-12 15:00:33,0.036s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment,Chrome 70.0.3538.77,,2018-11-12 15:00:33,2018-11-12 15:00:35,2.093s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:00:35,2018-11-12 15:00:37,2.522s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg,Chrome 70.0.3538.77,,2018-11-12 15:00:37,2018-11-12 15:00:44,6.367s,PASSED
+Statement - actions.clickCancelBtn(),Chrome 70.0.3538.77,,2018-11-12 15:00:44,2018-11-12 15:00:46,2.175s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:00:46,2018-11-12 15:00:48,2.413s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg,Chrome 70.0.3538.77,,2018-11-12 15:00:48,2018-11-12 15:00:56,7.423s,PASSED
+Statement - actions.clickCancelBtn(),Chrome 70.0.3538.77,,2018-11-12 15:00:56,2018-11-12 15:00:58,2.166s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:00:58,2018-11-12 15:01:00,2.392s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg,Chrome 70.0.3538.77,,2018-11-12 15:01:00,2018-11-12 15:01:07,6.295s,PASSED
+Statement - actions.clickCancelBtn(),Chrome 70.0.3538.77,,2018-11-12 15:01:07,2018-11-12 15:01:09,2.143s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:01:09,2018-11-12 15:01:11,2.376s,PASSED
+Statement - actions.setAddEquipmentIdField(INVALID_EQUIPMENTID),Chrome 70.0.3538.77,,2018-11-12 15:01:11,2018-11-12 15:01:14,2.347s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg,Chrome 70.0.3538.77,,2018-11-12 15:01:14,2018-11-12 15:01:16,2.200s,PASSED
+Statement - actions.clearAddEquipmentIdField(),Chrome 70.0.3538.77,,2018-11-12 15:01:16,2018-11-12 15:01:18,2.049s,PASSED
+Statement - actions.setAddEquipmentIdField(EMPTY_EQUIPMENTID),Chrome 70.0.3538.77,,2018-11-12 15:01:18,2018-11-12 15:01:20,2.074s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg,Chrome 70.0.3538.77,,2018-11-12 15:01:20,2018-11-12 15:01:22,2.177s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:01:22,2018-11-12 15:01:23,0.993s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:01:23,2018-11-12 15:01:23,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68845-Verify Save AddNew Equip Btn,Chrome 70.0.3538.77,,2018-11-12 15:01:23,2018-11-12 15:01:35,12.144s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:01:23,2018-11-12 15:01:24,0.739s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.77,,2018-11-12 15:01:24,2018-11-12 15:01:24,0.033s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:01:24,2018-11-12 15:01:24,0.033s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment,Chrome 70.0.3538.77,,2018-11-12 15:01:24,2018-11-12 15:01:26,2.089s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:01:26,2018-11-12 15:01:29,2.517s,PASSED
+Statement - actions.setMandatoryFieldsForAddNewEquipment(),Chrome 70.0.3538.77,,2018-11-12 15:01:29,2018-11-12 15:01:34,5.812s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifySaveButtonEnabled,Chrome 70.0.3538.77,,2018-11-12 15:01:34,2018-11-12 15:01:34,0.092s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:01:34,2018-11-12 15:01:35,0.709s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:01:35,2018-11-12 15:01:35,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68844-Verify CarTypes,Chrome 70.0.3538.77,,2018-11-12 15:01:35,2018-11-12 15:01:57,21.475s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:01:35,2018-11-12 15:01:36,0.755s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.77,,2018-11-12 15:01:36,2018-11-12 15:01:36,0.035s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:01:36,2018-11-12 15:01:36,0.031s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment,Chrome 70.0.3538.77,,2018-11-12 15:01:36,2018-11-12 15:01:38,2.074s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:01:38,2018-11-12 15:01:41,2.490s,PASSED
+Statement - actions.selectRandomlyEquipmentType(),Chrome 70.0.3538.77,,2018-11-12 15:01:41,2018-11-12 15:01:43,2.041s,PASSED
+Statement - actions.selectRandomCarKind(),Chrome 70.0.3538.77,,2018-11-12 15:01:43,2018-11-12 15:01:45,2.126s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyAarCarTypeList,Chrome 70.0.3538.77,,2018-11-12 15:01:45,2018-11-12 15:01:47,2.119s,PASSED
+Statement - actions.clickCancelBtn(),Chrome 70.0.3538.77,,2018-11-12 15:01:47,2018-11-12 15:01:49,2.169s,PASSED
+Statement - actions.clickOnAddNewEquipmentButton(),Chrome 70.0.3538.77,,2018-11-12 15:01:49,2018-11-12 15:01:52,2.405s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyCarKindList,Chrome 70.0.3538.77,,2018-11-12 15:01:52,2018-11-12 15:01:54,2.184s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyCarKindList,Chrome 70.0.3538.77,,2018-11-12 15:01:54,2018-11-12 15:01:56,2.175s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:01:56,2018-11-12 15:01:57,0.762s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:01:57,2018-11-12 15:01:57,0.000s,PASSED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment,Chrome 70.0.3538.77,,2018-11-12 15:01:57,2018-11-12 15:02:03,6.394s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:01:57,2018-11-12 15:01:57,0.766s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:01:57,2018-11-12 15:01:58,0.036s,PASSED
+Statement - actions.clickOnEquipmentManagement(),Chrome 70.0.3538.77,,2018-11-12 15:01:58,2018-11-12 15:02:00,2.073s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 15:02:00,2018-11-12 15:02:02,2.005s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView,Chrome 70.0.3538.77,,2018-11-12 15:02:02,2018-11-12 15:02:02,0.655s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:02:02,2018-11-12 15:02:03,0.760s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:02:03,2018-11-12 15:02:03,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment,Chrome 70.0.3538.77,,2018-11-12 15:02:03,2018-11-12 15:04:31,2m - 27.657s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:02:03,2018-11-12 15:02:04,0.778s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:02:04,2018-11-12 15:02:04,0.047s,PASSED
+Statement - actions.clickOnEquipmentManagement(),Chrome 70.0.3538.77,,2018-11-12 15:02:04,2018-11-12 15:02:06,2.085s,PASSED
+Statement - actions.addNewEquipment(),Chrome 70.0.3538.77,,2018-11-12 15:02:06,2018-11-12 15:02:23,16.728s,PASSED
+Statement - actions.editEquipment(),Chrome 70.0.3538.77,,2018-11-12 15:02:23,2018-11-12 15:04:29,2m - 6.130s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView,Chrome 70.0.3538.77,,2018-11-12 15:04:29,2018-11-12 15:04:30,0.773s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:04:30,2018-11-12 15:04:31,1.004s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:04:31,2018-11-12 15:04:31,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100373_Sort Functionality/TC68181 - Sort by EquipID Type and Kind,Chrome 70.0.3538.77,,2018-11-12 15:04:31,2018-11-12 15:04:53,22.611s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:04:31,2018-11-12 15:04:31,0.779s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:04:32,2018-11-12 15:04:32,0.035s,PASSED
+Statement - actions.clickOnEquipmentManagement(),Chrome 70.0.3538.77,,2018-11-12 15:04:32,2018-11-12 15:04:34,2.099s,PASSED
+Statement - actions.sortByTypeDescendingAction(),Chrome 70.0.3538.77,,2018-11-12 15:04:34,2018-11-12 15:04:38,4.099s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted,Chrome 70.0.3538.77,,2018-11-12 15:04:38,2018-11-12 15:04:40,2.153s,PASSED
+Statement - actions.sortByEquipmentIDAscendingAction(),Chrome 70.0.3538.77,,2018-11-12 15:04:40,2018-11-12 15:04:44,4.086s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted,Chrome 70.0.3538.77,,2018-11-12 15:04:44,2018-11-12 15:04:46,2.058s,PASSED
+Statement - actions.sortByKindDescendingAction(),Chrome 70.0.3538.77,,2018-11-12 15:04:46,2018-11-12 15:04:50,4.080s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted,Chrome 70.0.3538.77,,2018-11-12 15:04:50,2018-11-12 15:04:52,2.054s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:04:52,2018-11-12 15:04:53,1.061s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:04:53,2018-11-12 15:04:53,0.000s,PASSED
+,,,,,,
+Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100374-Manage Equipments - Filter Functionality/TC68719 - Filter Functionality,Chrome 70.0.3538.77,,2018-11-12 15:04:53,2018-11-12 15:07:38,2m - 44.386s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:04:53,2018-11-12 15:04:54,0.833s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:04:54,2018-11-12 15:04:54,0.054s,PASSED
+Statement - actions.clickOnEquipmentManagement(),Chrome 70.0.3538.77,,2018-11-12 15:04:54,2018-11-12 15:04:56,2.115s,PASSED
+Statement - actions.selectCarKindFromFilterMenu(),Chrome 70.0.3538.77,,2018-11-12 15:04:56,2018-11-12 15:05:04,7.252s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality,Chrome 70.0.3538.77,,2018-11-12 15:05:04,2018-11-12 15:05:04,0.118s,PASSED
+Statement - actions.clickOnClearButtonInFilter(),Chrome 70.0.3538.77,,2018-11-12 15:05:04,2018-11-12 15:05:09,5.160s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyClearButtonClearTheFilters,Chrome 70.0.3538.77,,2018-11-12 15:05:09,2018-11-12 15:05:10,0.807s,PASSED
+Statement - actions.selectaarCarTypeFromFilterMenu(),Chrome 70.0.3538.77,,2018-11-12 15:05:10,2018-11-12 15:05:23,13.416s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality,Chrome 70.0.3538.77,,2018-11-12 15:05:23,2018-11-12 15:05:23,0.115s,PASSED
+Statement - actions.selectCarKindAndPoolNumber(),Chrome 70.0.3538.77,,2018-11-12 15:05:23,2018-11-12 15:06:08,44.435s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality,Chrome 70.0.3538.77,,2018-11-12 15:06:08,2018-11-12 15:06:08,0.105s,PASSED
+Statement - actions.selectCarKindAndAARCarType(),Chrome 70.0.3538.77,,2018-11-12 15:06:08,2018-11-12 15:06:52,44.354s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality,Chrome 70.0.3538.77,,2018-11-12 15:06:52,2018-11-12 15:06:52,0.107s,PASSED
+Statement - actions.selectCarKindAARCarTypePoolNumber(),Chrome 70.0.3538.77,,2018-11-12 15:06:52,2018-11-12 15:07:37,44.355s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality,Chrome 70.0.3538.77,,2018-11-12 15:07:37,2018-11-12 15:07:37,0.112s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:07:37,2018-11-12 15:07:38,0.973s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:07:38,2018-11-12 15:07:38,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68291-Search Equipments,Chrome 70.0.3538.77,,2018-11-12 15:07:38,2018-11-12 15:08:37,59.738s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:07:38,2018-11-12 15:07:38,0.722s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.77,,2018-11-12 15:07:39,2018-11-12 15:07:39,0.034s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:07:39,2018-11-12 15:07:39,0.031s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment,Chrome 70.0.3538.77,,2018-11-12 15:07:39,2018-11-12 15:07:41,2.084s,PASSED
+Statement - actions.generateRandomEquipmentID(),Chrome 70.0.3538.77,,2018-11-12 15:07:41,2018-11-12 15:07:41,0.051s,PASSED
+Statement - actions.setequipmentIDToSearchPane(randomEquipmentID),Chrome 70.0.3538.77,,2018-11-12 15:07:41,2018-11-12 15:08:36,55.442s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentID,Chrome 70.0.3538.77,,2018-11-12 15:08:36,2018-11-12 15:08:36,0.107s,PASSED
+com.ge.tms.equipment.EquipmentVerification.verifyEquipmentRecord,Chrome 70.0.3538.77,,2018-11-12 15:08:36,2018-11-12 15:08:36,0.222s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:08:36,2018-11-12 15:08:37,0.949s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:08:37,2018-11-12 15:08:37,0.001s,PASSED
+,,,,,,
+Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68293-Verify Invalid Equipment Error,Chrome 70.0.3538.77,,2018-11-12 15:08:37,2018-11-12 15:18:03,9m - 25.740s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 15:08:37,2018-11-12 15:08:38,0.852s,PASSED
+Statement - util = new com.ge.tms.util.CommonUtilities(),Chrome 70.0.3538.77,,2018-11-12 15:08:38,2018-11-12 15:08:38,0.031s,PASSED
+Statement - actions = new com.ge.tms.commonactions.EquipmentActions(),Chrome 70.0.3538.77,,2018-11-12 15:08:38,2018-11-12 15:08:38,0.035s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment,Chrome 70.0.3538.77,,2018-11-12 15:08:38,2018-11-12 15:18:02,9m - 23.458s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 15:18:02,2018-11-12 15:18:03,1.263s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 15:18:03,2018-11-12 15:18:03,0.001s,PASSED

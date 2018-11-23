@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC69826 - Validations messages for mandatory fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac5123d0-67c6-4a72-91de-1ca0194a5e0a</testCaseGuid>
+</TestCaseEntity>

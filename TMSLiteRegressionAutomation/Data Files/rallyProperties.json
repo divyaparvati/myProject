@@ -1,0 +1,8 @@
+{
+    "rally": {
+        "rallyURL": "https://rally1.rallydev.com",
+        "apiKEY": " ",
+        "proxyURL": "http://grc-india-pitc-bangaz.proxy.corporate.gtm.ge.com:8080",
+        "buildNo": "test"
+    }
+}

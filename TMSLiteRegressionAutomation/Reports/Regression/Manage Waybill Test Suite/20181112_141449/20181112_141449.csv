@@ -1,0 +1,174 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Manage Waybill Test Suite,Chrome 70.0.3538.77,,2018-11-12 14:19:17,2018-11-12 14:21:59,2m - 41.796s,ERROR
+,,,,,,
+Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill,Chrome 70.0.3538.77,,2018-11-12 14:19:49,2018-11-12 14:19:56,6.647s,ERROR
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:19:49,2018-11-12 14:19:50,0.843s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:19:50,2018-11-12 14:19:52,2.196s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:19:52,2018-11-12 14:19:54,2.006s,PASSED
+Statement - waybillVerification = new com.ge.tms.waybillVerify.WaybillVerification(),Chrome 70.0.3538.77,,2018-11-12 14:19:54,2018-11-12 14:19:55,0.178s,PASSED
+"Statement - waybillData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/WayBillServices/GETPARTICULARWAYBILL, [waybillnumber:waybillVerification.actualWaybillNumber]))",Chrome 70.0.3538.77,,2018-11-12 14:19:55,2018-11-12 14:19:55,0.018s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize,Chrome 70.0.3538.77,,2018-11-12 14:19:55,2018-11-12 14:19:55,0.180s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails,Chrome 70.0.3538.77,,2018-11-12 14:19:55,2018-11-12 14:19:55,0.283s,ERROR
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:19:55,2018-11-12 14:19:56,0.763s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:19:56,2018-11-12 14:19:56,0.010s,PASSED
+,,,,,,
+Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions,Chrome 70.0.3538.77,,2018-11-12 14:19:56,2018-11-12 14:20:00,4.028s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:19:56,2018-11-12 14:19:57,0.771s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:19:57,2018-11-12 14:19:59,2.127s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown,Chrome 70.0.3538.77,,2018-11-12 14:19:59,2018-11-12 14:19:59,0.016s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown,Chrome 70.0.3538.77,,2018-11-12 14:19:59,2018-11-12 14:19:59,0.254s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:19:59,2018-11-12 14:20:00,0.769s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:20:00,2018-11-12 14:20:00,0.001s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill,Chrome 70.0.3538.77,,2018-11-12 14:20:00,2018-11-12 14:20:45,44.601s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:20:00,2018-11-12 14:20:01,0.770s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:20:01,2018-11-12 14:20:03,2.129s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:03,2018-11-12 14:20:05,2.006s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu,Chrome 70.0.3538.77,,2018-11-12 14:20:05,2018-11-12 14:20:07,2.016s,PASSED
+Statement - actions = new com.ge.tms.commonactions.WaybillActions(),Chrome 70.0.3538.77,,2018-11-12 14:20:07,2018-11-12 14:20:07,0.043s,PASSED
+Statement - actions.removeActiveFilter(),Chrome 70.0.3538.77,,2018-11-12 14:20:07,2018-11-12 14:20:07,0.061s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:07,2018-11-12 14:20:09,2.006s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:20:09,2018-11-12 14:20:09,0.098s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:09,2018-11-12 14:20:09,0.010s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:09,2018-11-12 14:20:09,0.017s,PASSED
+Statement - actions.setTextForSearch(CustomKeywords.com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI()),Chrome 70.0.3538.77,,2018-11-12 14:20:09,2018-11-12 14:20:09,0.146s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:09,2018-11-12 14:20:11,2.005s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord,Chrome 70.0.3538.77,,2018-11-12 14:20:11,2018-11-12 14:20:44,32.160s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:20:44,2018-11-12 14:20:45,1.011s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:20:45,2018-11-12 14:20:45,0.001s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84856/TC60009 - Negative-Scenario-Waybill-Search,Chrome 70.0.3538.77,,2018-11-12 14:20:45,2018-11-12 14:20:52,7.597s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:20:45,2018-11-12 14:20:45,0.762s,PASSED
+"Statement - searchString = ""Search""",Chrome 70.0.3538.77,,2018-11-12 14:20:45,2018-11-12 14:20:45,0.000s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu,Chrome 70.0.3538.77,,2018-11-12 14:20:45,2018-11-12 14:20:48,2.161s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:48,2018-11-12 14:20:50,2.004s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.020s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.019s,PASSED
+Statement - setTextForSearch(searchString),Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.001s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.111s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.714s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.012s,PASSED
+Statement - setTextForSearch(searchString),Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:50,0.000s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 14:20:50,2018-11-12 14:20:51,0.087s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.120s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.011s,PASSED
+Statement - setTextForSearch(searchString),Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.000s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.078s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.122s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.013s,PASSED
+Statement - setTextForSearch(searchString),Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.001s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.076s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.157s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.018s,PASSED
+Statement - setTextForSearch(searchString),Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.000s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.095s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:51,0.132s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:20:51,2018-11-12 14:20:52,0.775s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:20:52,2018-11-12 14:20:52,0.000s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill,Chrome 70.0.3538.77,,2018-11-12 14:20:52,2018-11-12 14:21:04,12.340s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:20:52,2018-11-12 14:20:53,0.829s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:20:53,2018-11-12 14:20:55,2.142s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:55,2018-11-12 14:20:55,0.016s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:20:55,2018-11-12 14:20:55,0.017s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:55,2018-11-12 14:20:57,2.005s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort,Chrome 70.0.3538.77,,2018-11-12 14:20:57,2018-11-12 14:20:58,0.300s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:20:58,2018-11-12 14:20:58,0.056s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:20:58,2018-11-12 14:21:00,2.004s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort,Chrome 70.0.3538.77,,2018-11-12 14:21:00,2018-11-12 14:21:00,0.205s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:00,2018-11-12 14:21:00,0.014s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort,Chrome 70.0.3538.77,,2018-11-12 14:21:00,2018-11-12 14:21:00,0.284s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:00,2018-11-12 14:21:00,0.038s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:00,2018-11-12 14:21:02,2.006s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort,Chrome 70.0.3538.77,,2018-11-12 14:21:02,2018-11-12 14:21:02,0.233s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:02,2018-11-12 14:21:02,0.014s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:02,2018-11-12 14:21:03,1.005s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort,Chrome 70.0.3538.77,,2018-11-12 14:21:03,2018-11-12 14:21:04,0.118s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:21:04,2018-11-12 14:21:04,0.958s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:21:04,2018-11-12 14:21:04,0.001s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill,Chrome 70.0.3538.77,,2018-11-12 14:21:04,2018-11-12 14:21:28,23.547s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:21:05,2018-11-12 14:21:05,0.741s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:21:05,2018-11-12 14:21:08,2.158s,PASSED
+Statement - actions = new com.ge.tms.commonactions.WaybillActions(),Chrome 70.0.3538.77,,2018-11-12 14:21:08,2018-11-12 14:21:08,0.037s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:08,2018-11-12 14:21:10,2.006s,PASSED
+Statement - actions.removeActiveFilter(),Chrome 70.0.3538.77,,2018-11-12 14:21:10,2018-11-12 14:21:10,0.062s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:10,2018-11-12 14:21:12,2.005s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:12,2018-11-12 14:21:12,0.104s,PASSED
+Statement - actions.clickWaybillSearchDropdown(),Chrome 70.0.3538.77,,2018-11-12 14:21:12,2018-11-12 14:21:12,0.012s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:12,2018-11-12 14:21:14,2.006s,PASSED
+Statement - actions.clickWaybillSearchCarID(),Chrome 70.0.3538.77,,2018-11-12 14:21:14,2018-11-12 14:21:14,0.019s,PASSED
+Statement - actions.setRandomCarIDForSearch(),Chrome 70.0.3538.77,,2018-11-12 14:21:14,2018-11-12 14:21:14,0.114s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:14,2018-11-12 14:21:16,2.006s,PASSED
+Statement - actions.clickWaybillFilter(),Chrome 70.0.3538.77,,2018-11-12 14:21:16,2018-11-12 14:21:16,0.093s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:16,2018-11-12 14:21:18,2.006s,PASSED
+Statement - actions.selectEmptyfromwaybillLE(),Chrome 70.0.3538.77,,2018-11-12 14:21:18,2018-11-12 14:21:18,0.015s,PASSED
+Statement - actions.clickWaybillFilterApply(),Chrome 70.0.3538.77,,2018-11-12 14:21:18,2018-11-12 14:21:18,0.083s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:18,2018-11-12 14:21:20,2.005s,PASSED
+Statement - If (actions.GetNoresultText() != WAYBILL_MESSAGE_NO_SEARCH_CRITERIA),Chrome 70.0.3538.77,,2018-11-12 14:21:20,2018-11-12 14:21:23,2.427s,PASSED
+Statement - actions.clickWaybillSortdropdown(),Chrome 70.0.3538.77,,2018-11-12 14:21:23,2018-11-12 14:21:23,0.014s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:23,2018-11-12 14:21:25,2.005s,PASSED
+Statement - actions.setWaybillnumbersortdropdown(),Chrome 70.0.3538.77,,2018-11-12 14:21:25,2018-11-12 14:21:25,0.024s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:25,2018-11-12 14:21:27,2.006s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort,Chrome 70.0.3538.77,,2018-11-12 14:21:27,2018-11-12 14:21:27,0.267s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord,Chrome 70.0.3538.77,,2018-11-12 14:21:27,2018-11-12 14:21:27,0.199s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:21:27,2018-11-12 14:21:28,0.986s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:21:28,2018-11-12 14:21:28,0.000s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC67197-Verify message for no record found,Chrome 70.0.3538.77,,2018-11-12 14:21:28,2018-11-12 14:21:45,16.612s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:21:28,2018-11-12 14:21:29,0.734s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:21:29,2018-11-12 14:21:31,2.157s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:31,2018-11-12 14:21:33,2.004s,PASSED
+Statement - actions = new com.ge.tms.commonactions.WaybillActions(),Chrome 70.0.3538.77,,2018-11-12 14:21:33,2018-11-12 14:21:33,0.035s,PASSED
+Statement - actions.clickWaybillSearchDropdown(),Chrome 70.0.3538.77,,2018-11-12 14:21:33,2018-11-12 14:21:33,0.023s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:33,2018-11-12 14:21:35,2.003s,PASSED
+Statement - actions.clickWaybillSearchCarID(),Chrome 70.0.3538.77,,2018-11-12 14:21:35,2018-11-12 14:21:35,0.016s,PASSED
+Statement - actions.setRandomCarIDForSearch(),Chrome 70.0.3538.77,,2018-11-12 14:21:35,2018-11-12 14:21:35,0.113s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:35,2018-11-12 14:21:37,2.006s,PASSED
+Statement - actions.clickWaybillFilter(),Chrome 70.0.3538.77,,2018-11-12 14:21:37,2018-11-12 14:21:37,0.101s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:37,2018-11-12 14:21:39,2.005s,PASSED
+Statement - actions.setInvalidCommodityFilter(),Chrome 70.0.3538.77,,2018-11-12 14:21:39,2018-11-12 14:21:39,0.083s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:39,2018-11-12 14:21:41,2.006s,PASSED
+Statement - actions.clickWaybillFilterApply(),Chrome 70.0.3538.77,,2018-11-12 14:21:41,2018-11-12 14:21:42,0.072s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:42,2018-11-12 14:21:44,2.005s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyMessageforWrongSearch,Chrome 70.0.3538.77,,2018-11-12 14:21:44,2018-11-12 14:21:44,0.137s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:21:44,2018-11-12 14:21:45,1.006s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:21:45,2018-11-12 14:21:45,0.001s,PASSED
+,,,,,,
+Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill,Chrome 70.0.3538.77,,2018-11-12 14:21:45,2018-11-12 14:21:59,14.279s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:21:45,2018-11-12 14:21:45,0.736s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab,Chrome 70.0.3538.77,,2018-11-12 14:21:46,2018-11-12 14:21:48,2.158s,PASSED
+Statement - actions = new com.ge.tms.commonactions.WaybillActions(),Chrome 70.0.3538.77,,2018-11-12 14:21:48,2018-11-12 14:21:48,0.035s,PASSED
+Statement - actions.removeActiveFilter(),Chrome 70.0.3538.77,,2018-11-12 14:21:48,2018-11-12 14:21:48,0.060s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:48,2018-11-12 14:21:50,2.006s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:50,0.100s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:50,0.097s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:50,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:50,0.081s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:50,0.052s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:50,2018-11-12 14:21:52,2.006s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus,Chrome 70.0.3538.77,,2018-11-12 14:21:52,2018-11-12 14:21:52,0.243s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:52,2018-11-12 14:21:52,0.088s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:52,2018-11-12 14:21:52,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:52,2018-11-12 14:21:53,0.074s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:53,2018-11-12 14:21:53,0.074s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:53,2018-11-12 14:21:53,0.020s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:53,2018-11-12 14:21:53,0.075s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:53,2018-11-12 14:21:53,0.084s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:53,2018-11-12 14:21:55,2.005s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.234s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.087s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.075s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.091s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.014s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.074s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:55,0.092s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:21:55,2018-11-12 14:21:57,2.006s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty,Chrome 70.0.3538.77,,2018-11-12 14:21:57,2018-11-12 14:21:58,0.123s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:58,0.068s,PASSED
+executeJavaScript,Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:58,0.011s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:58,0.066s,PASSED
+Statement - actions.clickOnFirstRecord(),Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:58,0.103s,PASSED
+com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty,Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:58,0.145s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:21:58,2018-11-12 14:21:59,0.916s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:21:59,2018-11-12 14:21:59,0.001s,PASSED

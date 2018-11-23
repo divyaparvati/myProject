@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RailRoad Setup Test Suite" time="72" tests="1" failures="0" errors="0">
+   <testsuite name="RailRoad Setup Test Suite" tests="1" failures="0" errors="0" time="72" timestamp="2018-11-15 10:18:11" hostname="ramesh - 192.168.0.3" id="Test Suites/Regression/RailRoad Setup Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181115_101809"/>
+         <property name="logFiles" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/RailRoad Setup Test Suite/20181115_101809/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ramesh - 192.168.0.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.3"/>
+         <property name="sessionId" value="897f3f688da0fd9b249354a0aff2d219"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save" classname="Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:18:37 - [TEST_CASE][PASSED] - Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save: Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save
+
+2018-11-15 10:18:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:18:37 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:18:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:18:38 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.RailroadActions(): Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:38 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup: com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-15 10:18:38 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRailroadSetup is PASSED
+
+2018-11-15 10:18:40 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown: com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnSelectRailroadDropdown is PASSED
+
+2018-11-15 10:18:43 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad: com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Execute JavaScript 'let railRoadList=[]; document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#selector > div.dropdown-option').forEach(node => { railRoadList.push(node.getAttribute('title')) }); return railRoadList' successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1) span').innerHTML' successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#railroads-select-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1) span').click()' successfully
+
+2018-11-15 10:18:43 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.selectRandomRailRoad is PASSED
+
+2018-11-15 10:18:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:18:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:18:45 - [TEST_STEP][PASSED] - Statement - setStationId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-15 10:18:45 - [TEST_STEP][PASSED] - Statement - actions.addStationMandatotyFields(setStationId): Delayed 3 second(s)
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/F11822-Configure and Manage Stations/Add_New_Station_Button' is clicked on
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Text 'GKGXGSL' is set on object 'Object Repository/F11822-Configure and Manage Stations/station_id'
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Text 'HIPJDPY' is set on object 'Object Repository/F11822-Configure and Manage Stations/station_name'
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#splc').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#splc').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#splc').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#fsac').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#fsac').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#station-timezone-qualifier').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#station-timezone-qualifier').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(3)').click()' successfully
+
+2018-11-15 10:18:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#country').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:18:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#country').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:18:47 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#state').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:18:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#state').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/F11822-Configure and Manage Stations/station_save_button' is clicked on
+
+2018-11-15 10:18:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:18:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:18:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:18:52 - [TEST_STEP][PASSED] - Statement - setZoneId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-15 10:18:52 - [TEST_STEP][PASSED] - Statement - actions.addZone(setZoneId): Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-15 10:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/addNewZoneButton' is clicked on
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Text 'U3SAW' is set on object 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneID'
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Text 'W86QUBM' is set on object 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneName'
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#selector > div').length' successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-15 10:18:55 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton: com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton is PASSED
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Add Edit Zone/zoneSaveButton' is clicked on
+
+2018-11-15 10:18:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:18:58 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneSaveButton is PASSED
+
+2018-11-15 10:18:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:19:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:19:00 - [TEST_STEP][PASSED] - Statement - setTrackId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-15 10:19:00 - [TEST_STEP][PASSED] - Statement - actions.saveNewTrackRecord(setTrackId): Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/AddTrackButton' is clicked on
+
+2018-11-15 10:19:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Text '3W24LF' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_id_input'
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Text 'EI5TDP3YHD' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Description_input'
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Length_input'
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/F5362 - Configure and Manage Track/Car_Capacity_input'
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackConditionCode').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:19:02 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 1 second(s)
+
+2018-11-15 10:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-15 10:19:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 10:19:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:04 - [TEST_STEP][PASSED] - Statement - actions.editTrackLength(): Delayed 1 second(s)
+
+2018-11-15 10:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/edit_track_icon' is clicked on
+
+2018-11-15 10:19:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_Length_input'
+
+2018-11-15 10:19:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:05 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 1 second(s)
+
+2018-11-15 10:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:06 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyEditedTrackLength: com.ge.tms.railroad.RailroadVerification.verifyEditedTrackLength is PASSED
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/Track_First_row_column_length' is: '2'
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_search_row_length'
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyEditedTrackLength is PASSED
+
+2018-11-15 10:19:07 - [TEST_STEP][PASSED] - Statement - actions.editTrackType(): Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/edit_track_icon' is clicked on
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-15 10:19:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#trackType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(5)').click()' successfully
+
+2018-11-15 10:19:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:19:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#trackType').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-15 10:19:09 - [TEST_STEP][PASSED] - Statement - actions.saveTrack(): Delayed 1 second(s)
+
+2018-11-15 10:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/SaveTrackButton' is clicked on
+
+2018-11-15 10:19:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:19:12 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteTrack: com.ge.tms.commonactions.RailroadActions.clickOnDeleteTrack is PASSED
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/deleteTrackButton' is clicked on
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteTrack is PASSED
+
+2018-11-15 10:19:12 - [TEST_STEP][PASSED] - Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F5362 - Configure and Manage Track/deleteTrackYesButton): Finding Test Object with id 'Object Repository/F5362 - Configure and Manage Track/deleteTrackYesButton'
+
+2018-11-15 10:19:12 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject: com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/F5362 - Configure and Manage Track/deleteTrackYesButton' is clicked on
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:12 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyNoTracksFoundInSearch: com.ge.tms.railroad.RailroadVerification.verifyNoTracksFoundInSearch is PASSED
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Text '3W24LF' is set on object 'Object Repository/F5362 - Configure and Manage Track/Track_search_field_row1_trackid'
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F5362 - Configure and Manage Track/noRowsfound' is: 'No rows found'
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - Actual object 'No rows found' and expected object 'No rows found' are equal
+
+2018-11-15 10:19:12 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyNoTracksFoundInSearch is PASSED
+
+2018-11-15 10:19:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:19:14 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneActionMenu: com.ge.tms.commonactions.RailroadActions.clickOnZoneActionMenu is PASSED
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-actions-dropdown').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-15 10:19:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:15 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnZoneActionMenu is PASSED
+
+2018-11-15 10:19:15 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteAction: com.ge.tms.commonactions.RailroadActions.clickOnDeleteAction is PASSED
+
+2018-11-15 10:19:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:16 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#zone-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:19:16 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteAction is PASSED
+
+2018-11-15 10:19:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:17 - [TEST_STEP][PASSED] - Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Delete Zone/deleteYesButton): Finding Test Object with id 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Delete Zone/deleteYesButton'
+
+2018-11-15 10:19:17 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject: com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/F5140-Add Zone Functionalities/QA-US88570-Add Zone/US38196-Save a New Zone/Delete Zone/deleteYesButton' is clicked on
+
+2018-11-15 10:19:17 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:18 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyViewStationIdAfterZoneDeletion: com.ge.tms.railroad.RailroadVerification.verifyViewStationIdAfterZoneDeletion is PASSED
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F11822-Configure and Manage Stations/QA-US87586-View Stations/US84086-View Station Details/View Stations/div_StationCode' is: 'GKGXGSL'
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Actual object 'GKGXGSL' and expected object 'GKGXGSL' are equal
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyViewStationIdAfterZoneDeletion is PASSED
+
+2018-11-15 10:19:18 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnStationActionMenu: com.ge.tms.commonactions.RailroadActions.clickOnStationActionMenu is PASSED
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:18 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#station-actions-dropdown').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnStationActionMenu is PASSED
+
+2018-11-15 10:19:19 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteStationButton: com.ge.tms.commonactions.RailroadActions.clickOnDeleteStationButton is PASSED
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#station-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnDeleteStationButton is PASSED
+
+2018-11-15 10:19:19 - [TEST_STEP][PASSED] - Statement - deleteYesButtonObj = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11822-Configure and Manage Stations/deleteConfirmationYesButton): Finding Test Object with id 'Object Repository/F11822-Configure and Manage Stations/deleteConfirmationYesButton'
+
+2018-11-15 10:19:19 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject: com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/F11822-Configure and Manage Stations/deleteConfirmationYesButton' is clicked on
+
+2018-11-15 10:19:19 - [MESSAGE][PASSED] - com.ge.tms.commonactions.RailroadActions.clickOnTestObject is PASSED
+
+2018-11-15 10:19:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:19:20 - [TEST_STEP][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyDeletedItemNotPresentInSearchView: com.ge.tms.railroad.RailroadVerification.verifyDeletedItemNotPresentInSearchView is PASSED
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:19:20 - [MESSAGE][PASSED] - Text 'GKGXGSL' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-15 10:19:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:19:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/CommonObjects/noSearchResultMessageLeftNav' is: 'No stations or zones found.'
+
+2018-11-15 10:19:22 - [MESSAGE][PASSED] - Actual object 'No stations or zones found.' and expected object 'No stations or zones found.' are equal
+
+2018-11-15 10:19:22 - [MESSAGE][PASSED] - com.ge.tms.railroad.RailroadVerification.verifyDeletedItemNotPresentInSearchView is PASSED
+
+2018-11-15 10:19:22 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:19:22 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:19:22 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:19:22 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:19:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:19:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:19:23 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:19:23 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 10:18:11 - [TEST_SUITE][PASSED] - RailRoad Setup Test Suite: Test Cases/Railroad/F5362 - Configure and manage track/QA - US88424/US39526 - Edit Track details/TC65864 - Edit Track and save]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>px-dropdown_PxDropdown-module_</name>
+   <tag></tag>
+   <elementGuidId>00fb15f5-6faa-45b2-86c3-5f820684305f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>px-dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PxDropdown-module_root_3VkPU</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex--col App-module_appRoot_2W_oY&quot;]/div[@class=&quot;flex flex--col flex__item App-module_routesRoot_W33fJ&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/section[@class=&quot;flex__item flex flex--row PageContent-module_root_24nnp&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/div[1]/header[@class=&quot;flex flex--row flex--justify u-p CustomerDetails-module_header_1q-fz&quot;]/div[@class=&quot;u-m+ u-p0&quot;]/px-dropdown[@class=&quot;PxDropdown-module_root_3VkPU&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

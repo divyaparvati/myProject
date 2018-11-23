@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Interchange Test Suite" time="144" tests="2" failures="1" errors="2">
+   <testsuite name="Manage Interchange Test Suite" tests="2" failures="1" errors="2" time="144" timestamp="2018-11-12 14:16:49" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/Manage Interchange Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Interchange Test Suite/20181112_141449"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Interchange Test Suite/20181112_141449/execution0.log"/>
+         <property name="attachments" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Interchange Test Suite/20181112_141449/1542012552077.png"/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="099497b3ef27d8435eadabd6629ba70e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View" classname="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View" status="ERROR">
+         <error type="ERROR" message="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView(InterchangeRoadVerification.groovy:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1534935556579.run(Script1534935556579.groovy:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:17:21 - [TEST_CASE][ERROR] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView(InterchangeRoadVerification.groovy:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1534935556579.run(Script1534935556579.groovy:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:17:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:21 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:22 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.InterchangeActions(): Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab: com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:17:24 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText: com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText is PASSED
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-11-12 14:17:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/manageInterchangeText' is: 'Manage Interchanges'
+
+2018-11-12 14:17:28 - [MESSAGE][PASSED] - Actual object 'Manage Interchanges' and expected object 'Manage Interchanges' are equal
+
+2018-11-12 14:17:28 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText is PASSED
+
+2018-11-12 14:17:28 - [TEST_STEP][PASSED] - Statement - interchangeConsistDetailList = new java.util.ArrayList(): null
+
+2018-11-12 14:17:28 - [TEST_STEP][PASSED] - Statement - interchangeConsistDetailList = actions.getRandomlySelectedConsistDetailsFromLeftPanel(): null
+
+2018-11-12 14:17:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - Statement - interchangeRoadGetAllData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/InterchangeRoadServices/GET_ALL_INTERCHANGEROADS)): Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [TEST_STEP][ERROR] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView: Cannot get property 'referenceInformation' on null object
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:30 - [MESSAGE][ERROR] - Cannot get property 'referenceInformation' on null object
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:17:31 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:17:21 - [TEST_CASE][ERROR] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView(InterchangeRoadVerification.groovy:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1534935556579.run(Script1534935556579.groovy:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View" classname="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View" status="ERROR">
+         <error type="ERROR" message="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'consists' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyDetailsOfSelectedCarQuickView(InterchangeRoadVerification.groovy:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1535618799620.run(Script1535618799620.groovy:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:17:31 - [TEST_CASE][ERROR] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'consists' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyDetailsOfSelectedCarQuickView(InterchangeRoadVerification.groovy:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1535618799620.run(Script1535618799620.groovy:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:17:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:32 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.InterchangeActions(): Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab: com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:17:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:17:34 - [MESSAGE][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:17:34 - [TEST_STEP][PASSED] - Statement - interchangeConsistDetailList = new java.util.ArrayList(): null
+
+2018-11-12 14:17:34 - [TEST_STEP][PASSED] - Statement - actions.getRandomlySelectedConsistDetailsFromLeftPanel(): null
+
+2018-11-12 14:17:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Statement - actions.clickOnRandomCarFromAConsist(): null
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Statement - interchangeRoadGetAllData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/InterchangeRoadServices/GET_ALL_INTERCHANGEROADS)): Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [TEST_STEP][ERROR] - com.ge.tms.interchange.InterchangeRoadVerification.verifyDetailsOfSelectedCarQuickView: Cannot get property 'consists' on null object
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:35 - [MESSAGE][ERROR] - Cannot get property 'consists' on null object
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:36 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:17:36 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:17:31 - [TEST_CASE][ERROR] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US96490/US86799-View Car Information on click/TC67507-Verify Car View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'consists' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyDetailsOfSelectedCarQuickView(InterchangeRoadVerification.groovy:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1535618799620.run(Script1535618799620.groovy:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InterchangeRoad/F13178-Manage Interchange/US92441-Filters-Manage Interchange/TC67624 - Filters-Manage Interchange" classname="Test Cases/InterchangeRoad/F13178-Manage Interchange/US92441-Filters-Manage Interchange/TC67624 - Filters-Manage Interchange" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:17:36 - [TEST_CASE][PASSED] - Test Cases/InterchangeRoad/F13178-Manage Interchange/US92441-Filters-Manage Interchange/TC67624 - Filters-Manage Interchange: Test Cases/InterchangeRoad/F13178-Manage Interchange/US92441-Filters-Manage Interchange/TC67624 - Filters-Manage Interchange
+
+2018-11-12 14:17:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:36 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:17:37 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:17:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:17:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:17:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:17:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:17:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:18:00 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:18:00 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:18:05 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.InterchangeActions(): Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab: com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:18:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:07 - [MESSAGE][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:18:07 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDown(): Delayed 2 second(s)
+
+2018-11-12 14:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/interchangeTypeDropDown' is clicked on
+
+2018-11-12 14:18:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:09 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDownIO(): Delayed 2 second(s)
+
+2018-11-12 14:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/InterchangeTypeDropdownInboundOnly' is clicked on
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:12 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound: com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound is PASSED
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Actual object 'Inbound' and expected object 'Inbound' are equal
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Actual object 'Inbound' and expected object 'Inbound' are equal
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Actual object 'Inbound' and expected object 'Inbound' are equal
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound is PASSED
+
+2018-11-12 14:18:12 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDown(): Delayed 2 second(s)
+
+2018-11-12 14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/interchangeTypeDropDown' is clicked on
+
+2018-11-12 14:18:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:14 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDownOO(): Delayed 2 second(s)
+
+2018-11-12 14:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/InterchangeDropdownOutboundOnly' is clicked on
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:16 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound: com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound is PASSED
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutbound is PASSED
+
+2018-11-12 14:18:16 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDown(): Delayed 2 second(s)
+
+2018-11-12 14:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/interchangeTypeDropDown' is clicked on
+
+2018-11-12 14:18:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:18 - [TEST_STEP][PASSED] - Statement - actions.clickOnInterchangeTypeDropDownAll(): Delayed 2 second(s)
+
+2018-11-12 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/interhangeTypeDropdownInboundOutbound' is clicked on
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutboundAll: com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutboundAll is PASSED
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:20 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeFilterInboundOutboundAll is PASSED
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:21 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:18:21 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InterchangeRoad/F13178-Manage Interchange/US98272-ManageInterchange-Sort-Functionality/TC68155-Manage-Interchang-SortFunctionality" classname="Test Cases/InterchangeRoad/F13178-Manage Interchange/US98272-ManageInterchange-Sort-Functionality/TC68155-Manage-Interchang-SortFunctionality" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:18:21 - [TEST_CASE][PASSED] - Test Cases/InterchangeRoad/F13178-Manage Interchange/US98272-ManageInterchange-Sort-Functionality/TC68155-Manage-Interchang-SortFunctionality: Test Cases/InterchangeRoad/F13178-Manage Interchange/US98272-ManageInterchange-Sort-Functionality/TC68155-Manage-Interchang-SortFunctionality
+
+2018-11-12 14:18:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:21 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:22 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.InterchangeActions(): Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab: com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:18:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:24 - [MESSAGE][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:18:24 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByDropdown(): Delayed 2 second(s)
+
+2018-11-12 14:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByDropdown' is clicked on
+
+2018-11-12 14:18:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:26 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByTimeAscending(): Delayed 2 second(s)
+
+2018-11-12 14:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByTimeAscending' is clicked on
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:28 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:28 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:28 - [TEST_STEP][PASSED] - Statement - actions.clickOnSortBySortOrderButton(): Delayed 2 second(s)
+
+2018-11-12 14:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortBySortOrderButton' is clicked on
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:31 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:31 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByDropdown(): Delayed 2 second(s)
+
+2018-11-12 14:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByDropdown' is clicked on
+
+2018-11-12 14:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:33 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByStation(): Delayed 2 second(s)
+
+2018-11-12 14:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByInterchangeStation' is clicked on
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:35 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:35 - [TEST_STEP][PASSED] - Statement - actions.clickOnSortBySortOrderButton(): Delayed 2 second(s)
+
+2018-11-12 14:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortBySortOrderButton' is clicked on
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:37 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:37 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByDropdown(): Delayed 2 second(s)
+
+2018-11-12 14:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByDropdown' is clicked on
+
+2018-11-12 14:18:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:39 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByInterchangeType(): Delayed 2 second(s)
+
+2018-11-12 14:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByInterchangeType' is clicked on
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:41 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:42 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:42 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:42 - [TEST_STEP][PASSED] - Statement - actions.clickOnSortBySortOrderButton(): Delayed 2 second(s)
+
+2018-11-12 14:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortBySortOrderButton' is clicked on
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:44 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:44 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByDropdown(): Delayed 2 second(s)
+
+2018-11-12 14:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByDropdown' is clicked on
+
+2018-11-12 14:18:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:46 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByFromRailRoad(): Delayed 2 second(s)
+
+2018-11-12 14:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByFromRailRoad' is clicked on
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:48 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:48 - [TEST_STEP][PASSED] - Statement - actions.clickOnSortBySortOrderButton(): Delayed 2 second(s)
+
+2018-11-12 14:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortBySortOrderButton' is clicked on
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:50 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:50 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByDropdown(): Delayed 2 second(s)
+
+2018-11-12 14:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByDropdown' is clicked on
+
+2018-11-12 14:18:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:52 - [TEST_STEP][PASSED] - Statement - actions.clickOnsortByTrainID(): Delayed 2 second(s)
+
+2018-11-12 14:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortByTrainId' is clicked on
+
+2018-11-12 14:18:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:54 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:55 - [TEST_STEP][PASSED] - Statement - actions.clickOnSortBySortOrderButton(): Delayed 2 second(s)
+
+2018-11-12 14:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/sortBySortOrderButton' is clicked on
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort: com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:18:57 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.InterchangeSortByItemSort is PASSED
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:18:58 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions" classname="Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInboundCarsAction(InterchangeRoadVerification.groovy:488)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1536051146808.run(Script1536051146808.groovy:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:18:58 - [TEST_CASE][FAILED] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInboundCarsAction(InterchangeRoadVerification.groovy:488)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1536051146808.run(Script1536051146808.groovy:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:18:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:18:59 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.InterchangeActions(): Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab: com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:18:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(1)').click()' successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - com.ge.tms.commonactions.InterchangeActions.clickOnManageInterchangeRoadTab is PASSED
+
+2018-11-12 14:19:01 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText: com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText is PASSED
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/manageInterchangeText' is: 'Manage Interchanges'
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Actual object 'Manage Interchanges' and expected object 'Manage Interchanges' are equal
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyManageInterchangeRoadText is PASSED
+
+2018-11-12 14:19:05 - [TEST_STEP][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifySelectAndDeSelectAllAction: com.ge.tms.interchange.InterchangeRoadVerification.verifySelectAndDeSelectAllAction is PASSED
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#root #interchange-actions-menu').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:19:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:19:06 - [MESSAGE][PASSED] - Actual object '27' and expected object '27' are equal
+
+2018-11-12 14:19:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:19:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#root #interchange-actions-menu').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:19:07 - [MESSAGE][PASSED] - Actual object '27' and expected object '27' are equal
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - com.ge.tms.interchange.InterchangeRoadVerification.verifySelectAndDeSelectAllAction is PASSED
+
+2018-11-12 14:19:08 - [TEST_STEP][FAILED] - com.ge.tms.interchange.InterchangeRoadVerification.verifyInboundCarsAction: Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:19:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/carId' is: 'IBT 19573'
+
+2018-11-12 14:19:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/trainId' is: 'YSPMC 27'
+
+2018-11-12 14:19:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root > div > div > section > section > div:nth-child(1) > div.Group-module_scrollContainer_2YWn_ > div:nth-child(1) > div.u-p.Interchanges-module_detailsWidth_3Ck7u.Interchanges-module_enabled_FXXoX > div:nth-child(2) > div:nth-child(4) > span').innerHTML' successfully
+
+2018-11-12 14:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/F13178-Manage Interchange/inboundCarsAction' is clicked on
+
+2018-11-12 14:19:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:19:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#root #interchange-actions-menu').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-12 14:19:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/carIdValue' is: 'IBT 19573'
+
+2018-11-12 14:19:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13178-Manage Interchange/inboudCarHeaderMessage' is: 'Inbound cars from train YSPMC 27 at station 504452'
+
+2018-11-12 14:19:11 - [MESSAGE][PASSED] - Actual object 'Inbound cars from train YSPMC 27 at station 504452' and expected object 'Inbound cars from train YSPMC 27 at station 504452' are equal
+
+2018-11-12 14:19:12 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+[[ATTACHMENT|/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Interchange Test Suite/20181112_141449/1542012552077.png]]
+
+2018-11-12 14:19:12 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+
+2018-11-12 14:19:12 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:19:12 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:19:12 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:19:12 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:19:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:19:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:19:13 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:19:13 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:18:58 - [TEST_CASE][FAILED] - Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92443/US88287-Interchange Actions/TC68076-Interchange Actions FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Cannot read property 'querySelector' of null
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 099497b3ef27d8435eadabd6629ba70e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.executeJavascript(ExecuteJavascriptKeyword.groovy:42)
+	at com.kms.katalon.core.webui.keyword.builtin.ExecuteJavaScriptKeyword.execute(ExecuteJavascriptKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(WebUiBuiltInKeywords.groovy:3787)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$executeJavaScript$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInboundCarsAction(InterchangeRoadVerification.groovy:488)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1536051146808.run(Script1536051146808.groovy:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:16:49 - [TEST_SUITE][ERROR] - Manage Interchange Test Suite: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView(InterchangeRoadVerification.groovy:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1534935556579.run(Script1534935556579.groovy:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-12 14:16:49 - [TEST_SUITE][ERROR] - Manage Interchange Test Suite: Test Cases/InterchangeRoad/F13178-Manage Interchange/QA-US92438/US86788-View Interchange/TC66726-Verify the Interchange View FAILED because (of) (Stack trace: java.lang.NullPointerException: Cannot get property 'referenceInformation' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at com.ge.tms.interchange.InterchangeRoadVerification.verifyInterchangeRoadConsistView(InterchangeRoadVerification.groovy:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.interchange.InterchangeRoadVerification.invokeMethod(InterchangeRoadVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1534935556579.run(Script1534935556579.groovy:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012289912.run(TempTestSuite1542012289912.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

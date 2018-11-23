@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Equipment Test Suite" time="646" tests="8" failures="2" errors="0">
+   <testsuite name="Manage Equipment Test Suite" tests="8" failures="2" errors="0" time="646" timestamp="2018-11-12 14:37:45" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/Manage Equipment Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Equipment Test Suite/20181112_141450"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Equipment Test Suite/20181112_141450/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="eb885433a84bc0bac69c1ecb08e04add"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US87994-Add Equipment/TC68105 - Add Equipment Successfully" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US87994-Add Equipment/TC68105 - Add Equipment Successfully" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:38:15 - [TEST_CASE][PASSED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US87994-Add Equipment/TC68105 - Add Equipment Successfully: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US87994-Add Equipment/TC68105 - Add Equipment Successfully
+
+2018-11-12 14:38:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:38:16 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:38:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:38:16 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:38:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:38:16 - [TEST_STEP][PASSED] - Statement - actions.clickOnEquipmentManagement(): Delayed 2 second(s)
+
+2018-11-12 14:38:17 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:38:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:38:19 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:38:19 - [TEST_STEP][PASSED] - Statement - actions.addNewEquipment(): Delayed 2 second(s)
+
+2018-11-12 14:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:38:21 - [MESSAGE][PASSED] - Text 'WJXO1' is set on object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField'
+
+2018-11-12 14:38:21 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:38:22 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:22 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:38:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:38:24 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:38:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:38:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').innerText' successfully
+
+2018-11-12 14:38:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:26 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:38:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:38:27 - [MESSAGE][PASSED] - Text 'XSKR8M65' is set on object 'Object Repository/F7174 - Manage Equipment/aarMechnanicalTextField'
+
+2018-11-12 14:38:27 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(6)').click()' successfully
+
+2018-11-12 14:38:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:38:29 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/poolNumberInputField'
+
+2018-11-12 14:38:29 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#reflectorization').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#reflectorization').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:38:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:38:30 - [MESSAGE][PASSED] - Text 'O8UHERCK' is set on object 'Object Repository/F7174 - Manage Equipment/builderCodeInputField'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text 'NE7IZAQD' is set on object 'Object Repository/F7174 - Manage Equipment/hoodTypeInputField'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/outsideLengthDimensionInput'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/outsideWidthDimensionInput'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/clearanceCodeInput' is clicked on
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text 'E0V1I' is set on object 'Object Repository/F7174 - Manage Equipment/clearanceCodeInput'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/weightCapacityInputField'
+
+2018-11-12 14:38:31 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/minSpeedCapacityInputField'
+
+2018-11-12 14:38:32 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/F7174 - Manage Equipment/maxSpeedCapacityInputField'
+
+2018-11-12 14:38:32 - [MESSAGE][PASSED] - Text 'EGSQQ0IN' is set on object 'Object Repository/F7174 - Manage Equipment/airBrakeInputField'
+
+2018-11-12 14:38:32 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/gearRatioInputField'
+
+2018-11-12 14:38:32 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:38:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(5)').click()' successfully
+
+2018-11-12 14:38:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:38:33 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/fuelCapacityInputField'
+
+2018-11-12 14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/saveEquipmentButton' is clicked on
+
+2018-11-12 14:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:38:35 - [TEST_STEP][PASSED] - Statement - actions.setEquipmentIdSearchPane(equipmentId): Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:38:36 - [MESSAGE][PASSED] - Text 'WJXO1' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyNewEquipmentCreatedIsSearchable: com.ge.tms.equipment.EquipmentVerification.verifyNewEquipmentCreatedIsSearchable is PASSED
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipmentIdInView' is: 'WJXO 1'
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - Actual object 'WJXO 1' and expected object 'WJXO 1' are equal
+
+2018-11-12 14:39:26 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyNewEquipmentCreatedIsSearchable is PASSED
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:27 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:39:27 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68847-Verify Empty CarKind-AARCar" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68847-Verify Empty CarKind-AARCar" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:39:27 - [TEST_CASE][PASSED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68847-Verify Empty CarKind-AARCar: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68847-Verify Empty CarKind-AARCar
+
+2018-11-12 14:39:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:27 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:39:28 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:28 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment: com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:39:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:39:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:30 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:39:30 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:39:30 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:39:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:33 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg: com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:39:33 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:39:33 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:39:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:35 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:39:35 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:39:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('.dropdown-icon').click()' successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/emptyCarKindMsg' is: 'EQUIPMENT KIND CANNOT BE EMPTY'
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Actual object 'EQUIPMENT KIND CANNOT BE EMPTY' and expected object 'EQUIPMENT KIND CANNOT BE EMPTY' are equal
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:39:39 - [TEST_STEP][PASSED] - Statement - actions.clickCancelBtn(): Delayed 2 second(s)
+
+2018-11-12 14:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipCancelBtn' is clicked on
+
+2018-11-12 14:39:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:41 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:39:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:44 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg: com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:39:44 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:39:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-12 14:39:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').innerText' successfully
+
+2018-11-12 14:39:46 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:39:46 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:39:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:39:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:39:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('.dropdown-icon').click()' successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/emptyAARCarTypemsg' is: 'AAR CAR TYPE CANNOT BE EMPTY'
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Actual object 'AAR CAR TYPE CANNOT BE EMPTY' and expected object 'AAR CAR TYPE CANNOT BE EMPTY' are equal
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:39:51 - [TEST_STEP][PASSED] - Statement - actions.clickCancelBtn(): Delayed 2 second(s)
+
+2018-11-12 14:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipCancelBtn' is clicked on
+
+2018-11-12 14:39:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:53 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:39:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:56 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg: com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:39:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:39:56 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:39:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:39:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:39:58 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:40:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:00 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('.dropdown-icon').click()' successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/emptyAARCarTypemsg' is: 'EQUIPMENT TYPE CANNOT BE EMPTY'
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Actual object 'EQUIPMENT TYPE CANNOT BE EMPTY' and expected object 'EQUIPMENT TYPE CANNOT BE EMPTY' are equal
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEmptyCarKindMsg is PASSED
+
+2018-11-12 14:40:02 - [TEST_STEP][PASSED] - Statement - actions.clickCancelBtn(): Delayed 2 second(s)
+
+2018-11-12 14:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipCancelBtn' is clicked on
+
+2018-11-12 14:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:04 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:40:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:06 - [TEST_STEP][PASSED] - Statement - actions.setAddEquipmentIdField(INVALID_EQUIPMENTID): Delayed 2 second(s)
+
+2018-11-12 14:40:07 - [MESSAGE][PASSED] - Text '@ijdj8' is set on object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField'
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:09 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg is PASSED
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/aarMechnanicalTextField' is clicked on
+
+2018-11-12 14:40:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/equipmentErrorMsgAddEqp' is: 'EQUIPMENT ID MUST START WITH 1 TO 4 CHARACTERS AND ENDS WITH 1 TO 11 NUMBERS'
+
+2018-11-12 14:40:11 - [MESSAGE][PASSED] - Actual object 'EQUIPMENT ID MUST START WITH 1 TO 4 CHARACTERS AND ENDS WITH 1 TO 11 NUMBERS' and expected object 'EQUIPMENT ID MUST START WITH 1 TO 4 CHARACTERS AND ENDS WITH 1 TO 11 NUMBERS' are equal
+
+2018-11-12 14:40:11 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg is PASSED
+
+2018-11-12 14:40:11 - [TEST_STEP][PASSED] - Statement - actions.clearAddEquipmentIdField(): Delayed 2 second(s)
+
+2018-11-12 14:40:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField' is cleared
+
+2018-11-12 14:40:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:13 - [TEST_STEP][PASSED] - Statement - actions.setAddEquipmentIdField(EMPTY_EQUIPMENTID): Delayed 2 second(s)
+
+2018-11-12 14:40:13 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField'
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:15 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg is PASSED
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/aarMechnanicalTextField' is clicked on
+
+2018-11-12 14:40:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/equipmentErrorMsgAddEqp' is: 'EQUIPMENT ID CANNOT BE EMPTY'
+
+2018-11-12 14:40:17 - [MESSAGE][PASSED] - Actual object 'EQUIPMENT ID CANNOT BE EMPTY' and expected object 'EQUIPMENT ID CANNOT BE EMPTY' are equal
+
+2018-11-12 14:40:17 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentIdEmptyAndInvalidMsg is PASSED
+
+2018-11-12 14:40:17 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:17 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:40:17 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:40:17 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:18 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:40:18 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68845-Verify Save AddNew Equip Btn" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68845-Verify Save AddNew Equip Btn" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:40:18 - [TEST_CASE][PASSED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68845-Verify Save AddNew Equip Btn: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68845-Verify Save AddNew Equip Btn
+
+2018-11-12 14:40:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:18 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:19 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:19 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment: com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:40:19 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:40:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:21 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:40:21 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:24 - [TEST_STEP][PASSED] - Statement - actions.setMandatoryFieldsForAddNewEquipment(): Delayed 1 second(s)
+
+2018-11-12 14:40:24 - [MESSAGE][PASSED] - Text 'SOBD2' is set on object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField'
+
+2018-11-12 14:40:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:40:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:40:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:40:26 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:26 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:40:28 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifySaveButtonEnabled: com.ge.tms.equipment.EquipmentVerification.verifySaveButtonEnabled is PASSED
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/saveEquipmentButton' is clickable
+
+2018-11-12 14:40:29 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifySaveButtonEnabled is PASSED
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:40:30 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68844-Verify CarTypes" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68844-Verify CarTypes" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:40:30 - [TEST_CASE][PASSED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68844-Verify CarTypes: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA-US100376/US101665-Add-Validations/TC68844-Verify CarTypes
+
+2018-11-12 14:40:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:30 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:31 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:31 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment: com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:40:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:40:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:33 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:40:33 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:40:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:36 - [TEST_STEP][PASSED] - Statement - actions.selectRandomlyEquipmentType(): Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:40:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:40:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:40:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:38 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:40:38 - [TEST_STEP][PASSED] - Statement - actions.selectRandomCarKind(): Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').innerText' successfully
+
+2018-11-12 14:40:38 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:38 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-12 14:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').innerText' successfully
+
+2018-11-12 14:40:40 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyAarCarTypeList: com.ge.tms.equipment.EquipmentVerification.verifyAarCarTypeList is PASSED
+
+2018-11-12 14:40:40 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:40:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Execute JavaScript 'let aarCarTypeList=[];document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').forEach(node => { aarCarTypeList.push(node.getAttribute('title')) }); return aarCarTypeList' successfully
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyAarCarTypeList is PASSED
+
+2018-11-12 14:40:42 - [TEST_STEP][PASSED] - Statement - actions.clickCancelBtn(): Delayed 2 second(s)
+
+2018-11-12 14:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipCancelBtn' is clicked on
+
+2018-11-12 14:40:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:44 - [TEST_STEP][PASSED] - Statement - actions.clickOnAddNewEquipmentButton(): Delayed 2 second(s)
+
+2018-11-12 14:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:40:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:47 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyCarKindList: com.ge.tms.equipment.EquipmentVerification.verifyCarKindList is PASSED
+
+2018-11-12 14:40:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Execute JavaScript 'let carKindList=[];document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').forEach(node => { carKindList.push(node.getAttribute('title')) }); return carKindList' successfully
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyCarKindList is PASSED
+
+2018-11-12 14:40:49 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyCarKindList: com.ge.tms.equipment.EquipmentVerification.verifyCarKindList is PASSED
+
+2018-11-12 14:40:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').innerText' successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - Execute JavaScript 'let carKindList=[];document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').forEach(node => { carKindList.push(node.getAttribute('title')) }); return carKindList' successfully
+
+2018-11-12 14:40:51 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyCarKindList is PASSED
+
+2018-11-12 14:40:51 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:51 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:40:51 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:40:51 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:52 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:40:52 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536297752777.run(Script1536297752777.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:40:52 - [TEST_CASE][FAILED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536297752777.run(Script1536297752777.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:40:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:52 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:53 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:53 - [TEST_STEP][PASSED] - Statement - actions.clickOnEquipmentManagement(): Delayed 2 second(s)
+
+2018-11-12 14:40:53 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:40:57 - [TEST_STEP][FAILED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_id' is: 'AAR 9491464'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object 'AAR9491464' and expected object 'AAR9491464' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_carkind' is: 'C -Covered hopper cars'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object 'C' and expected object 'C' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_aarcar_type' is: 'C614'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object 'C614' and expected object 'C614' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/build_date' is: '09/01/1996'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '09/01/1996' and expected object '09/01/1996' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/ownership_code' is: 'B - United States'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object 'B' and expected object 'B' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/reflectorization' is: 'P - Plan'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object 'P' and expected object 'P' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/poolnumber' is: '0'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_type' is: 'Railcar'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_type' is: 'Railcar'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_inside_length' is: '--'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_inside_width' is: '--'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_clearance' is: '--'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_capacity_grade' is: '--'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_capacity_loadlimit' is: '--'
+
+2018-11-12 14:40:57 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_airbrake' is: '--'
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_warning_indicator' is: '--'
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/railcar_bearing_brake' is: '--'
+
+2018-11-12 14:40:58 - [MESSAGE][FAILED] - Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+
+2018-11-12 14:40:58 - [MESSAGE][FAILED] - Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:40:52 - [TEST_CASE][FAILED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536297752777.run(Script1536297752777.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment" classname="Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536681803197.run(Script1536681803197.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:40:58 - [TEST_CASE][FAILED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536681803197.run(Script1536681803197.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:40:59 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:40:59 - [TEST_STEP][PASSED] - Statement - actions.clickOnEquipmentManagement(): Delayed 2 second(s)
+
+2018-11-12 14:40:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:41:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:41:01 - [TEST_STEP][PASSED] - Statement - actions.addNewEquipment(): Delayed 2 second(s)
+
+2018-11-12 14:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clicked on
+
+2018-11-12 14:41:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:41:04 - [MESSAGE][PASSED] - Text 'QBNI2' is set on object 'Object Repository/F7174 - Manage Equipment/equipmentIdInputField'
+
+2018-11-12 14:41:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:41:04 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:41:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:41:06 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#equipment-type').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:41:06 - [MESSAGE][PASSED] - Execute JavaScript ' return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:41:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:41:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#car-kind').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').innerText' successfully
+
+2018-11-12 14:41:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:09 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#aar-car-type').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:41:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:41:10 - [MESSAGE][PASSED] - Text 'RHB3ZNR8' is set on object 'Object Repository/F7174 - Manage Equipment/aarMechnanicalTextField'
+
+2018-11-12 14:41:10 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:10 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(11)').click()' successfully
+
+2018-11-12 14:41:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:41:11 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/F7174 - Manage Equipment/poolNumberInputField'
+
+2018-11-12 14:41:11 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#reflectorization').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:12 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#reflectorization').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:41:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:41:13 - [MESSAGE][PASSED] - Text 'WQUVKNRO' is set on object 'Object Repository/F7174 - Manage Equipment/builderCodeInputField'
+
+2018-11-12 14:41:13 - [MESSAGE][PASSED] - Text 'Z7OXRPJA' is set on object 'Object Repository/F7174 - Manage Equipment/hoodTypeInputField'
+
+2018-11-12 14:41:13 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/outsideLengthDimensionInput'
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/outsideWidthDimensionInput'
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/clearanceCodeInput' is clicked on
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Text 'KUHAB' is set on object 'Object Repository/F7174 - Manage Equipment/clearanceCodeInput'
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/F7174 - Manage Equipment/weightCapacityInputField'
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/minSpeedCapacityInputField'
+
+2018-11-12 14:41:14 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/maxSpeedCapacityInputField'
+
+2018-11-12 14:41:15 - [MESSAGE][PASSED] - Text 'ZJSXBII8' is set on object 'Object Repository/F7174 - Manage Equipment/airBrakeInputField'
+
+2018-11-12 14:41:15 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/F7174 - Manage Equipment/gearRatioInputField'
+
+2018-11-12 14:41:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:41:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-12 14:41:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:41:16 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/F7174 - Manage Equipment/fuelCapacityInputField'
+
+2018-11-12 14:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/saveEquipmentButton' is clicked on
+
+2018-11-12 14:41:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:41:18 - [TEST_STEP][PASSED] - Statement - actions.editEquipment(): Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:41:18 - [MESSAGE][PASSED] - Text 'QBNI2' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:42:08 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2018-11-12 14:42:08 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:42:28 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-12 14:42:28 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-actions-dropdown').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:42:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#equipment-actions-dropdown').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:42:29 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:42:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#ownership-code').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(7)').click()' successfully
+
+2018-11-12 14:42:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:42:30 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/F7174 - Manage Equipment/fuelCapacityInputField'
+
+2018-11-12 14:42:30 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:42:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#bearing-or-break').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:42:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:42:31 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/F7174 - Manage Equipment/input_weightondrivers'
+
+2018-11-12 14:42:31 - [MESSAGE][PASSED] - Text '462L' is set on object 'Object Repository/F7174 - Manage Equipment/input_operatingbrake'
+
+2018-11-12 14:42:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-datetime-picker').shadowRoot.querySelector('#field').shadowRoot.querySelector('div > div > #fieldWrapper > #date').shadowRoot.querySelector('#wrapper > div > button > #icon').click()' successfully
+
+2018-11-12 14:42:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-datetime-picker').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > div > button').click()' successfully
+
+2018-11-12 14:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/F7174 - Manage Equipment/saveEquipmentButton' is clicked on
+
+2018-11-12 14:42:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:42:34 - [MESSAGE][PASSED] - Text 'QBNI2' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/F7174 - Manage Equipment/addNewEquipmentButton' is clickable
+
+2018-11-12 14:43:24 - [TEST_STEP][FAILED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView: Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_id' is: 'QBNI 2'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'QBNI2' and expected object 'QBNI2' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_carkind' is: 'D -Locomotive'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'D' and expected object 'D' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_aarcar_type' is: 'D110'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'D110' and expected object 'D110' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/build_date' is: '11/12/2018'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '11/12/2018' and expected object '11/12/2018' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/ownership_code' is: 'K - Canadian Class 3'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'K' and expected object 'K' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/reflectorization' is: 'P - Plan'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'P' and expected object 'P' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/poolnumber' is: '5'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/equipment_type' is: 'Locomotive'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_outside_length' is: '3''
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_outside_width' is: '2''
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/Builder' is: 'WQUVKNRO'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'WQUVKNRO' and expected object 'WQUVKNRO' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/hoodtype' is: 'Z7OXRPJA'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'Z7OXRPJA' and expected object 'Z7OXRPJA' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_clearence' is: 'KUHAB'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'KUHAB' and expected object 'KUHAB' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/weigthondrivers' is: '43'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '43' and expected object '43' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_capacity_speed_minspeed' is: '2'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_capacity_speed_maxspeed' is: '3'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_airbrake' is: 'ZJSXBII8'
+
+2018-11-12 14:43:24 - [MESSAGE][PASSED] - Actual object 'ZJSXBII8' and expected object 'ZJSXBII8' are equal
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_gearratio' is: '2'
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_fuelcapacity' is: '4'
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/loco_bearings_breaks' is: 'A - Plain Bearing'
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Actual object 'A' and expected object 'A' are equal
+
+2018-11-12 14:43:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F7174 - Manage Equipment/operatingbreaks' is: '462L'
+
+2018-11-12 14:43:25 - [MESSAGE][FAILED] - Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+
+2018-11-12 14:43:25 - [MESSAGE][FAILED] - Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+
+2018-11-12 14:43:25 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:25 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:43:25 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:43:25 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:40:58 - [TEST_CASE][FAILED] - Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA - US101666/US95949 - Edit Equipment details/TC68676 - Edit Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '462L' and expected object '462L' (Root cause: java.lang.NumberFormatException)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536681803197.run(Script1536681803197.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100373_Sort Functionality/TC68181 - Sort by EquipID Type and Kind" classname="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100373_Sort Functionality/TC68181 - Sort by EquipID Type and Kind" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:43:26 - [TEST_CASE][PASSED] - Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100373_Sort Functionality/TC68181 - Sort by EquipID Type and Kind: Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100373_Sort Functionality/TC68181 - Sort by EquipID Type and Kind
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:26 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:43:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:27 - [TEST_STEP][PASSED] - Statement - actions.clickOnEquipmentManagement(): Delayed 2 second(s)
+
+2018-11-12 14:43:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:43:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:29 - [TEST_STEP][PASSED] - Statement - actions.sortByTypeDescendingAction(): Delayed 2 second(s)
+
+2018-11-12 14:43:29 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#sort-by-dropdown").shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2").click()' successfully
+
+2018-11-12 14:43:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#root").querySelector(".Sidebar-module_root_3mUZs.flex__item.flex.flex--col > div.flex__item.QueryController-module_root_2pvTU > div.QueryController-module_sortWrapper_30lGN > button > px-icon").click()' successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:33 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:35 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:43:35 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:35 - [TEST_STEP][PASSED] - Statement - actions.sortByEquipmentIDAscendingAction(): Delayed 2 second(s)
+
+2018-11-12 14:43:35 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#sort-by-dropdown").shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1").click()' successfully
+
+2018-11-12 14:43:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:37 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#root").querySelector(".Sidebar-module_root_3mUZs.flex__item.flex.flex--col > div.flex__item.QueryController-module_root_2pvTU > div.QueryController-module_sortWrapper_30lGN > button > px-icon").click()' successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:39 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:39 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:41 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:43:41 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:41 - [TEST_STEP][PASSED] - Statement - actions.sortByKindDescendingAction(): Delayed 2 second(s)
+
+2018-11-12 14:43:41 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#sort-by-dropdown").shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(3").click()' successfully
+
+2018-11-12 14:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:43 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#root").querySelector(".Sidebar-module_root_3mUZs.flex__item.flex.flex--col > div.flex__item.QueryController-module_root_2pvTU > div.QueryController-module_sortWrapper_30lGN > button > px-icon").click()' successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:45 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:47 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-12 14:43:47 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentSorted is PASSED
+
+2018-11-12 14:43:47 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:47 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:43:47 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:43:47 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:48 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:43:48 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100374-Manage Equipments - Filter Functionality/TC68719 - Filter Functionality" classname="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100374-Manage Equipments - Filter Functionality/TC68719 - Filter Functionality" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:43:48 - [TEST_CASE][PASSED] - Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100374-Manage Equipments - Filter Functionality/TC68719 - Filter Functionality: Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100374-Manage Equipments - Filter Functionality/TC68719 - Filter Functionality
+
+2018-11-12 14:43:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:48 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:43:49 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:49 - [TEST_STEP][PASSED] - Statement - actions.clickOnEquipmentManagement(): Delayed 2 second(s)
+
+2018-11-12 14:43:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:51 - [TEST_STEP][PASSED] - Statement - actions.selectCarKindFromFilterMenu(): Delayed 2 second(s)
+
+2018-11-12 14:43:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:43:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:43:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-12 14:43:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').innerText' successfully
+
+2018-11-12 14:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Apply' is clicked on
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:43:58 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:43:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/div_C' is: 'D'
+
+2018-11-12 14:43:59 - [MESSAGE][PASSED] - Actual object 'D' and expected object 'D' are equal
+
+2018-11-12 14:43:59 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:43:59 - [TEST_STEP][PASSED] - Statement - actions.clickOnClearButtonInFilter(): Delayed 2 second(s)
+
+2018-11-12 14:44:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Clear' is clicked on
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:04 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyClearButtonClearTheFilters: com.ge.tms.equipment.EquipmentVerification.verifyClearButtonClearTheFilters is PASSED
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/selected filter box' located by 'By.xpath: id("root")/div[@class="flex flex--col App-module_appRoot_2W_oY"]/div[@class="flex__item App-module_routesRoot_W33fJ"]/section[@class="flex flex__item flex--col"]/section[@class="flex flex--row"]/div[@class="Sidebar-module_root_3mUZs flex__item flex flex--col"]/div[@class="flex__item QueryController-module_root_2pvTU"]/div[@class="flex flex--wrap u-mt"]/px-chip[@class="u-mr"]' is not present after '3' second(s)
+
+2018-11-12 14:44:04 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyClearButtonClearTheFilters is PASSED
+
+2018-11-12 14:44:04 - [TEST_STEP][PASSED] - Statement - actions.selectaarCarTypeFromFilterMenu(): Delayed 2 second(s)
+
+2018-11-12 14:44:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Cancel' is clicked on
+
+2018-11-12 14:44:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:44:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:44:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root').querySelector('#aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:44:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:44:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:44:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:14 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/input_poolNumber'
+
+2018-11-12 14:44:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Apply' is clicked on
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:18 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/span_No equipments available' is: 'No equipments available'
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - Actual object 'No equipments available' and expected object 'No equipments available' are equal
+
+2018-11-12 14:44:18 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:44:18 - [TEST_STEP][PASSED] - Statement - actions.selectCarKindAndPoolNumber(): Delayed 30 second(s)
+
+2018-11-12 14:44:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Clear' is clicked on
+
+2018-11-12 14:44:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-12 14:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').innerText' successfully
+
+2018-11-12 14:44:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:28 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/input_poolNumber'
+
+2018-11-12 14:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Apply' is clicked on
+
+2018-11-12 14:44:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-12 14:45:02 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/span_No equipments available' is: 'No equipments available'
+
+2018-11-12 14:45:03 - [MESSAGE][PASSED] - Actual object 'No equipments available' and expected object 'No equipments available' are equal
+
+2018-11-12 14:45:03 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:45:03 - [TEST_STEP][PASSED] - Statement - actions.selectCarKindAndAARCarType(): Delayed 30 second(s)
+
+2018-11-12 14:45:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Clear' is clicked on
+
+2018-11-12 14:45:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:45:11 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:45:11 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').click()' successfully
+
+2018-11-12 14:45:11 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(4)').innerText' successfully
+
+2018-11-12 14:45:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root').querySelector('#aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:45:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(8)').click()' successfully
+
+2018-11-12 14:45:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(8)').innerText' successfully
+
+2018-11-12 14:45:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Apply' is clicked on
+
+2018-11-12 14:45:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-12 14:45:47 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/AARCarType' is: 'D111'
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/div_C' is: 'D'
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Actual object 'D' and expected object 'D' are equal
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - Actual object 'D111' and expected object 'D111' are equal
+
+2018-11-12 14:45:47 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:45:47 - [TEST_STEP][PASSED] - Statement - actions.selectCarKindAARCarTypePoolNumber(): Delayed 30 second(s)
+
+2018-11-12 14:45:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Clear' is clicked on
+
+2018-11-12 14:45:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:45:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:45:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:45:55 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #carKindType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(2)').innerText' successfully
+
+2018-11-12 14:45:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root').querySelector('#aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector').querySelectorAll('.dropdown-option').length' successfully
+
+2018-11-12 14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(6)').click()' successfully
+
+2018-11-12 14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#root #aarCarType').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown').querySelector('#selector > div:nth-child(6)').innerText' successfully
+
+2018-11-12 14:45:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/button_Apply' is clicked on
+
+2018-11-12 14:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:46:31 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-12 14:46:31 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:46:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13151 - Search sort filter Equipment/Page_Transportation Management Syst/span_No equipments available' is: 'No equipments available'
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - Actual object 'No equipments available' and expected object 'No equipments available' are equal
+
+2018-11-12 14:46:32 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentFilterFunctionality is PASSED
+
+2018-11-12 14:46:32 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:32 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:46:32 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:46:32 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68291-Search Equipments" classname="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68291-Search Equipments" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:46:33 - [TEST_CASE][PASSED] - Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68291-Search Equipments: Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68291-Search Equipments
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:46:34 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment: com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:46:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:46:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:46:36 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:46:36 - [TEST_STEP][PASSED] - Statement - actions.generateRandomEquipmentID(): null
+
+2018-11-12 14:46:36 - [TEST_STEP][PASSED] - Statement - actions.setequipmentIDToSearchPane(randomEquipmentID): Delayed 55 second(s)
+
+2018-11-12 14:46:36 - [MESSAGE][PASSED] - Text 'AARE5814757' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Delayed 55 second(s)
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentID: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentID is PASSED
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/carIDRightPane' is: 'AARE 5814757'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Actual object 'AARE5814757' and expected object 'AARE5814757' are equal
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentID is PASSED
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentRecord: com.ge.tms.equipment.EquipmentVerification.verifyEquipmentRecord is PASSED
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/noEquipmentMessage' is: 'AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K
+AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K
+AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K
+AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K
+AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K
+AARE 5814757
+1979
+AAR TYPE
+K284
+KIND
+K'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/rightPaneCarKind' is: 'K -'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/rightPaneARRCarType' is: 'K284'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/rightPaneARRMechDesig' is: 'HMA'
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Actual object 'AARE5814757' and expected object 'AARE5814757' are equal
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Actual object 'K284' and expected object 'K284' are equal
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Actual object 'K' and expected object 'K' are equal
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - Actual object 'HMA' and expected object 'HMA' are equal
+
+2018-11-12 14:47:31 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyEquipmentRecord is PASSED
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:32 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:47:32 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68293-Verify Invalid Equipment Error" classname="Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68293-Verify Invalid Equipment Error" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:47:32 - [TEST_CASE][PASSED] - Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68293-Verify Invalid Equipment Error: Test Cases/Equipment/F13151- Search Sort Filter Equipment/US100372-Search Equipments/TC68293-Verify Invalid Equipment Error
+
+2018-11-12 14:47:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:32 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:47:33 - [TEST_STEP][PASSED] - Statement - util = new com.ge.tms.util.CommonUtilities(): Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.EquipmentActions(): Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:47:33 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment: com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:47:33 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("px-app-nav").shadowRoot.querySelector("#items > px-app-nav-group:nth-child(13) > px-app-nav-subitem:nth-child(3)").click()' successfully
+
+2018-11-12 14:47:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:47:35 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnManageEquipment is PASSED
+
+2018-11-12 14:47:35 - [TEST_STEP][PASSED] - Statement - actions.setequipmentIDToSearchPane(INVALID_EQUIPMENTID): Delayed 55 second(s)
+
+2018-11-12 14:47:36 - [MESSAGE][PASSED] - Text '@ijdj8' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Delayed 55 second(s)
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyNoequipmentMessage: com.ge.tms.equipment.EquipmentVerification.verifyNoequipmentMessage is PASSED
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Manage Equipments/noEquipmentMessage' is: 'No equipments available'
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - Actual object 'No equipments available' and expected object 'No equipments available' are equal
+
+2018-11-12 14:48:31 - [MESSAGE][PASSED] - com.ge.tms.equipment.EquipmentVerification.verifyNoequipmentMessage is PASSED
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:48:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:48:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:48:32 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:48:32 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:37:45 - [TEST_SUITE][FAILED] - Manage Equipment Test Suite: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536297752777.run(Script1536297752777.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-12 14:37:45 - [TEST_SUITE][FAILED] - Manage Equipment Test Suite: Test Cases/Equipment/F7174 - Manage Equipment Functionality/QA- US100375/US87994 - Add Equipment/TC68174 - View Equipment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '-' and expected object 'R' (Root cause: Actual object '-' and expected object 'R' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.equipment.EquipmentVerification.verifyEquipmentDataInView(EquipmentVerification.groovy:250)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.equipment.EquipmentVerification.invokeMethod(EquipmentVerification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536297752777.run(Script1536297752777.groovy:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290031.run(TempTestSuite1542012290031.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

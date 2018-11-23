@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC64738 - Validate Mandatory Fields in Edit Zone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6aa50c2b-a3ab-4a59-8e92-8104b95b118d</testCaseGuid>
+</TestCaseEntity>

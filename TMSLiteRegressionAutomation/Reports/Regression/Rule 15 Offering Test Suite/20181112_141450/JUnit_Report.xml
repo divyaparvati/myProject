@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rule 15 Offering Test Suite" time="286" tests="7" failures="2" errors="0">
+   <testsuite name="Rule 15 Offering Test Suite" tests="7" failures="2" errors="0" time="286" timestamp="2018-11-12 14:32:54" hostname="priyanga - 10.185.118.121" id="Test Suites/Regression/Rule 15 Offering Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_141450"/>
+         <property name="logFiles" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_141450/execution0.log"/>
+         <property name="attachments" value="/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_141450/1542013587368.png"/>
+         <property name="hostName" value="priyanga - 10.185.118.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.185.118.121"/>
+         <property name="sessionId" value="5d2773ac068cbe1176ed552e455f9560"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:33:27 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering
+
+2018-11-12 14:33:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:33:27 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:33:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:33:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:33:28 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:33:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:33:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:33:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:33:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:33:50 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:33:50 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:33:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:33:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:33:55 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:33:55 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:33:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:33:58 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:33:58 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:33:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:33:59 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:33:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:33:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:33:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:33:59 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:34:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:34:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:34:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:34:01 - [MESSAGE][PASSED] - Text 'CV1SNJI4X' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:34:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:34:02 - [MESSAGE][PASSED] - Text 'IvpumQ' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:34:02 - [MESSAGE][PASSED] - Text 'jARH' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:34:02 - [MESSAGE][PASSED] - Text '746771079' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:34:02 - [MESSAGE][PASSED] - Text 'FbsCb' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:34:03 - [MESSAGE][PASSED] - Text 'JZmY' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:34:03 - [MESSAGE][PASSED] - Text '605685387' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:34:05 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage: com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage is PASSED
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/rule15ConfirmationMessage' is: 'You are about to send a rule 15 offering for Train CV1SNJI4X to Railroad AKMD. Do you want to continue ?'
+
+2018-11-12 14:34:05 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage is PASSED
+
+2018-11-12 14:34:05 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:34:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:08 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:34:09 - [MESSAGE][PASSED] - Text 'CV1SNJI4X' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:34:12 - [TEST_STEP][PASSED] - Statement - responseObject = actions.getOfferingDetails(rule15TrainId): Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'CV1SNJI4X'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'CV1SNJI4X' and expected object 'CV1SNJI4X' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '11/12/2018'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object '11/12/2018' and expected object '11/12/2018' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '14:33'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object '14:33' and expected object '14:33' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'IvpumQ jARH'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'IvpumQ jARH' and expected object 'IvpumQ jARH' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: 'VXOYLK0'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'VXOYLK0' and expected object 'VXOYLK0' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'CV1SNJI4X'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'CV1SNJI4X' and expected object 'CV1SNJI4X' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/11/12'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object '18/11/12' and expected object '18/11/12' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '14:33'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object '14:33' and expected object '14:33' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4066'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '0'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '1'
+
+2018-11-12 14:34:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '1'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'IvpumQ jARH'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object 'IvpumQ jARH' and expected object 'IvpumQ jARH' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '746771079'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object '746771079' and expected object '746771079' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'AKMD'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object 'AKMD' and expected object 'AKMD' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object 'GRN 4066' and expected object 'GRN 4066' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - Actual object 'E' and expected object 'E' are equal
+
+2018-11-12 14:34:13 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:34:13 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:13 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:34:13 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:34:13 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:14 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:34:14 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings" classname="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:34:14 - [TEST_CASE][PASSED] - Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings: Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings
+
+2018-11-12 14:34:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:14 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:15 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:15 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - Statement - actualHeaderText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader)): Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader' is: 'Rule 15 Offerings'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader' is: 'Rule 15 Offerings'
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Rule 15 Offerings' and expected object 'Rule 15 Offerings' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'Rule 15 Offerings' and expected object 'Rule 15 Offerings' are equal
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/actionDropdown' is clickable
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/actionDropdown' is clickable
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - Statement - trainID = CustomKeywords.com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane(): com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane is PASSED
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'XZ2QT4XDE'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane is PASSED
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - Statement - responseObject = rule15Action.getOfferingDetails(trainID): Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'XZ2QT4XDE'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'XZ2QT4XDE' and expected object 'XZ2QT4XDE' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '10/05/2018'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object '10/05/2018' and expected object '10/05/2018' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '15:30'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object '15:30' and expected object '15:30' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'SHFZSX QuUG'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'SHFZSX QuUG' and expected object 'SHFZSX QuUG' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: '96WZEAE'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object '96WZEAE' and expected object '96WZEAE' are equal
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'XZ2QT4XDE'
+
+2018-11-12 14:34:17 - [MESSAGE][PASSED] - Actual object 'XZ2QT4XDE' and expected object 'XZ2QT4XDE' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/10/05'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object '18/10/05' and expected object '18/10/05' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '15:30'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object '15:30' and expected object '15:30' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4066'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '0'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '1'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '1'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'SHFZSX QuUG'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'SHFZSX QuUG' and expected object 'SHFZSX QuUG' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '104653593'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object '104653593' and expected object '104653593' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'ALT'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'ALT' and expected object 'ALT' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'GRN 4066' and expected object 'GRN 4066' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - Actual object 'E' and expected object 'E' are equal
+
+2018-11-12 14:34:18 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:34:18 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:18 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:34:18 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:34:18 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:19 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:34:19 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search" classname="Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:34:19 - [TEST_CASE][PASSED] - Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search: Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search
+
+2018-11-12 14:34:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:19 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:20 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:22 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(EQUIPMENT_ID): Text 'EquipmentID' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Text 'EquipmentID' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:22 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound: com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound is PASSED
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:22 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/div_No Rule15 Offerings found' is: 'No Rule15 Offerings found'
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Actual object 'No Rule15 Offerings found' and expected object 'No Rule15 Offerings found' are equal
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound is PASSED
+
+2018-11-12 14:34:27 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(TRAIN_ID): Text 'HJK123' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Text 'HJK123' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:27 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyTrainID: com.ge.tms.rule15.Rule15Verification.verifyTrainID is PASSED
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:27 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/TrainID_rightPane' is: 'HJK123'
+
+2018-11-12 14:34:28 - [MESSAGE][PASSED] - Actual object 'HJK123' and expected object 'HJK123' are equal
+
+2018-11-12 14:34:28 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyTrainID is PASSED
+
+2018-11-12 14:34:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:34:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:30 - [TEST_STEP][PASSED] - Statement - actions.setValueInSearchfield(STATION_ID): Text 'CLKPHRG' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:30 - [MESSAGE][PASSED] - Text 'CLKPHRG' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:32 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyStationID: com.ge.tms.rule15.Rule15Verification.verifyStationID is PASSED
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/sattion_ID' is: 'CLKPHRG'
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - Actual object 'CLKPHRG' and expected object 'CLKPHRG' are equal
+
+2018-11-12 14:34:32 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyStationID is PASSED
+
+2018-11-12 14:34:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-12 14:34:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:34 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:34 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:34:34 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:34:34 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:35 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:34:35 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15(Rule15Verification.groovy:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538122128095.run(Script1538122128095.groovy:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:34:35 - [TEST_CASE][FAILED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15(Rule15Verification.groovy:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538122128095.run(Script1538122128095.groovy:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:34:35 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:35 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:36 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:38 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:38 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:34:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:34:39 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:34:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:34:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:34:39 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:34:39 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:34:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:41 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:34:41 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:34:41 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:34:42 - [MESSAGE][PASSED] - Text 'G9ZTTAN5F' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:34:42 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:34:42 - [MESSAGE][PASSED] - Text 'QVvaKM' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:34:42 - [MESSAGE][PASSED] - Text 'SffI' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:34:42 - [MESSAGE][PASSED] - Text '220991203' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:34:43 - [MESSAGE][PASSED] - Text 'ZkTiH' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:34:43 - [MESSAGE][PASSED] - Text 'WdBs' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:34:43 - [MESSAGE][PASSED] - Text '913035224' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:34:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:34:45 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:34:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:34:48 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:34:48 - [MESSAGE][PASSED] - Text 'G9ZTTAN5F' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:34:51 - [TEST_STEP][PASSED] - Statement - actions.clickOnActions(): Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:34:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:34:51 - [TEST_STEP][PASSED] - Statement - actions.selectResendOfferInActionsDropdown(): Delayed 1 second(s)
+
+2018-11-12 14:34:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:34:53 - [TEST_STEP][PASSED] - Statement - actions.resendRule15Offer(): Text '1' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/trainNumberInputField' is clicked on
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/trainNumberInputField' is cleared
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Text '2BZGPCER6' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/authorizationInputField' is clicked on
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/authorizationInputField' is cleared
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:34:53 - [TEST_STEP][PASSED] - Statement - actions.clickOnCancelButtonInRule15(): Delayed 1 second(s)
+
+2018-11-12 14:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/cancelButtonInRule15Offer' is clicked on
+
+2018-11-12 14:34:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:34:54 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:34:54 - [MESSAGE][PASSED] - Text 'G9ZTTAN5F' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:34:57 - [TEST_STEP][FAILED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:34:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'PWSBEVG7W'
+
+2018-11-12 14:34:57 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+
+2018-11-12 14:34:57 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+
+2018-11-12 14:34:57 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:34:57 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:34:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:34:58 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:34:35 - [TEST_CASE][FAILED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15(Rule15Verification.groovy:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538122128095.run(Script1538122128095.groovy:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer" classname="Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:34:58 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer
+
+2018-11-12 14:34:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:34:59 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:34:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:35:01 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:01 - [TEST_STEP][PASSED] - Statement - actions.clickOnCreateNewRule15OfferingButton(): Delayed 1 second(s)
+
+2018-11-12 14:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createNewRuleOfferButton' is clicked on
+
+2018-11-12 14:35:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:35:02 - [TEST_STEP][PASSED] - Statement - actions.addValuesToCreateNewRule15Offering(): Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:35:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:35:03 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:35:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-railroad').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:35:03 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-railroad').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#label').innerHTML' successfully
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#trigger').click()' successfully
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#to-station').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Text 'EP4CVUJJH' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:35:05 - [MESSAGE][PASSED] - Text 'CjHckF' is set on object 'Object Repository/Rule15 Offerings/offeringRoadFirstNameInputField'
+
+2018-11-12 14:35:06 - [MESSAGE][PASSED] - Text 'eltc' is set on object 'Object Repository/Rule15 Offerings/offeringRoadLastNameInputField'
+
+2018-11-12 14:35:06 - [MESSAGE][PASSED] - Text '405053794' is set on object 'Object Repository/Rule15 Offerings/offeringRoadTelephoneInputField'
+
+2018-11-12 14:35:06 - [MESSAGE][PASSED] - Text 'aEwEg' is set on object 'Object Repository/Rule15 Offerings/receivingRoadFirstNameInputField'
+
+2018-11-12 14:35:06 - [MESSAGE][PASSED] - Text 'PQMT' is set on object 'Object Repository/Rule15 Offerings/receivingRoadLastNameInputField'
+
+2018-11-12 14:35:06 - [MESSAGE][PASSED] - Text '498275817' is set on object 'Object Repository/Rule15 Offerings/receivingRoadTelephoneInputField'
+
+2018-11-12 14:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/continueButtonInCreateNewRule15' is clicked on
+
+2018-11-12 14:35:09 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:35:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:11 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15TrainId): Delayed 3 second(s)
+
+2018-11-12 14:35:12 - [MESSAGE][PASSED] - Text 'EP4CVUJJH' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:35:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:35:15 - [TEST_STEP][PASSED] - Statement - actions.clickOnActions(): Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:35:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:35:15 - [TEST_STEP][PASSED] - Statement - actions.selectResendOfferInActionsDropdown(): Delayed 1 second(s)
+
+2018-11-12 14:35:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-12 14:35:16 - [TEST_STEP][PASSED] - Statement - actions.resendRule15Offer(): Text '5' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/trainNumberInputField' is clicked on
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/trainNumberInputField' is cleared
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Text '5UPUZY34W' is set on object 'Object Repository/Rule15 Offerings/trainNumberInputField'
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/authorizationInputField' is clicked on
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Rule15 Offerings/authorizationInputField' is cleared
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Rule15 Offerings/authorizationInputField'
+
+2018-11-12 14:35:16 - [TEST_STEP][PASSED] - Statement - actions.clickOnNextButton(): Delayed 2 second(s)
+
+2018-11-12 14:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/createOfferingNextButton' is clicked on
+
+2018-11-12 14:35:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:18 - [TEST_STEP][PASSED] - Statement - actions.clickOnSendRule15Offering(): Delayed 2 second(s)
+
+2018-11-12 14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/sendButtonInConfirmationMsg' is clicked on
+
+2018-11-12 14:35:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:21 - [TEST_STEP][PASSED] - Statement - actions.searchByTrainId(rule15EditedTrainId): Delayed 3 second(s)
+
+2018-11-12 14:35:22 - [MESSAGE][PASSED] - Text '5UPUZY34W' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15: com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: '5UPUZY34W'
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Actual object '5UPUZY34W' and expected object '5UPUZY34W' are equal
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '5'
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+2018-11-12 14:35:25 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15 is PASSED
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings" classname="Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:35:26 - [TEST_CASE][PASSED] - Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings: Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - Statement - action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:26 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:26 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:35:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:35:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:29 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:35:29 - [TEST_STEP][PASSED] - Statement - action.addCarsAndResend(): Delayed 2 second(s)
+
+2018-11-12 14:35:29 - [MESSAGE][PASSED] - Text 'MMMMMMMM' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:35:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:35:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('#trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:35:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#rule15-actions-dropdown').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:35:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/selectAllEquipment' is clicked on
+
+2018-11-12 14:35:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/selectAllEquipment' is clicked on
+
+2018-11-12 14:35:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/addCarsContinueBtn' is clicked on
+
+2018-11-12 14:35:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/confirmationSendButton' is clicked on
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:42 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs: com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs is PASSED
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:42 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs is PASSED
+
+2018-11-12 14:35:42 - [TEST_STEP][PASSED] - Statement - action.searchByTrainId(randomConsistTrainId): Delayed 3 second(s)
+
+2018-11-12 14:35:43 - [MESSAGE][PASSED] - Text 'MMMMMMMM' is set on object 'Object Repository/F12441 - Rule15/Page_Transportation Management Syst/Rule15_SearchField'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-12 14:35:46 - [TEST_STEP][PASSED] - Statement - responseObject = action.getOfferingDetails(randomConsistTrainId): Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering: com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/selectedTrainId' is: 'MMMMMMMM'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'MMMMMMMM' and expected object 'MMMMMMMM' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/date' is: '09/19/2018'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object '09/19/2018' and expected object '09/19/2018' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/time' is: '11:49'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object '11:49' and expected object '11:49' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/status' is: 'Offered'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringOfficer' is: 'eeeeee rrrrrr'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'eeeeee rrrrrr' and expected object 'eeeeee rrrrrr' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringType' is: 'Outbound'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'OUTBOUND' and expected object 'OUTBOUND' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/station' is: '96WZEAE'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object '96WZEAE' and expected object '96WZEAE' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/trainIDRightPane' is: 'MMMMMMMM'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'MMMMMMMM' and expected object 'MMMMMMMM' are equal
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/road' is: 'AM'
+
+2018-11-12 14:35:46 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offerDateRightPane' is: '18/09/19'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object '18/09/19' and expected object '18/09/19' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/timeRightPane' is: '11:49'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object '11:49' and expected object '11:49' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/rule15StatusRightPane' is: 'Offered'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'OFFERED' and expected object 'OFFERED' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/leadCar' is: 'GRN 4062'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/loadRightPane' is: '1'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/mtsRightPane' is: '0'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/ttsRightPane' is: '1'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRoadRightPane' is: 'AM'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'AM' and expected object 'AM' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/authNumberRightPane' is: '--'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object '--' and expected object '--' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/officerRightPane' is: 'eeeeee rrrrrr'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'eeeeee rrrrrr' and expected object 'eeeeee rrrrrr' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/offeringRRPhoneNoRightPane' is: '34242443'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object '34242443' and expected object '34242443' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/responsibleRoadRightPane' is: 'ALT'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'ALT' and expected object 'ALT' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/paginationText' is: '1-1 of 1'
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'GRN 4062' and expected object 'GRN 4062' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - Actual object 'L' and expected object 'L' are equal
+
+2018-11-12 14:35:47 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyRule15Offering is PASSED
+
+2018-11-12 14:35:47 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:47 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:35:47 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:35:47 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:48 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:35:48 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.rule15.Rule15Verification.verifyFilteredResults(Rule15Verification.groovy:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1537773559197.run(Script1537773559197.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-12 14:35:48 - [TEST_CASE][FAILED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.rule15.Rule15Verification.verifyFilteredResults(Rule15Verification.groovy:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1537773559197.run(Script1537773559197.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-12 14:35:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:48 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:35:49 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:49 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:35:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:35:51 - [TEST_STEP][PASSED] - Statement - rule15Action.selectFilterOptions(): Delayed 2 second(s)
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:35:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(1)').click()' successfully
+
+2018-11-12 14:35:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_apply_button' is clicked on
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:35:55 - [TEST_STEP][FAILED] - com.ge.tms.rule15.Rule15Verification.verifyFilteredResults: Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:35:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:27 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/priyanga/TMS_QA_AUTOMATION/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Rule 15 Offering Test Suite/20181112_141450/1542013587368.png]]
+
+2018-11-12 14:36:27 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+
+2018-11-12 14:36:27 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:27 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:36:27 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:36:27 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:28 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:36:28 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-12 14:35:48 - [TEST_CASE][FAILED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Rule15 Offerings/offeringtype_UI' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '1178578-C02PQD87G8WP', ip: '10.185.118.121', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/v8/f0z37r110rl...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: ffc6e7830c92a4df3ca77ab649550868
+*** Element info: {Using=xpath, value=})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ge.tms.rule15.Rule15Verification.verifyFilteredResults(Rule15Verification.groovy:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1537773559197.run(Script1537773559197.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:36:28 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter
+
+2018-11-12 14:36:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:28 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:36:29 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:36:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:36:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:36:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:36:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:36:54 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:36:54 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:36:59 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:36:59 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:36:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:37:01 - [TEST_STEP][PASSED] - Statement - rule15Action.selectFilterOptionsAndCancel(): Object: 'Object Repository/Rule15 Offerings/filter_cancel_button' is clicked on
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:37:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:37:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:37:03 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_cancel_button' is clicked on
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence: com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Rule15 Offerings/filter_chip' located by 'By.xpath: .//px-chip' is not present after '5' second(s)
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter" classname="Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter" status="PASSED">
+         <system-out><![CDATA[2018-11-12 14:37:04 - [TEST_CASE][PASSED] - Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter: Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:05 - [TEST_STEP][PASSED] - com.ge.tms.util.CommonUtilities.login: com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:37:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 14:37:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 14:37:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2018-11-12 14:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/button_Login' is clicked on
+
+2018-11-12 14:37:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-12 14:37:28 - [MESSAGE][PASSED] - Text 'testuser1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_username'
+
+2018-11-12 14:37:28 - [MESSAGE][PASSED] - Text 'Testuser@1' is set on object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/input_password'
+
+2018-11-12 14:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_Sign In with Auth0/span_Log In' is clicked on
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Object 'Object Repository/F10740-F10745-Authentication-Authorization/QA-US83167/US80752-Require Login to view Sinharaja Page/LoginPage/Page_TMSlite/HelloText' is present
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.login is PASSED
+
+2018-11-12 14:37:33 - [TEST_STEP][PASSED] - Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(): Send request successfully
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:33 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab: com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:37:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(7) > px-app-nav-subitem:nth-child(2)').click()' successfully
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab is PASSED
+
+2018-11-12 14:37:36 - [TEST_STEP][PASSED] - Statement - rule15Action.clearTheAppliedFilter(): Object: 'Object Repository/Rule15 Offerings/filter_clear_button' is clicked on
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').click()' successfully
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelectorAll('#dropdown > div > #selector > div').length' successfully
+
+2018-11-12 14:37:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#offeringType').shadowRoot.querySelector('px-overlay-content > #content').shadowRoot.querySelector('#dropdown > div > #selector > div:nth-child(2)').click()' successfully
+
+2018-11-12 14:37:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:37:38 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelector('#offeringType').shadowRoot.querySelector('#target > #triggerSlot > #trigger').shadowRoot.querySelector('#trigger > #label').innerHTML' successfully
+
+2018-11-12 14:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_apply_button' is clicked on
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter-button' is clicked on
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule15 Offerings/filter_clear_button' is clicked on
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence: com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Rule15 Offerings/filter_chip' located by 'By.xpath: .//px-chip' is not present after '5' second(s)
+
+2018-11-12 14:37:40 - [MESSAGE][PASSED] - com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence is PASSED
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-12 14:37:41 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-12 14:37:41 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 14:32:54 - [TEST_SUITE][FAILED] - Rule 15 Offering Test Suite: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15(Rule15Verification.groovy:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538122128095.run(Script1538122128095.groovy:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-12 14:32:54 - [TEST_SUITE][FAILED] - Rule 15 Offering Test Suite: Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' (Root cause: Actual object 'PWSBEVG7W' and expected object 'G9ZTTAN5F' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15(Rule15Verification.groovy:528)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ge.tms.rule15.Rule15Verification.invokeMethod(Rule15Verification.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538122128095.run(Script1538122128095.groovy:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542012290006.run(TempTestSuite1542012290006.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

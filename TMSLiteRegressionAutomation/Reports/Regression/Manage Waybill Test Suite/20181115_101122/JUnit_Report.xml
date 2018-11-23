@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manage Waybill Test Suite" time="155" tests="2" failures="6" errors="0">
+   <testsuite name="Manage Waybill Test Suite" tests="2" failures="6" errors="0" time="155" timestamp="2018-11-15 10:11:24" hostname="ramesh - 192.168.0.3" id="Test Suites/Regression/Manage Waybill Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181115_101122"/>
+         <property name="logFiles" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181115_101122/execution0.log"/>
+         <property name="attachments" value="/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181115_101122/1542256964628.png"/>
+         <property name="hostName" value="ramesh - 192.168.0.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.3"/>
+         <property name="sessionId" value="259eb499046e858393cf989b86a09044"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill" classname="Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)"/>
+         <system-out><![CDATA[2018-11-15 10:11:51 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)
+
+2018-11-15 10:11:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:51 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:52 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:11:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:11:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:11:54 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:11:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:11:56 - [TEST_STEP][PASSED] - Statement - waybillVerification = new com.ge.tms.waybillVerify.WaybillVerification(): Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [TEST_STEP][PASSED] - Statement - waybillData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/WayBillServices/GETPARTICULARWAYBILL, [waybillnumber:waybillVerification.actualWaybillNumber])): Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize is PASSED
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillSize is PASSED
+
+2018-11-15 10:11:56 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillOverViewTabDetails: Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:11:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:11:57 - [MESSAGE][PASSED] - Actual object '808404' and expected object '808404' are equal
+
+2018-11-15 10:11:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carid_rightpane' is: '--'
+
+2018-11-15 10:11:57 - [MESSAGE][FAILED] - Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)
+
+2018-11-15 10:11:57 - [MESSAGE][FAILED] - Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)
+
+2018-11-15 10:11:57 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:11:57 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:11:57 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:11:51 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions" classname="Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)"/>
+         <system-out><![CDATA[2018-11-15 10:11:58 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions: Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions FAILED because (of) Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:11:58 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:11:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown: com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown is PASSED
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[2].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnWaybillActionsDropdown is PASSED
+
+2018-11-15 10:12:01 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillActionsDropdown: Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll("#root px-dropdown")[2].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").innerHTML' successfully
+
+2018-11-15 10:12:01 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-15 10:12:01 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:02 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:12:02 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:11:58 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions: Test Cases/Waybill/F10684-View Waybill/QA-US83754/US80803-Enable Waybill Actions dropdown/TC59595-Waybill Actions FAILED because (of) Unable to verify match between actual text 'Edit' and expected text 'Load Car' (Root cause: Actual text 'Edit' and expected text 'Load Car' are not matched)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)"/>
+         <system-out><![CDATA[2018-11-15 10:12:02 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill FAILED because (of) Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)
+
+2018-11-15 10:12:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:02 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:03 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:12:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:12:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:05 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:12:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:12:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:07 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu: com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-15 10:12:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-15 10:12:09 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:09 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:12:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:11 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:12:11 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:11 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-15 10:12:11 - [TEST_STEP][PASSED] - Statement - actions.setTextForSearch(CustomKeywords.com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI()): Text 'null' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI is PASSED
+
+2018-11-15 10:12:11 - [MESSAGE][PASSED] - Text 'null' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:13 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord: Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - com.ge.tms.util.CommonUtilities.getFirstCarIDFromAPI is PASSED
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:45 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)
+[[ATTACHMENT|/Users/ramesh/Documents/automation/Automation-14112018/tms-qa-automation/TMSLiteRegressionAutomation/Reports/Regression/Manage Waybill Test Suite/20181115_101122/1542256964628.png]]
+
+2018-11-15 10:12:45 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)
+
+2018-11-15 10:12:45 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:12:45 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:12:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:12:46 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:12:02 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/TC59661 - Search Waybill FAILED because (of) Unable to get text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' located by 'By.xpath: //*[contains(@data-testid,'waybill-item-')]//following::span[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84856/TC60009 - Negative-Scenario-Waybill-Search" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84856/TC60009 - Negative-Scenario-Waybill-Search" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:12:46 - [TEST_CASE][PASSED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84856/TC60009 - Negative-Scenario-Waybill-Search: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US84856/TC60009 - Negative-Scenario-Waybill-Search
+
+2018-11-15 10:12:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:46 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:47 - [TEST_STEP][PASSED] - Statement - searchString = "Search": null
+
+2018-11-15 10:12:47 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu: com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-15 10:12:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:12:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:49 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickWayBillManagementTabInMainMenu is PASSED
+
+2018-11-15 10:12:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:51 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#search-criteria-dropdown").shadowRoot.querySelector("#trigger").shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:51 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div').click()' successfully
+
+2018-11-15 10:12:51 - [TEST_STEP][PASSED] - Statement - setTextForSearch(searchString): null
+
+2018-11-15 10:12:51 - [TEST_STEP][PASSED] - setText: Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:51 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched: com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/ErrorMessegeForSearch' is: 'No waybills found. Check your search criteria.'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Actual object 'No waybills found. Check your search criteria.' and expected object 'No waybills found. Check your search criteria.' are equal
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - Statement - setTextForSearch(searchString): null
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - setText: Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched: com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/ErrorMessegeForSearch' is: 'No waybills found. Check your search criteria.'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Actual object 'No waybills found. Check your search criteria.' and expected object 'No waybills found. Check your search criteria.' are equal
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(3)').click()' successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(3)').click()' successfully
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - Statement - setTextForSearch(searchString): null
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - setText: Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched: com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/ErrorMessegeForSearch' is: 'No waybills found. Check your search criteria.'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Actual object 'No waybills found. Check your search criteria.' and expected object 'No waybills found. Check your search criteria.' are equal
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(4)').click()' successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(4)').click()' successfully
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - Statement - setTextForSearch(searchString): null
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - setText: Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched: com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/ErrorMessegeForSearch' is: 'No waybills found. Check your search criteria.'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Actual object 'No waybills found. Check your search criteria.' and expected object 'No waybills found. Check your search criteria.' are equal
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(5)').click()' successfully
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#search-criteria-dropdown').shadowRoot.querySelector('#content').shadowRoot.querySelector('#dropdown > div #selector > div:nth-child(5)').click()' successfully
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - Statement - setTextForSearch(searchString): null
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - setText: Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [MESSAGE][PASSED] - Text 'Search' is set on object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/serachfield_waybill_id'
+
+2018-11-15 10:12:52 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched: com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/ErrorMessegeForSearch' is: 'No waybills found. Check your search criteria.'
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Actual object 'No waybills found. Check your search criteria.' and expected object 'No waybills found. Check your search criteria.' are equal
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyNoSearchMatched is PASSED
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)"/>
+         <system-out><![CDATA[2018-11-15 10:12:53 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill FAILED because (of) Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:12:54 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:12:55 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:12:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:57 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:12:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:12:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-15 10:12:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-15 10:12:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:12:59 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:12:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-15 10:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-15 10:12:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:01 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:13:01 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(4) > span").click()' successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(4) > span").click()' successfully
+
+2018-11-15 10:13:01 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort: com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-15 10:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-15 10:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA- US85913/US80796 - Sort WayBills in a List/Ascending_Descending_Button_waybill' is clicked on
+
+2018-11-15 10:13:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:03 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort: com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCommoditySort is PASSED
+
+2018-11-15 10:13:04 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(3) > span").click()' successfully
+
+2018-11-15 10:13:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(3) > span").click()' successfully
+
+2018-11-15 10:13:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-15 10:13:05 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIdSort: Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:05 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-15 10:13:05 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)
+
+2018-11-15 10:13:05 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:05 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:13:05 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:13:05 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:06 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:13:06 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:12:53 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US85913/US80796-Sort WayBills in a List/TC60446 - SortWaybill FAILED because (of) Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: Actual object 'true' and expected object 'false' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)"/>
+         <system-out><![CDATA[2018-11-15 10:13:06 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill FAILED because (of) Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-15 10:13:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:06 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:07 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:07 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:09 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:11 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:13:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:13 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:13 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchDropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:13 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:15 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchCarID(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-15 10:13:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-15 10:13:15 - [TEST_STEP][PASSED] - Statement - actions.setRandomCarIDForSearch(): Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-15 10:13:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-15 10:13:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:17 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilter(): null
+
+2018-11-15 10:13:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:19 - [TEST_STEP][PASSED] - Statement - actions.selectEmptyfromwaybillLE(): Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:19 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:19 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilterApply(): Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:21 - [TEST_STEP][PASSED] - Statement - If (actions.GetNoresultText() != WAYBILL_MESSAGE_NO_SEARCH_CRITERIA): com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-15 10:13:21 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:23 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Actual object 'EMPTY' and expected object 'EMPTY' are equal
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-15 10:13:24 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSortdropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:24 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:26 - [TEST_STEP][PASSED] - Statement - actions.setWaybillnumbersortdropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-15 10:13:26 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[1].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(2) > span").click()' successfully
+
+2018-11-15 10:13:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillNumberSort is PASSED
+
+2018-11-15 10:13:28 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyCarIDFirstRecord: Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carId_leftpane' is: '#817108'
+
+2018-11-15 10:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US84159/US80793 - Search Waybill/waybill_carid_rightpane' is: '--'
+
+2018-11-15 10:13:28 - [MESSAGE][FAILED] - Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-15 10:13:28 - [MESSAGE][FAILED] - Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:29 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:13:29 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:13:06 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC66897-Additional Search for waybill FAILED because (of) Unable to verify equal between actual object '#817108' and expected object '' (Root cause: Actual object '#817108' and expected object '' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC67197-Verify message for no record found" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC67197-Verify message for no record found" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:13:29 - [TEST_CASE][PASSED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC67197-Verify message for no record found: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US88052/TC67197-Verify message for no record found
+
+2018-11-15 10:13:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:29 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:30 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:13:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:32 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:34 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:34 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchDropdown(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#trigger").click()' successfully
+
+2018-11-15 10:13:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:36 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillSearchCarID(): Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-15 10:13:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelectorAll("#root px-dropdown")[0].shadowRoot.querySelector("#content").shadowRoot.querySelector("#selector > div:nth-child(1) > span").click()' successfully
+
+2018-11-15 10:13:36 - [TEST_STEP][PASSED] - Statement - actions.setRandomCarIDForSearch(): Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-15 10:13:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CommonObjects/searchTextBoxLeftNav'
+
+2018-11-15 10:13:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:38 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilter(): null
+
+2018-11-15 10:13:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:41 - [TEST_STEP][PASSED] - Statement - actions.setInvalidCommodityFilter(): Text '0' is set on object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_filter_commodity_input'
+
+2018-11-15 10:13:41 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_filter_commodity_input'
+
+2018-11-15 10:13:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:43 - [TEST_STEP][PASSED] - Statement - actions.clickWaybillFilterApply(): Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyMessageforWrongSearch: com.ge.tms.waybillVerify.WaybillVerification.verifyMessageforWrongSearch is PASSED
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-11-15 10:13:45 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyMessageforWrongSearch is PASSED
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:13:46 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill" classname="Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)"/>
+         <system-out><![CDATA[2018-11-15 10:13:46 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill FAILED because (of) Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-15 10:13:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCaseExecute: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:46 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:47 - [TEST_STEP][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab: com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('px-app-nav').shadowRoot.querySelector('#items > px-app-nav-group:nth-child(10) > px-app-nav-subitem:nth-child(1)').shadowRoot.querySelector('p').click()' successfully
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - com.ge.tms.commonactions.CommonClickEvents.clickOnViewWayBillInManagementTab is PASSED
+
+2018-11-15 10:13:49 - [TEST_STEP][PASSED] - Statement - actions = new com.ge.tms.commonactions.WaybillActions(): Send request successfully
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:49 - [TEST_STEP][PASSED] - Statement - actions.removeActiveFilter(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_remove_active_filter' is clicked on
+
+2018-11-15 10:13:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:53 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '808404'
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/activeDiv' is: 'Active'
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Actual object 'Active' and expected object 'Active' are equal
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('referenceInformation.waybillStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(3)').click()' successfully
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:56 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/activeDiv' is: 'Completed'
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Actual object 'Completed' and expected object 'Completed' are equal
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterStatus is PASSED
+
+2018-11-15 10:13:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/clearFilterBtn' is clicked on
+
+2018-11-15 10:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/clearFilterBtn' is clicked on
+
+2018-11-15 10:13:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:57 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:13:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(1)').click()' successfully
+
+2018-11-15 10:13:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:57 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '--'
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Actual object 'LOADED' and expected object 'LOADED' are equal
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty is PASSED
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/filterIcon' is clicked on
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('#' + CSS.escape('equipmentDetails.loadStatus')).shadowRoot.querySelectorAll('#content')[0].shadowRoot.querySelector('#selector > div:nth-child(2)').click()' successfully
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/applyButton' is clicked on
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - Statement - actions.clickOnFirstRecord(): Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybill_firstrecord_leftpane' is clicked on
+
+2018-11-15 10:13:59 - [TEST_STEP][FAILED] - com.ge.tms.waybillVerify.WaybillVerification.verifyWaybillFilterLoadEmpty: Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/F10684-View Waybill/QA-US83597/US80788- View Waybills in a List/ViewWaybill/Page_Waybill/waybillNumber_rightpane' is: '949896'
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-15 10:13:59 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-15 10:13:59 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - Start listener action : closeBrowserForTestCasse: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): null
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - Statement - beforeTestCaseExecute(): null
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - Statement - If (isTestSuitEnable == true): Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:13:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:14:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/home' successfully
+
+2018-11-15 10:14:00 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.
+
+2018-11-15 10:14:00 - [TEST_STEP][PASSED] - Statement - If (java.lang.System.getProperties().containsKey("updateRally")): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TmsTestListner.afterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-11-15 10:13:46 - [TEST_CASE][FAILED] - Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill: Test Cases/Waybill/F10724-Search and Filter Waybills/QA-US92238/US80797-Select and Apply Filter/TC65847-FilterWaybill FAILED because (of) Unable to verify equal between actual object 'LOADED' and expected object 'EMPTY' (Root cause: Actual object 'LOADED' and expected object 'EMPTY' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 10:11:24 - [TEST_SUITE][FAILED] - Manage Waybill Test Suite: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-11-15 10:11:24 - [TEST_SUITE][FAILED] - Manage Waybill Test Suite: Test Cases/Waybill/F10684-View Waybill/QA-US83752/US80788-View Waybills in a List/TC61049 - Verification of fields in view waybill FAILED because (of) Unable to verify equal between actual object '--' and expected object 'null' (Root cause: Actual object '--' and expected object 'null' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC66151-Verify message Search_Zone not existed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd600b3a-50be-42ad-a795-904ae0b73fce</testCaseGuid>
+</TestCaseEntity>

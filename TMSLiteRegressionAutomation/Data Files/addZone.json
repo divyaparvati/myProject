@@ -1,0 +1,18 @@
+{
+    "Classification":{
+        "zoneId":"ZON01",
+        "zoneName":"Zone Name 1"
+    },
+    "Phantom":{
+        "zoneId":"ZON02",
+        "zoneName":"Zone Name 2 "
+    },
+    "SwitchingDistrict":{
+        "zoneId":"ZON03",
+        "zoneName":"Zone Name 3"
+    },
+    "Yard":{
+        "zoneId":"ZON04",
+        "zoneName":"Zone Name 4"
+    }
+}

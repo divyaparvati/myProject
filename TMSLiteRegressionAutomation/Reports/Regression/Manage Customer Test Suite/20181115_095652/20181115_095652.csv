@@ -1,0 +1,212 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Manage Customer Test Suite,Chrome 70.0.3538.102,,2018-11-15 09:56:54,2018-11-15 09:58:46,1m - 51.347s,ERROR
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US84851/US83148-SearchCustomer/TC60100-Search-Customer,Chrome 70.0.3538.102,,2018-11-15 09:57:21,2018-11-15 09:57:25,4.347s,ERROR
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:57:21,2018-11-15 09:57:22,0.800s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:57:22,2018-11-15 09:57:23,1.104s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:23,2018-11-15 09:57:23,0.318s,PASSED
+"Statement - customerToSearch = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US84851/US83148-SearchCustomer/SearchCustomer/SearchSortCustomerPageObjects/firstCustomerInList)).split(""-"")",Chrome 70.0.3538.102,,2018-11-15 09:57:23,2018-11-15 09:57:23,0.034s,PASSED
+Statement - customerId = customerToSearch[0],Chrome 70.0.3538.102,,2018-11-15 09:57:23,2018-11-15 09:57:23,0.001s,PASSED
+Statement - addressKey = customerToSearch[1],Chrome 70.0.3538.102,,2018-11-15 09:57:23,2018-11-15 09:57:23,0.000s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:57:23,2018-11-15 09:57:24,0.129s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerSearchWithCustomerId,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.241s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.030s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.083s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerSearchWithAddressType,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.194s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.023s,PASSED
+"Statement - partialText = customerId.substring(0, 3)",Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.001s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:24,0.123s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerSearchWithPartialCustomerId,Chrome 70.0.3538.102,,2018-11-15 09:57:24,2018-11-15 09:57:25,0.209s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:25,0.031s,PASSED
+Statement - lengthid = customerId.length() - 1,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:25,0.003s,PASSED
+"Statement - partialTextSecond = customerId.substring(3, customerId.length() - 1)",Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:25,0.001s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:25,0.865s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:25,0.008s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US83146/US84104-View Customer/TC59502-Verify Customer Page,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:30,4.215s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:57:25,2018-11-15 09:57:26,0.784s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:57:26,2018-11-15 09:57:27,1.074s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:27,2018-11-15 09:57:28,0.151s,PASSED
+Statement - customersData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(customerServices/GET-AllCustomersData)),Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.016s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerSize,Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.178s,PASSED
+com.ge.tms.util.CommonUtilities.verifyDefualtSelectedBackground,Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.093s,PASSED
+Statement - partronId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/button_Customer 4ABC)),Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.030s,PASSED
+"Statement - selectedCustomerData = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(customerServices/GET-SelectedCustomer, [custId:partronId.split(-)[0]]))",Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.013s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerRightPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:28,0.322s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerDetailsInRightPane,Chrome 70.0.3538.102,,2018-11-15 09:57:28,2018-11-15 09:57:29,0.622s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:57:29,2018-11-15 09:57:30,0.796s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:57:30,2018-11-15 09:57:30,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US84851/US83148-SearchCustomer/TC60342-Verify Filters,Chrome 70.0.3538.102,,2018-11-15 09:57:30,2018-11-15 09:57:43,13.209s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:57:30,2018-11-15 09:57:31,0.915s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:57:31,2018-11-15 09:57:32,1.074s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:32,2018-11-15 09:57:32,0.146s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:32,2018-11-15 09:57:32,0.055s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:32,2018-11-15 09:57:32,0.082s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:32,2018-11-15 09:57:32,0.087s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerFilter,Chrome 70.0.3538.102,,2018-11-15 09:57:32,2018-11-15 09:57:34,2.234s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:34,2018-11-15 09:57:34,0.037s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:34,2018-11-15 09:57:34,0.060s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:34,2018-11-15 09:57:35,0.064s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:35,2018-11-15 09:57:35,0.080s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerFilter,Chrome 70.0.3538.102,,2018-11-15 09:57:35,2018-11-15 09:57:37,2.198s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:37,2018-11-15 09:57:37,0.040s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:37,2018-11-15 09:57:37,0.066s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:37,2018-11-15 09:57:37,0.065s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:37,2018-11-15 09:57:37,0.058s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerFilter,Chrome 70.0.3538.102,,2018-11-15 09:57:37,2018-11-15 09:57:39,2.214s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:39,2018-11-15 09:57:39,0.047s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:39,2018-11-15 09:57:39,0.063s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:39,2018-11-15 09:57:39,0.067s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:39,2018-11-15 09:57:40,0.048s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:40,2018-11-15 09:57:40,0.061s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerFilter,Chrome 70.0.3538.102,,2018-11-15 09:57:40,2018-11-15 09:57:42,2.197s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:42,2018-11-15 09:57:42,0.045s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:42,2018-11-15 09:57:42,0.079s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyClearFilters,Chrome 70.0.3538.102,,2018-11-15 09:57:42,2018-11-15 09:57:42,0.133s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:57:42,2018-11-15 09:57:43,0.854s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:57:43,2018-11-15 09:57:43,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US84851/US84857-NegativeSearch/TC60122-CustomerSearchInvalid-Negative,Chrome 70.0.3538.102,,2018-11-15 09:57:43,2018-11-15 09:57:50,7.128s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:57:43,2018-11-15 09:57:44,0.777s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:57:44,2018-11-15 09:57:45,1.068s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:45,2018-11-15 09:57:45,0.132s,PASSED
+Statement - searchTextCustIdArr = SEARCH_TEXT_NEGATIVE,Chrome 70.0.3538.102,,2018-11-15 09:57:45,2018-11-15 09:57:45,0.000s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Chrome 70.0.3538.102,,2018-11-15 09:57:45,2018-11-15 09:57:46,0.539s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:57:46,2018-11-15 09:57:46,0.026s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:57:46,2018-11-15 09:57:49,3.005s,PASSED
+"Statement - searchTextAddressKeyArr = [""1ABC100Z"", ""$%^^&19HAa"", ""kdhk119""]",Chrome 70.0.3538.102,,2018-11-15 09:57:49,2018-11-15 09:57:49,0.000s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Chrome 70.0.3538.102,,2018-11-15 09:57:49,2018-11-15 09:57:49,0.661s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:57:49,2018-11-15 09:57:50,0.807s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:57:50,2018-11-15 09:57:50,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-Add Edit Customer/US-Add Edit Customer/TC60768-AddCustomer,Chrome 70.0.3538.102,,2018-11-15 09:57:50,2018-11-15 09:58:12,21.653s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:57:50,2018-11-15 09:57:51,0.775s,PASSED
+Statement - action = new com.ge.tms.customer.CustomerActions(),Chrome 70.0.3538.102,,2018-11-15 09:57:51,2018-11-15 09:57:51,0.046s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:57:51,2018-11-15 09:57:52,1.076s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:57:52,2018-11-15 09:57:52,0.167s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:57:52,2018-11-15 09:57:53,0.324s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:57:53,2018-11-15 09:57:55,2.004s,PASSED
+com.ge.tms.customer.CustomerActions.addCustomer,Chrome 70.0.3538.102,,2018-11-15 09:57:55,2018-11-15 09:58:09,14.713s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:58:09,2018-11-15 09:58:09,0.117s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerDetailsInRightPane,Chrome 70.0.3538.102,,2018-11-15 09:58:09,2018-11-15 09:58:10,1.093s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:58:10,2018-11-15 09:58:12,1.226s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:58:12,2018-11-15 09:58:12,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-Add Edit Customer/US-Add Edit Customer/TC60523-Edit Customer,Chrome 70.0.3538.102,,2018-11-15 09:58:12,2018-11-15 09:58:23,11.229s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:58:12,2018-11-15 09:58:13,0.842s,PASSED
+Statement - action = new com.ge.tms.customer.CustomerActions(),Chrome 70.0.3538.102,,2018-11-15 09:58:13,2018-11-15 09:58:13,0.043s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:58:13,2018-11-15 09:58:16,3.004s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:58:16,2018-11-15 09:58:17,1.131s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:58:17,2018-11-15 09:58:17,0.133s,PASSED
+com.ge.tms.customer.CustomerActions.selectNewlyCreatedCustomer,Chrome 70.0.3538.102,,2018-11-15 09:58:17,2018-11-15 09:58:17,0.390s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnCustomerActionsDropdown,Chrome 70.0.3538.102,,2018-11-15 09:58:17,2018-11-15 09:58:17,0.014s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:17,2018-11-15 09:58:18,0.345s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:58:18,2018-11-15 09:58:19,1.007s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:19,0.037s,PASSED
+"Statement - alternateCodeToUpdate = ""Update Code""",Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:19,0.000s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:19,0.481s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:19,0.069s,PASSED
+"Statement - attentionToUpdate = ""Update Attention""",Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:19,0.000s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:58:19,2018-11-15 09:58:20,0.594s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:20,0.061s,PASSED
+"Statement - address2ToUpdate = ""Update Address 2""",Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:20,0.000s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:20,0.510s,PASSED
+clearText,Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:20,0.053s,PASSED
+Statement - milePostToUpdate = action.randomMilePost(),Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:20,0.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 09:58:20,2018-11-15 09:58:21,0.190s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:58:21,2018-11-15 09:58:21,0.121s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:58:21,2018-11-15 09:58:22,1.006s,PASSED
+Statement - alternateCodeModified = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/rightPane/altCode)),Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.033s,PASSED
+Statement - attentionModified = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/rightPane/attention)),Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.029s,PASSED
+Statement - address2Modified = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/rightPane/address)),Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.030s,PASSED
+Statement - milePostModified = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/rightPane/milepost)),Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.056s,PASSED
+verifyEqual,Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.001s,PASSED
+verifyEqual,Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.001s,PASSED
+verifyEqual,Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:22,0.001s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:58:22,2018-11-15 09:58:23,0.926s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:58:23,2018-11-15 09:58:23,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-Add Edit Customer/US-Add Edit Customer/TC60946-AddCustomerValidations,Chrome 70.0.3538.102,,2018-11-15 09:58:23,2018-11-15 09:58:32,8.837s,ERROR
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:58:23,2018-11-15 09:58:24,0.820s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:58:24,2018-11-15 09:58:25,1.071s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:58:25,2018-11-15 09:58:25,0.121s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 09:58:25,2018-11-15 09:58:25,0.378s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:58:25,2018-11-15 09:58:26,1.004s,PASSED
+Statement - saveButtonObject = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/AddCustomer/SaveButton),Chrome 70.0.3538.102,,2018-11-15 09:58:26,2018-11-15 09:58:26,0.002s,PASSED
+com.ge.tms.customer.CustomerVerification.verifySaveButtonDisabled,Chrome 70.0.3538.102,,2018-11-15 09:58:26,2018-11-15 09:58:27,0.110s,PASSED
+Statement - cancelButtonText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F11762-View Customer/QA-US83146/US84104-View Customer/View Customer/CustomerPageObject/AddCustomer/CancelButton)),Chrome 70.0.3538.102,,2018-11-15 09:58:27,2018-11-15 09:58:27,0.030s,PASSED
+verifyEqual,Chrome 70.0.3538.102,,2018-11-15 09:58:27,2018-11-15 09:58:27,0.001s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyMandatoryFieldsErrorMessages,Chrome 70.0.3538.102,,2018-11-15 09:58:27,2018-11-15 09:58:30,3.450s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.097s,PASSED
+Statement - stationsObject = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/customerServices/GET-AllStations)),Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.018s,PASSED
+"Statement - expectedStationsSize = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(STATION_DROPDOWN_SIZE, null)",Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.026s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyStationsInCustomer,Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.078s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.006s,PASSED
+"Statement - selectedStation = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(ONLINE_STATION_SELECTED_TEXT, null)",Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.007s,PASSED
+"Statement - zonesObject = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(customerServices/GET-AllZonesForSelectedStation, [zoneId:com.ge.tms.constants.CustomerPageConstants.STATION_ID]))",Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.008s,PASSED
+"Statement - expectedZonesSize = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(ZONES_DROPDOWN_SIZE, null)",Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.006s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyZonesInCustomer,Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.096s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:30,0.079s,PASSED
+"Statement - selectedDefaultStation = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(DEFAULT_STATION_SELECTED_TEXT, null)",Chrome 70.0.3538.102,,2018-11-15 09:58:30,2018-11-15 09:58:31,0.033s,PASSED
+"Statement - tracksObject = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(customerServices/GET-AllTracksForDefaultStation, [defaultStation:com.ge.tms.constants.CustomerPageConstants.STATION_ID]))",Chrome 70.0.3538.102,,2018-11-15 09:58:31,2018-11-15 09:58:31,0.046s,PASSED
+"Statement - expectedTracksSize = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(DEFAULT_TRACKS_DROPDOWN_SIZE, null)",Chrome 70.0.3538.102,,2018-11-15 09:58:31,2018-11-15 09:58:31,0.009s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyTracksInCustomer,Chrome 70.0.3538.102,,2018-11-15 09:58:31,2018-11-15 09:58:31,0.106s,ERROR
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:58:31,2018-11-15 09:58:32,1.062s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:58:32,2018-11-15 09:58:32,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US84851/US83148-SearchCustomer/TC60100-AscAndDescOrder,Chrome 70.0.3538.102,,2018-11-15 09:58:32,2018-11-15 09:58:41,9.105s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:58:32,2018-11-15 09:58:33,0.842s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:58:33,2018-11-15 09:58:34,1.075s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.126s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.011s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.028s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSort,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.145s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.013s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSortWithDescendingOrder,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.102s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.010s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSort,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:34,0.111s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 09:58:34,2018-11-15 09:58:39,5.006s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:39,2018-11-15 09:58:39,0.030s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDSort,Chrome 70.0.3538.102,,2018-11-15 09:58:39,2018-11-15 09:58:39,0.123s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:39,2018-11-15 09:58:39,0.011s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDWithDescendingOrder,Chrome 70.0.3538.102,,2018-11-15 09:58:39,2018-11-15 09:58:40,0.098s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.008s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDSort,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.100s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.023s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyAddressKeySort,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.137s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.013s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyAddressKeyWithDescendingOrder,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.107s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.008s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyAddressKeySort,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:40,0.100s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:58:40,2018-11-15 09:58:41,0.790s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:58:41,2018-11-15 09:58:41,0.001s,PASSED
+,,,,,,
+Test Cases/Customer/F11762-View Customer/QA-US84851/US83148-SearchCustomer/TC60100-SortCustomer,Chrome 70.0.3538.102,,2018-11-15 09:58:41,2018-11-15 09:58:46,4.836s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.102,,2018-11-15 09:58:41,2018-11-15 09:58:42,0.781s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnManageCustomers,Chrome 70.0.3538.102,,2018-11-15 09:58:42,2018-11-15 09:58:43,1.077s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerPageHeader,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.157s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.027s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSort,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.128s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.029s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSort,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.118s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.018s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyNameSort,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.102s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.019s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDSort,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:43,0.107s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:43,2018-11-15 09:58:44,0.017s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDSort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.106s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.020s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyCustomerIDSort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.097s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.023s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyAddressKeySort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.116s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.016s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.011s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyAddressKeySort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.098s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.019s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyModifiedDateSort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.361s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.018s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:44,0.023s,PASSED
+com.ge.tms.customer.CustomerVerification.verifyModifiedDateSort,Chrome 70.0.3538.102,,2018-11-15 09:58:44,2018-11-15 09:58:45,0.231s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.102,,2018-11-15 09:58:45,2018-11-15 09:58:46,1.025s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.102,,2018-11-15 09:58:46,2018-11-15 09:58:46,0.001s,PASSED

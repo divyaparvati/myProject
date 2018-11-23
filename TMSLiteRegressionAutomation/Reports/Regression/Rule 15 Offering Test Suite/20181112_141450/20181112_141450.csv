@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Rule 15 Offering Test Suite,Chrome 70.0.3538.77,,2018-11-12 14:32:54,2018-11-12 14:37:41,4m - 46.572s,FAILED
+,,,,,,
+Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US102446/US93350 - Create Outboud Offering/TC69413 - Successfully Create Outbound offering,Chrome 70.0.3538.77,,2018-11-12 14:33:27,2018-11-12 14:34:14,46.792s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:33:27,2018-11-12 14:33:28,0.754s,PASSED
+com.ge.tms.util.CommonUtilities.login,Chrome 70.0.3538.77,,2018-11-12 14:33:28,2018-11-12 14:33:55,27.604s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:33:55,2018-11-12 14:33:58,2.107s,PASSED
+Statement - actions = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:33:58,2018-11-12 14:33:58,0.053s,PASSED
+Statement - actions.clickOnCreateNewRule15OfferingButton(),Chrome 70.0.3538.77,,2018-11-12 14:33:58,2018-11-12 14:33:59,1.246s,PASSED
+Statement - actions.addValuesToCreateNewRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:33:59,2018-11-12 14:34:05,6.358s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyRule15ConfirmationMessage,Chrome 70.0.3538.77,,2018-11-12 14:34:05,2018-11-12 14:34:05,0.256s,PASSED
+Statement - actions.clickOnSendRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:34:05,2018-11-12 14:34:08,2.122s,PASSED
+Statement - actions.searchByTrainId(rule15TrainId),Chrome 70.0.3538.77,,2018-11-12 14:34:08,2018-11-12 14:34:12,4.207s,PASSED
+Statement - responseObject = actions.getOfferingDetails(rule15TrainId),Chrome 70.0.3538.77,,2018-11-12 14:34:12,2018-11-12 14:34:12,0.010s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyRule15Offering,Chrome 70.0.3538.77,,2018-11-12 14:34:12,2018-11-12 14:34:13,0.973s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:34:13,2018-11-12 14:34:14,0.960s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:34:14,2018-11-12 14:34:14,0.008s,PASSED
+,,,,,,
+Test Cases/Rule15/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/TC68764-View Rule15 Offerings,Chrome 70.0.3538.77,,2018-11-12 14:34:14,2018-11-12 14:34:19,5.085s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:34:14,2018-11-12 14:34:15,0.752s,PASSED
+Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:34:15,2018-11-12 14:34:15,0.043s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:34:15,2018-11-12 14:34:17,2.087s,PASSED
+Statement - actualHeaderText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/F13859-View Rule15/QA-US101672/US93325-Display Rule 15 offering screen/view rule 15/pageHeader)),Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:17,0.037s,PASSED
+verifyEqual,Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:17,0.001s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:17,0.036s,PASSED
+Statement - trainID = CustomKeywords.com.ge.tms.rule15.Rule15Verification.selectOfferingInLeftPane(),Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:17,0.273s,PASSED
+Statement - responseObject = rule15Action.getOfferingDetails(trainID),Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:17,0.007s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyRule15Offering,Chrome 70.0.3538.77,,2018-11-12 14:34:17,2018-11-12 14:34:18,0.954s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:34:18,2018-11-12 14:34:19,0.782s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:34:19,2018-11-12 14:34:19,0.001s,PASSED
+,,,,,,
+Test Cases/Rule15/F14016 - Search Sort Filter of rule 15 offerings/US101655 - Rule 15 Offerings - Search/TC68842 - Search,Chrome 70.0.3538.77,,2018-11-12 14:34:19,2018-11-12 14:34:35,16.084s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:34:19,2018-11-12 14:34:20,0.797s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:34:20,2018-11-12 14:34:22,2.077s,PASSED
+Statement - actions = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:34:22,2018-11-12 14:34:22,0.045s,PASSED
+Statement - actions.setValueInSearchfield(EQUIPMENT_ID),Chrome 70.0.3538.77,,2018-11-12 14:34:22,2018-11-12 14:34:22,0.156s,PASSED
+com.ge.tms.rule15.Rule15Verification.wrongSearchResultsFound,Chrome 70.0.3538.77,,2018-11-12 14:34:22,2018-11-12 14:34:27,5.131s,PASSED
+Statement - actions.setValueInSearchfield(TRAIN_ID),Chrome 70.0.3538.77,,2018-11-12 14:34:27,2018-11-12 14:34:27,0.093s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyTrainID,Chrome 70.0.3538.77,,2018-11-12 14:34:27,2018-11-12 14:34:28,0.663s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:34:28,2018-11-12 14:34:30,2.006s,PASSED
+Statement - actions.setValueInSearchfield(STATION_ID),Chrome 70.0.3538.77,,2018-11-12 14:34:30,2018-11-12 14:34:30,0.095s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:34:30,2018-11-12 14:34:32,2.005s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyStationID,Chrome 70.0.3538.77,,2018-11-12 14:34:32,2018-11-12 14:34:32,0.120s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-12 14:34:32,2018-11-12 14:34:34,2.006s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:34:34,2018-11-12 14:34:35,0.773s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:34:35,2018-11-12 14:34:35,0.001s,PASSED
+,,,,,,
+Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70507 - Verify Cancel button,Chrome 70.0.3538.77,,2018-11-12 14:34:35,2018-11-12 14:34:58,23.295s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:34:35,2018-11-12 14:34:36,0.770s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:34:36,2018-11-12 14:34:38,2.081s,PASSED
+Statement - actions = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:34:38,2018-11-12 14:34:38,0.046s,PASSED
+Statement - actions.clickOnCreateNewRule15OfferingButton(),Chrome 70.0.3538.77,,2018-11-12 14:34:38,2018-11-12 14:34:39,1.210s,PASSED
+Statement - actions.addValuesToCreateNewRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:34:39,2018-11-12 14:34:45,6.245s,PASSED
+Statement - actions.clickOnSendRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:34:45,2018-11-12 14:34:48,2.096s,PASSED
+Statement - actions.searchByTrainId(rule15TrainId),Chrome 70.0.3538.77,,2018-11-12 14:34:48,2018-11-12 14:34:51,3.897s,PASSED
+Statement - actions.clickOnActions(),Chrome 70.0.3538.77,,2018-11-12 14:34:51,2018-11-12 14:34:51,0.010s,PASSED
+Statement - actions.selectResendOfferInActionsDropdown(),Chrome 70.0.3538.77,,2018-11-12 14:34:51,2018-11-12 14:34:53,1.105s,PASSED
+Statement - actions.resendRule15Offer(),Chrome 70.0.3538.77,,2018-11-12 14:34:53,2018-11-12 14:34:53,0.465s,PASSED
+Statement - actions.clickOnCancelButtonInRule15(),Chrome 70.0.3538.77,,2018-11-12 14:34:53,2018-11-12 14:34:54,1.235s,PASSED
+Statement - actions.searchByTrainId(rule15TrainId),Chrome 70.0.3538.77,,2018-11-12 14:34:54,2018-11-12 14:34:57,3.133s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15,Chrome 70.0.3538.77,,2018-11-12 14:34:57,2018-11-12 14:34:57,0.121s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:34:57,2018-11-12 14:34:58,0.775s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:34:58,2018-11-12 14:34:58,0.001s,PASSED
+,,,,,,
+Test Cases/Rule15/F12896 - Manage Rule15 offering/QA-US101663/US99357 - Resend Offer/TC70311 - Resend the offer,Chrome 70.0.3538.77,,2018-11-12 14:34:58,2018-11-12 14:35:26,27.368s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:34:58,2018-11-12 14:34:59,0.796s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:34:59,2018-11-12 14:35:01,2.084s,PASSED
+Statement - actions = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:35:01,2018-11-12 14:35:01,0.051s,PASSED
+Statement - actions.clickOnCreateNewRule15OfferingButton(),Chrome 70.0.3538.77,,2018-11-12 14:35:01,2018-11-12 14:35:02,1.197s,PASSED
+Statement - actions.addValuesToCreateNewRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:35:02,2018-11-12 14:35:09,6.265s,PASSED
+Statement - actions.clickOnSendRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:35:09,2018-11-12 14:35:11,2.083s,PASSED
+Statement - actions.searchByTrainId(rule15TrainId),Chrome 70.0.3538.77,,2018-11-12 14:35:11,2018-11-12 14:35:15,3.878s,PASSED
+Statement - actions.clickOnActions(),Chrome 70.0.3538.77,,2018-11-12 14:35:15,2018-11-12 14:35:15,0.008s,PASSED
+Statement - actions.selectResendOfferInActionsDropdown(),Chrome 70.0.3538.77,,2018-11-12 14:35:15,2018-11-12 14:35:16,1.108s,PASSED
+Statement - actions.resendRule15Offer(),Chrome 70.0.3538.77,,2018-11-12 14:35:16,2018-11-12 14:35:16,0.505s,PASSED
+Statement - actions.clickOnNextButton(),Chrome 70.0.3538.77,,2018-11-12 14:35:16,2018-11-12 14:35:18,2.108s,PASSED
+Statement - actions.clickOnSendRule15Offering(),Chrome 70.0.3538.77,,2018-11-12 14:35:18,2018-11-12 14:35:21,2.070s,PASSED
+Statement - actions.searchByTrainId(rule15EditedTrainId),Chrome 70.0.3538.77,,2018-11-12 14:35:21,2018-11-12 14:35:25,4.164s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyResendOfferOfRule15,Chrome 70.0.3538.77,,2018-11-12 14:35:25,2018-11-12 14:35:25,0.154s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:35:25,2018-11-12 14:35:26,0.781s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:35:26,2018-11-12 14:35:26,0.001s,PASSED
+,,,,,,
+Test Cases/Rule15/F13859-View Rule15/QA-US101672/US103716-Add Cars and Resend offerings/TC69414-Add Cars and Resend offerings,Chrome 70.0.3538.77,,2018-11-12 14:35:26,2018-11-12 14:35:48,22.419s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:35:26,2018-11-12 14:35:26,0.735s,PASSED
+Statement - action = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:35:26,2018-11-12 14:35:26,0.051s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:35:26,2018-11-12 14:35:29,2.082s,PASSED
+Statement - action.addCarsAndResend(),Chrome 70.0.3538.77,,2018-11-12 14:35:29,2018-11-12 14:35:42,13.688s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyAddCarsAndResendEquipmentIDs,Chrome 70.0.3538.77,,2018-11-12 14:35:42,2018-11-12 14:35:42,0.145s,PASSED
+Statement - action.searchByTrainId(randomConsistTrainId),Chrome 70.0.3538.77,,2018-11-12 14:35:42,2018-11-12 14:35:46,3.709s,PASSED
+Statement - responseObject = action.getOfferingDetails(randomConsistTrainId),Chrome 70.0.3538.77,,2018-11-12 14:35:46,2018-11-12 14:35:46,0.009s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyRule15Offering,Chrome 70.0.3538.77,,2018-11-12 14:35:46,2018-11-12 14:35:47,0.899s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:35:47,2018-11-12 14:35:48,1.007s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:35:48,2018-11-12 14:35:48,0.000s,PASSED
+,,,,,,
+Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69565 - Apply Filter,Chrome 70.0.3538.77,,2018-11-12 14:35:48,2018-11-12 14:36:28,40.215s,FAILED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:35:48,2018-11-12 14:35:49,0.787s,PASSED
+Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:35:49,2018-11-12 14:35:49,0.041s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:35:49,2018-11-12 14:35:51,2.096s,PASSED
+Statement - rule15Action.selectFilterOptions(),Chrome 70.0.3538.77,,2018-11-12 14:35:51,2018-11-12 14:35:55,4.189s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyFilteredResults,Chrome 70.0.3538.77,,2018-11-12 14:35:55,2018-11-12 14:36:27,32.059s,FAILED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:36:27,2018-11-12 14:36:28,0.955s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:36:28,2018-11-12 14:36:28,0.000s,PASSED
+,,,,,,
+Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69568 - Cancel Filter,Chrome 70.0.3538.77,,2018-11-12 14:36:28,2018-11-12 14:37:04,36.223s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:36:28,2018-11-12 14:36:29,0.747s,PASSED
+com.ge.tms.util.CommonUtilities.login,Chrome 70.0.3538.77,,2018-11-12 14:36:29,2018-11-12 14:36:59,30.130s,PASSED
+Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:36:59,2018-11-12 14:36:59,0.044s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:36:59,2018-11-12 14:37:01,2.086s,PASSED
+Statement - rule15Action.selectFilterOptionsAndCancel(),Chrome 70.0.3538.77,,2018-11-12 14:37:01,2018-11-12 14:37:04,2.188s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence,Chrome 70.0.3538.77,,2018-11-12 14:37:04,2018-11-12 14:37:04,0.106s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:37:04,2018-11-12 14:37:04,0.828s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:37:04,2018-11-12 14:37:04,0.000s,PASSED
+,,,,,,
+Test Cases/Rule15/F12896 - Filter Rule15 offering/QA -US101657/US93330 - Filter Rule 15 Offerings/TC69569 - Apply and clear filter,Chrome 70.0.3538.77,,2018-11-12 14:37:04,2018-11-12 14:37:41,36.245s,PASSED
+Start listener action : beforeTestCaseExecute,Chrome 70.0.3538.77,,2018-11-12 14:37:04,2018-11-12 14:37:05,0.747s,PASSED
+com.ge.tms.util.CommonUtilities.login,Chrome 70.0.3538.77,,2018-11-12 14:37:05,2018-11-12 14:37:33,28.101s,PASSED
+Statement - rule15Action = new com.ge.tms.commonactions.Rule15Actions(),Chrome 70.0.3538.77,,2018-11-12 14:37:33,2018-11-12 14:37:33,0.045s,PASSED
+com.ge.tms.commonactions.CommonClickEvents.clickOnRule15OfferingsTab,Chrome 70.0.3538.77,,2018-11-12 14:37:33,2018-11-12 14:37:36,2.086s,PASSED
+Statement - rule15Action.clearTheAppliedFilter(),Chrome 70.0.3538.77,,2018-11-12 14:37:36,2018-11-12 14:37:40,4.307s,PASSED
+com.ge.tms.rule15.Rule15Verification.verifyFilterChipExistence,Chrome 70.0.3538.77,,2018-11-12 14:37:40,2018-11-12 14:37:40,0.101s,PASSED
+Start listener action : closeBrowserForTestCasse,Chrome 70.0.3538.77,,2018-11-12 14:37:40,2018-11-12 14:37:41,0.767s,PASSED
+Start listener action : afterTestCase,Chrome 70.0.3538.77,,2018-11-12 14:37:41,2018-11-12 14:37:41,0.001s,PASSED

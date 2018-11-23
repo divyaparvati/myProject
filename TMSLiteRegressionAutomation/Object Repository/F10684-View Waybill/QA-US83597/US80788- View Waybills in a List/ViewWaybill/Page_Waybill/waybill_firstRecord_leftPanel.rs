@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>waybill_firstRecord_leftPanel</name>
+   <tag></tag>
+   <elementGuidId>57cb844f-70d1-4b67-99ae-562c3f251a3f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex--col WaybillSummary-module_root_ACarq WaybillSummary-module_active_1vgeS</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>waybill-summary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UTLX 2501761#797598Loaded, HazmatKind of CarT178Commodity4908179Block To--</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex--col App-module_appRoot_2W_oY&quot;]/div[@class=&quot;flex flex--col flex__item App-module_routesRoot_W33fJ&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/section[@class=&quot;flex__item flex flex--row PageContent-module_root_24nnp&quot;]/div[@class=&quot;Sidebar-module_root_2pzCE&quot;]/div[@class=&quot;flex flex--col WaybillSummary-module_root_ACarq WaybillSummary-module_active_1vgeS&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC65306-Validate mandatory fields in Edit Station</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed31a9ec-f236-471a-9825-fd4695f472a0</testCaseGuid>
+</TestCaseEntity>

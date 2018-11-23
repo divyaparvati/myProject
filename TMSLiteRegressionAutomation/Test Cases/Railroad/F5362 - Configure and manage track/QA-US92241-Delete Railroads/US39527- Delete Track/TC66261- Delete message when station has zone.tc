@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC66261- Delete message when station has zone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2da4069f-93d4-4b01-90fb-d6115664680c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>outsideHeightExtremeWidthText</name>
+   <tag></tag>
+   <elementGuidId>d1bf8376-5b57-4f6c-a01e-f9abb574d9be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name=&quot;outsideHeightExtremeWidth&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name=&quot;outsideHeightExtremeWidth&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

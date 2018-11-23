@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC65806-Successfully Delete a station with no children</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9cf2939-00ab-4e42-9ccc-304d0d711878</testCaseGuid>
+</TestCaseEntity>

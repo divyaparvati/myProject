@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LoadLimitsOverWeight</name>
+   <tag></tag>
+   <elementGuidId>e9273b5d-6cc7-4b90-8b4e-3d6e6055f971</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name=&quot;totalWeightIncludingLoadLimits&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name=&quot;totalWeightIncludingLoadLimits&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

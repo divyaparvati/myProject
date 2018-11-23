@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>px-icon_Sidebar-module_sortIco</name>
+   <tag></tag>
+   <elementGuidId>a8202d90-0abc-4542-9bc6-f41e2e9403eb</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>px-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>icon</name>
+      <type>Main</type>
+      <value>px-nav:up</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Sidebar-module_sortIconStyle_FFEcy</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex--col App-module_appRoot_2W_oY&quot;]/div[@class=&quot;flex flex--col flex__item App-module_routesRoot_W33fJ&quot;]/section[@class=&quot;flex flex--col flex__item&quot;]/section[@class=&quot;flex__item flex flex--row PageContent-module_root_24nnp&quot;]/div[@class=&quot;Sidebar-module_sidebar_3Luuy&quot;]/div[@class=&quot;flex flex--middle Sidebar-module_sortWrapper_bRzTJ&quot;]/button[@class=&quot;btn btn--bare btn--icon&quot;]/px-icon[@class=&quot;Sidebar-module_sortIconStyle_FFEcy&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

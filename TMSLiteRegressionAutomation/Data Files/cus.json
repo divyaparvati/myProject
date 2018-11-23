@@ -1,0 +1,456 @@
+[
+    {
+        "id": "43437a61-0334-4982-900e-a7e80ad19f45",
+        "customer_id": "123456789",
+        "address_type_key": "KJH",
+        "customer_type": "transportation",
+        "name": "Test Customer",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "#101-5-87",
+            "street_address_line2": "downtown",
+            "city": "chicago",
+            "state": "",
+            "zip_code": "61001",
+            "country": ""
+        },
+        "attention": "Attention",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": 1001,
+        "default_track_id": "DF Track Id 01",
+        "milepost": "ML 1",
+        "parent_customer_id": "No",
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": "alt10",
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": "ZodeID 1",
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-20T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-20T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "5d0b161c-8ec2-49a6-a3c8-d82ed5b9dbce",
+        "customer_id": "187909876",
+        "address_type_key": "OFF",
+        "customer_type": "transportation",
+        "name": "GSX Transport",
+        "abbrev_name": "187909876OFF",
+        "address": {
+            "street_address_line1": "#10-1-256",
+            "street_address_line2": "downsreet",
+            "city": "Chicago",
+            "state": "Illinois",
+            "zip_code": "60086",
+            "country": "United States"
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "8765045678",
+            "extension": "8765045678"
+        },
+        "fax": {
+            "area_code": "11",
+            "number": "8765045678",
+            "extension": null
+        },
+        "cif_number": null,
+        "default_track_id": "track 1",
+        "milepost": "100",
+        "parent_customer_id": "Customer 2",
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": "ALT1011",
+        "online_station_id": "chicago",
+        "serving_station_id": "new York",
+        "default_station_id": "chicago",
+        "zone_id": "zone 2",
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-20T13:21:48.309",
+            "created_by": null,
+            "modified_date": "2018-06-20T17:23:52.464",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "699ee745-c5dc-40da-92ab-9f7b8588cea1",
+        "customer_id": "223456789",
+        "address_type_key": "HJK",
+        "customer_type": "transportation",
+        "name": "Customer Test",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "#101-5-87",
+            "street_address_line2": "downtown",
+            "city": "chicago",
+            "state": "",
+            "zip_code": "61001",
+            "country": ""
+        },
+        "attention": "Attention",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": 1001,
+        "default_track_id": "DF Track Id 01",
+        "milepost": "ML 1",
+        "parent_customer_id": "No",
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": "alt10",
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": "ZodeID 1",
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-20T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-20T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "cbb58aa2-6e38-4811-80bc-7172ab2d305c",
+        "customer_id": "235465788",
+        "address_type_key": "key1",
+        "customer_type": "billing",
+        "name": "Alfred",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "newyork",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": null,
+        "default_track_id": null,
+        "milepost": null,
+        "parent_customer_id": null,
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": null,
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-12T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-12T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "28b1b855-dc5a-4d17-b754-e3af0c9eb8e0",
+        "customer_id": "498716546",
+        "address_type_key": "home",
+        "customer_type": "inactive",
+        "name": "Inactive Customer",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "newyork",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "1100"
+        },
+        "cif_number": null,
+        "default_track_id": null,
+        "milepost": null,
+        "parent_customer_id": null,
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": null,
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-12T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-12T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "ad682011-52b7-4bb1-8666-56a5ca9f1c9e",
+        "customer_id": "564545678",
+        "address_type_key": "ABC",
+        "customer_type": "billing",
+        "name": "XYZ Ltd",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "newyork",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": null,
+        "default_track_id": null,
+        "milepost": null,
+        "parent_customer_id": null,
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": null,
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-12T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-12T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "feaa1a6a-93d6-4c9b-8da9-20afd2f34758",
+        "customer_id": "657687677",
+        "address_type_key": "KED",
+        "customer_type": "transportation",
+        "name": "Middle State Rail Road",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "newyork",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": 1001,
+        "default_track_id": "DF Track Id 01",
+        "milepost": "ML 1",
+        "parent_customer_id": "No",
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": "ZodeID 1",
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-12T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-20T13:32:09.266",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "c0e26afe-d0d8-4ca1-99e3-351eda673534",
+        "customer_id": "764545678",
+        "address_type_key": "DEF",
+        "customer_type": "transportation",
+        "name": "Southern Rail Road",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "Dallas",
+            "state": "Illinois",
+            "zip_code": "610061",
+            "country": "United States"
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": 10,
+        "default_track_id": "Track 1",
+        "milepost": "",
+        "parent_customer_id": null,
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": null,
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-20T13:02:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-20T13:02:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "7227476e-2bbf-424d-a038-cd0308064fac",
+        "customer_id": "876543219",
+        "address_type_key": "HUG",
+        "customer_type": "transportation",
+        "name": "Targaryan",
+        "abbrev_name": null,
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "newyork",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": "Att",
+        "phone": {
+            "area_code": "11",
+            "number": "4567809765",
+            "extension": "1000"
+        },
+        "fax": {
+            "area_code": "22",
+            "number": "3467809765",
+            "extension": "2100"
+        },
+        "cif_number": 1001,
+        "default_track_id": "DF Track Id 01",
+        "milepost": "ML 1",
+        "parent_customer_id": "No",
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": "ZodeID 1",
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-12T23:37:45.379",
+            "created_by": null,
+            "modified_date": "2018-06-12T23:37:45.379",
+            "modified_by": null
+        }
+    },
+    {
+        "id": "46cb1b55-2462-4f7d-ba3a-7ca7347fe443",
+        "customer_id": "876567888",
+        "address_type_key": "JJJ",
+        "customer_type": "billing",
+        "name": "HHHH",
+        "abbrev_name": "876567888JJJ",
+        "address": {
+            "street_address_line1": "",
+            "street_address_line2": "",
+            "city": "",
+            "state": "",
+            "zip_code": "",
+            "country": ""
+        },
+        "attention": null,
+        "phone": {
+            "area_code": null,
+            "number": null,
+            "extension": null
+        },
+        "fax": {
+            "area_code": null,
+            "number": null,
+            "extension": null
+        },
+        "cif_number": null,
+        "default_track_id": null,
+        "milepost": null,
+        "parent_customer_id": null,
+        "parent_customer_address_type": null,
+        "last_used_date": null,
+        "alternate_code": null,
+        "online_station_id": null,
+        "serving_station_id": null,
+        "default_station_id": null,
+        "zone_id": null,
+        "deleted": false,
+        "audit": {
+            "created_date": "2018-06-20T17:24:33.43",
+            "created_by": null,
+            "modified_date": "2018-06-20T17:24:33.43",
+            "modified_by": null
+        }
+    }
+   
+   
+    
+    
+]

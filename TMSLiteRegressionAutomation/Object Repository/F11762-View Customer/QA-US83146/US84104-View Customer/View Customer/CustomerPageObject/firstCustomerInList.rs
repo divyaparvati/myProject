@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstCustomerInList</name>
+   <tag></tag>
+   <elementGuidId>1bc6b95e-0e67-4702-ba46-90d320991797</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class=&quot;CustomerSidebar-module_customerSummary_1o8ce&quot;]/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//*[@class=&quot;CustomerSidebar-module_customerSummary_1o8ce&quot;]/div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
